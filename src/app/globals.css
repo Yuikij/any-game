@@ -1,4 +1,4 @@
-@import "@tailwindcss/postcss";
+@import "tailwindcss";
 
 :root {
   --foreground-rgb: 0, 0, 0;
