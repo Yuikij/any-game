@@ -1,26 +1,34 @@
-@import "tailwindcss";
+@import "@tailwindcss/postcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 240, 240, 240;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@theme inline {
+  --color-background: rgb(var(--background-rgb));
+  --color-foreground: rgb(var(--foreground-rgb));
+}
+
+@layer components {
+  .game-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .game-thumbnail {
+    @apply w-full h-40 object-cover;
+  }
+  
+  .category-badge {
+    @apply inline-block px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800 font-medium;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition-colors;
+  }
 }
