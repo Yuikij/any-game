@@ -1,0 +1,682 @@
+2025-05-23 15:26:46,157 - INFO - 开始运行游戏爬虫...
+2025-05-23 15:26:46,158 - INFO - 步骤1: 爬取种子URL...
+2025-05-23 15:26:46,158 - INFO - 正在爬取种子URL: https://itch.io/games/html5
+2025-05-23 15:26:46,158 - INFO - 正在获取页面: https://itch.io/games/html5
+2025-05-23 15:26:46,740 - INFO - 使用选择器 '.game_cell, .game_grid_widget' 找到 37 个游戏元素
+2025-05-23 15:26:46,773 - INFO - 正在获取页面: https://hirohun.itch.io/side-effects
+2025-05-23 15:26:47,757 - INFO - 提取到游戏: SIDE EFFECTS (static)
+2025-05-23 15:26:47,760 - INFO - 正在获取页面: https://wolf-hal.itch.io/incredibox-sprunki
+2025-05-23 15:26:49,295 - INFO - 提取到游戏: Incredibox - Sprunki (static)
+2025-05-23 15:26:49,298 - INFO - 正在获取页面: https://cornflowerblue.itch.io/the-orchids-edge
+2025-05-23 15:26:50,226 - INFO - 提取到游戏: The Orchid's Edge (static)
+2025-05-23 15:26:50,228 - INFO - 正在获取页面: https://aldamami-games.itch.io/bloodletter
+2025-05-23 15:26:51,570 - INFO - 提取到游戏: Bloodletter (static)
+2025-05-23 15:26:51,571 - INFO - 正在获取页面: https://zittacheng.itch.io/holder-of-place
+2025-05-23 15:26:53,072 - INFO - 提取到游戏: Holder of Place (iframe)
+2025-05-23 15:26:53,074 - INFO - 正在获取页面: https://weaselbear.itch.io/forever-gold
+2025-05-23 15:26:54,267 - INFO - 提取到游戏: Forever Gold (iframe)
+2025-05-23 15:26:54,269 - INFO - 正在获取页面: https://timberwolfgames.itch.io/arcaneearth
+2025-05-23 15:26:55,727 - INFO - 提取到游戏: Arcane Earth - Increment Clicker (iframe)
+2025-05-23 15:26:55,729 - INFO - 正在获取页面: https://jetamp.itch.io/lucky-dig
+2025-05-23 15:26:57,104 - INFO - 提取到游戏: Lucky Dig (iframe)
+2025-05-23 15:26:57,106 - INFO - 正在获取页面: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 15:27:02,447 - ERROR - 获取页面失败 https://pierre-vandermaesen.itch.io/tempoverdose: HTTPSConnectionPool(host='pierre-vandermaesen.itch.io', port=443): Max retries exceeded with url: /tempoverdose (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-05-23 15:27:04,449 - INFO - 正在获取页面: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 15:27:05,101 - INFO - 提取到游戏: TEMPOVERDOSE (iframe)
+2025-05-23 15:27:05,103 - INFO - 正在获取页面: https://graebor.itch.io/sort-the-court
+2025-05-23 15:27:06,042 - INFO - 提取到游戏: Sort the Court! (iframe)
+2025-05-23 15:27:06,044 - INFO - 正在获取页面: https://nozomu57.itch.io/toasted-crossroads
+2025-05-23 15:27:07,113 - INFO - 提取到游戏: Toasted Crossroads (static)
+2025-05-23 15:27:07,115 - INFO - 正在获取页面: https://fizzd.itch.io/a-dance-of-fire-and-ice
+2025-05-23 15:27:08,088 - INFO - 提取到游戏: A Dance of Fire and Ice (iframe)
+2025-05-23 15:27:08,090 - INFO - 正在获取页面: https://jbroook.itch.io/batter-up-new
+2025-05-23 15:27:09,020 - INFO - 提取到游戏: Batter Up! (iframe)
+2025-05-23 15:27:09,021 - INFO - 正在获取页面: https://paranoidhawk.itch.io/lookouts
+2025-05-23 15:27:09,892 - INFO - 提取到游戏: Lookouts (iframe)
+2025-05-23 15:27:09,894 - INFO - 正在获取页面: https://ncase.itch.io/wbwwb
+2025-05-23 15:27:10,722 - INFO - 提取到游戏: We Become What We Behold (iframe)
+2025-05-23 15:27:10,723 - INFO - 正在获取页面: https://3hg.itch.io/kiss-three-fish
+2025-05-23 15:27:11,558 - INFO - 提取到游戏: Kiss Three Fish (static)
+2025-05-23 15:27:11,561 - INFO - 正在获取页面: https://jokupelle.itch.io/ages-of-conflict
+2025-05-23 15:27:12,598 - INFO - 提取到游戏: Ages of Conflict: World War Simulator (iframe)
+2025-05-23 15:27:12,600 - INFO - 正在获取页面: https://polyducks.itch.io/graveyard-oracle
+2025-05-23 15:27:13,396 - INFO - 提取到游戏: Graveyard Oracle (static)
+2025-05-23 15:27:13,398 - INFO - 正在获取页面: https://itizso.itch.io/retrofab
+2025-05-23 15:27:14,556 - INFO - 提取到游戏: RetroFab (iframe)
+2025-05-23 15:27:14,556 - INFO - 从 https://itch.io/games/html5 提取到 19 个游戏
+2025-05-23 15:27:17,569 - INFO - 正在爬取种子URL: https://gamejolt.com/games/best
+2025-05-23 15:27:17,570 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:27:18,249 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:27:20,250 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:27:20,460 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:27:22,461 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:27:22,670 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:27:22,671 - ERROR - 爬取种子URL失败 https://gamejolt.com/games/best: RetryError[<Future at 0x19a90fbff50 state=finished raised HTTPError>]
+2025-05-23 15:27:22,671 - INFO - 正在爬取种子URL: https://www.newgrounds.com/games/browse
+2025-05-23 15:27:22,671 - INFO - 正在获取页面: https://www.newgrounds.com/games/browse
+2025-05-23 15:27:25,623 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 11 个游戏元素
+2025-05-23 15:27:25,626 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980701
+2025-05-23 15:27:26,204 - INFO - 提取到游戏: [unnamed radius] (static)
+2025-05-23 15:27:26,206 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980879
+2025-05-23 15:27:26,705 - INFO - 提取到游戏: Magical Curse 2 (static)
+2025-05-23 15:27:26,706 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980374
+2025-05-23 15:27:27,283 - INFO - 提取到游戏: Dave's House (static)
+2025-05-23 15:27:27,284 - INFO - 从 https://www.newgrounds.com/games/browse 提取到 3 个游戏
+2025-05-23 15:27:32,099 - INFO - 正在爬取种子URL: https://www.kongregate.com/games
+2025-05-23 15:27:32,099 - INFO - 正在获取页面: https://www.kongregate.com/games
+2025-05-23 15:27:32,989 - INFO - 从 https://www.kongregate.com/games 提取到 0 个游戏
+2025-05-23 15:27:35,524 - INFO - 正在爬取种子URL: https://armorgames.com/games
+2025-05-23 15:27:35,525 - INFO - 正在获取页面: https://armorgames.com/games
+2025-05-23 15:27:36,105 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 31 个游戏元素
+2025-05-23 15:27:36,109 - INFO - 正在获取页面: https://armorgames.com/category/all
+2025-05-23 15:27:36,571 - INFO - 提取到游戏: Categories (static)
+2025-05-23 15:27:36,574 - INFO - 从 https://armorgames.com/games 提取到 1 个游戏
+2025-05-23 15:27:39,841 - INFO - 正在爬取种子URL: https://poki.com/en/g/action
+2025-05-23 15:27:39,841 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:27:40,982 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:27:42,983 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:27:43,477 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:27:45,478 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:27:45,960 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:27:45,961 - ERROR - 爬取种子URL失败 https://poki.com/en/g/action: RetryError[<Future at 0x19a919b7dd0 state=finished raised HTTPError>]
+2025-05-23 15:27:45,961 - INFO - 正在爬取种子URL: https://www.crazygames.com/c/html5
+2025-05-23 15:27:45,962 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:27:46,873 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:27:48,874 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:27:49,339 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:27:51,340 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:27:51,661 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:27:51,662 - ERROR - 爬取种子URL失败 https://www.crazygames.com/c/html5: RetryError[<Future at 0x19a919ecc50 state=finished raised HTTPError>]
+2025-05-23 15:27:51,663 - INFO - 正在爬取种子URL: https://www.miniclip.com/games/en/
+2025-05-23 15:27:51,663 - INFO - 正在获取页面: https://www.miniclip.com/games/en/
+2025-05-23 15:27:52,783 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 55 个游戏元素
+2025-05-23 15:27:52,786 - INFO - 正在获取页面: https://www.miniclip.com/
+2025-05-23 15:27:53,137 - INFO - 提取到游戏: Miniclip Logo (static)
+2025-05-23 15:27:53,140 - INFO - 正在获取页面: https://www.miniclip.com/our-story
+2025-05-23 15:27:53,598 - INFO - 提取到游戏: “unleash the gamer in everyone” (static)
+2025-05-23 15:27:53,601 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-has-acquired-lessmore-maker-of-eatventure-and-we-are-warriors/
+2025-05-23 15:27:55,471 - INFO - 提取到游戏: Lessmore joins Miniclip (iframe)
+2025-05-23 15:27:55,473 - INFO - 正在获取页面: https://www.linkedin.com/company/miniclip/
+2025-05-23 15:27:57,170 - INFO - 提取到游戏: 'Best Mobile Publisher' Winner (static)
+2025-05-23 15:27:57,172 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-acquires-easybrain-from-embracer-for-1-2bn/
+2025-05-23 15:27:58,556 - INFO - 提取到游戏: Easybrain joins Miniclip (iframe)
+2025-05-23 15:27:58,557 - INFO - 从 https://www.miniclip.com/games/en/ 提取到 5 个游戏
+2025-05-23 15:28:02,471 - INFO - 正在爬取种子URL: https://www.addictinggames.com/
+2025-05-23 15:28:02,471 - INFO - 正在获取页面: https://www.addictinggames.com/
+2025-05-23 15:28:03,742 - INFO - 从 https://www.addictinggames.com/ 提取到 0 个游戏
+2025-05-23 15:28:08,225 - INFO - 正在爬取种子URL: https://www.y8.com/games
+2025-05-23 15:28:08,225 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:28:19,876 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:28:21,876 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:28:32,258 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:28:34,259 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:28:43,622 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:28:43,623 - ERROR - 爬取种子URL失败 https://www.y8.com/games: RetryError[<Future at 0x19a91908050 state=finished raised TooManyRedirects>]
+2025-05-23 15:28:43,623 - INFO - 步骤2: 使用搜索引擎搜索...
+2025-05-23 15:28:43,624 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aitch.io%20browser%20games
+2025-05-23 15:28:45,264 - INFO - DuckDuckGo搜索 'site:itch.io browser games' 找到 0 个结果
+2025-05-23 15:28:49,910 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Agamejolt.com%20html5%20games
+2025-05-23 15:28:50,926 - INFO - DuckDuckGo搜索 'site:gamejolt.com html5 games' 找到 0 个结果
+2025-05-23 15:28:54,510 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Anewgrounds.com%20games
+2025-05-23 15:28:55,020 - INFO - DuckDuckGo搜索 'site:newgrounds.com games' 找到 0 个结果
+2025-05-23 15:29:00,888 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Akongregate.com%20games
+2025-05-23 15:29:01,408 - INFO - DuckDuckGo搜索 'site:kongregate.com games' 找到 0 个结果
+2025-05-23 15:29:05,219 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aarmorgames.com%20games
+2025-05-23 15:29:05,736 - INFO - DuckDuckGo搜索 'site:armorgames.com games' 找到 0 个结果
+2025-05-23 15:29:10,516 - INFO - 去重后共找到 28 个游戏
+2025-05-23 15:29:10,516 - INFO - 步骤3: 处理游戏数据...
+2025-05-23 15:29:10,517 - INFO - 处理游戏完成: SIDE EFFECTS
+2025-05-23 15:29:10,518 - INFO - 处理游戏完成: Incredibox - Sprunki
+2025-05-23 15:29:10,518 - INFO - 处理游戏完成: The Orchid's Edge
+2025-05-23 15:29:10,519 - INFO - 处理游戏完成: Bloodletter
+2025-05-23 15:29:10,519 - INFO - 处理游戏完成: Holder of Place
+2025-05-23 15:29:10,520 - INFO - 处理游戏完成: Forever Gold
+2025-05-23 15:29:10,521 - INFO - 处理游戏完成: Arcane Earth - Increment Clicker
+2025-05-23 15:29:10,521 - INFO - 处理游戏完成: Lucky Dig
+2025-05-23 15:29:10,521 - INFO - 处理游戏完成: TEMPOVERDOSE
+2025-05-23 15:29:10,522 - INFO - 处理游戏完成: Sort the Court!
+2025-05-23 15:29:10,523 - INFO - 处理游戏完成: Toasted Crossroads
+2025-05-23 15:29:10,523 - INFO - 处理游戏完成: A Dance of Fire and Ice
+2025-05-23 15:29:10,524 - INFO - 处理游戏完成: Batter Up!
+2025-05-23 15:29:10,525 - INFO - 处理游戏完成: Lookouts
+2025-05-23 15:29:10,525 - INFO - 处理游戏完成: We Become What We Behold
+2025-05-23 15:29:10,525 - INFO - 处理游戏完成: Kiss Three Fish
+2025-05-23 15:29:10,526 - INFO - 处理游戏完成: Ages of Conflict: World War Simulator
+2025-05-23 15:29:10,526 - INFO - 处理游戏完成: Graveyard Oracle
+2025-05-23 15:29:10,526 - INFO - 处理游戏完成: RetroFab
+2025-05-23 15:29:15,906 - INFO - 下载缩略图成功: 20.jpg
+2025-05-23 15:29:15,906 - INFO - 处理游戏完成: [unnamed radius]
+2025-05-23 15:29:16,250 - INFO - 下载缩略图成功: 21.jpg
+2025-05-23 15:29:16,251 - INFO - 处理游戏完成: Magical Curse 2
+2025-05-23 15:29:16,518 - INFO - 下载缩略图成功: 22.jpg
+2025-05-23 15:29:16,519 - INFO - 处理游戏完成: Dave's House
+2025-05-23 15:29:16,520 - INFO - 处理游戏完成: Categories
+2025-05-23 15:29:16,743 - INFO - 下载缩略图成功: 24.jpg
+2025-05-23 15:29:16,743 - INFO - 处理游戏完成: Miniclip Logo
+2025-05-23 15:29:17,420 - INFO - 下载缩略图成功: 25.png
+2025-05-23 15:29:17,421 - INFO - 处理游戏完成: “unleash the gamer in everyone”
+2025-05-23 15:29:18,247 - INFO - 下载缩略图成功: 26.jpg
+2025-05-23 15:29:18,247 - INFO - 处理游戏完成: Lessmore joins Miniclip
+2025-05-23 15:29:18,582 - INFO - 下载缩略图成功: 27.jpg
+2025-05-23 15:29:18,582 - INFO - 处理游戏完成: 'Best Mobile Publisher' Winner
+2025-05-23 15:29:18,913 - INFO - 下载缩略图成功: 28.jpg
+2025-05-23 15:29:18,913 - INFO - 处理游戏完成: Easybrain joins Miniclip
+2025-05-23 15:29:18,914 - INFO - 步骤4: 保存游戏数据...
+2025-05-23 15:29:18,915 - INFO - 成功保存 28 个新游戏到 E:\code\any-game\src\data\games.ts
+2025-05-23 15:29:18,915 - INFO - 爬虫运行完成！成功添加 28 个游戏
+2025-05-23 15:49:26,638 - INFO - 开始运行游戏爬虫...
+2025-05-23 15:49:26,649 - INFO - 步骤1: 爬取种子URL...
+2025-05-23 15:49:26,650 - INFO - 正在爬取种子URL: https://itch.io/games/html5
+2025-05-23 15:49:26,650 - INFO - 正在获取页面: https://itch.io/games/html5
+2025-05-23 15:49:27,244 - INFO - 使用选择器 '.game_cell, .game_grid_widget' 找到 37 个游戏元素
+2025-05-23 15:49:27,284 - INFO - 正在获取页面: https://hirohun.itch.io/side-effects
+2025-05-23 15:49:28,312 - INFO - 提取到游戏: SIDE EFFECTS (static)
+2025-05-23 15:49:28,314 - INFO - 正在获取页面: https://wolf-hal.itch.io/incredibox-sprunki
+2025-05-23 15:49:29,632 - INFO - 提取到游戏: Incredibox - Sprunki (static)
+2025-05-23 15:49:29,635 - INFO - 正在获取页面: https://cornflowerblue.itch.io/the-orchids-edge
+2025-05-23 15:49:30,732 - INFO - 提取到游戏: The Orchid's Edge (static)
+2025-05-23 15:49:30,734 - INFO - 正在获取页面: https://aldamami-games.itch.io/bloodletter
+2025-05-23 15:49:31,824 - INFO - 提取到游戏: Bloodletter (static)
+2025-05-23 15:49:31,826 - INFO - 正在获取页面: https://zittacheng.itch.io/holder-of-place
+2025-05-23 15:49:33,023 - INFO - 提取到游戏: Holder of Place (iframe)
+2025-05-23 15:49:33,026 - INFO - 正在获取页面: https://weaselbear.itch.io/forever-gold
+2025-05-23 15:49:34,251 - INFO - 提取到游戏: Forever Gold (iframe)
+2025-05-23 15:49:34,253 - INFO - 正在获取页面: https://timberwolfgames.itch.io/arcaneearth
+2025-05-23 15:49:35,287 - INFO - 提取到游戏: Arcane Earth - Increment Clicker (iframe)
+2025-05-23 15:49:35,288 - INFO - 正在获取页面: https://jetamp.itch.io/lucky-dig
+2025-05-23 15:49:36,287 - INFO - 提取到游戏: Lucky Dig (iframe)
+2025-05-23 15:49:36,288 - INFO - 正在获取页面: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 15:49:37,364 - INFO - 提取到游戏: TEMPOVERDOSE (iframe)
+2025-05-23 15:49:37,365 - INFO - 正在获取页面: https://graebor.itch.io/sort-the-court
+2025-05-23 15:49:37,986 - INFO - 提取到游戏: Sort the Court! (iframe)
+2025-05-23 15:49:37,988 - INFO - 正在获取页面: https://nozomu57.itch.io/toasted-crossroads
+2025-05-23 15:49:38,593 - INFO - 提取到游戏: Toasted Crossroads (static)
+2025-05-23 15:49:38,595 - INFO - 正在获取页面: https://fizzd.itch.io/a-dance-of-fire-and-ice
+2025-05-23 15:49:39,314 - INFO - 提取到游戏: A Dance of Fire and Ice (iframe)
+2025-05-23 15:49:39,316 - INFO - 正在获取页面: https://jbroook.itch.io/batter-up-new
+2025-05-23 15:49:40,144 - INFO - 提取到游戏: Batter Up! (iframe)
+2025-05-23 15:49:40,145 - INFO - 正在获取页面: https://paranoidhawk.itch.io/lookouts
+2025-05-23 15:49:40,720 - INFO - 提取到游戏: Lookouts (iframe)
+2025-05-23 15:49:40,722 - INFO - 正在获取页面: https://ncase.itch.io/wbwwb
+2025-05-23 15:49:41,261 - INFO - 提取到游戏: We Become What We Behold (iframe)
+2025-05-23 15:49:41,263 - INFO - 正在获取页面: https://3hg.itch.io/kiss-three-fish
+2025-05-23 15:49:41,840 - INFO - 提取到游戏: Kiss Three Fish (static)
+2025-05-23 15:49:41,842 - INFO - 正在获取页面: https://jokupelle.itch.io/ages-of-conflict
+2025-05-23 15:49:42,656 - INFO - 提取到游戏: Ages of Conflict: World War Simulator (iframe)
+2025-05-23 15:49:42,658 - INFO - 正在获取页面: https://polyducks.itch.io/graveyard-oracle
+2025-05-23 15:49:43,207 - INFO - 提取到游戏: Graveyard Oracle (static)
+2025-05-23 15:49:43,209 - INFO - 正在获取页面: https://itizso.itch.io/retrofab
+2025-05-23 15:49:44,044 - INFO - 提取到游戏: RetroFab (iframe)
+2025-05-23 15:49:44,044 - INFO - 从 https://itch.io/games/html5 提取到 19 个游戏
+2025-05-23 15:49:48,860 - INFO - 正在爬取种子URL: https://gamejolt.com/games/best
+2025-05-23 15:49:48,860 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:49:50,113 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:49:52,115 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:49:52,336 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:49:54,338 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:49:54,546 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:49:54,547 - ERROR - 爬取种子URL失败 https://gamejolt.com/games/best: RetryError[<Future at 0x1ee62607250 state=finished raised HTTPError>]
+2025-05-23 15:49:54,547 - INFO - 正在爬取种子URL: https://www.newgrounds.com/games/browse
+2025-05-23 15:49:54,547 - INFO - 正在获取页面: https://www.newgrounds.com/games/browse
+2025-05-23 15:49:57,511 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 11 个游戏元素
+2025-05-23 15:49:57,515 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980701
+2025-05-23 15:49:58,093 - INFO - 提取到游戏: [unnamed radius] (static)
+2025-05-23 15:49:58,095 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980879
+2025-05-23 15:49:58,577 - INFO - 提取到游戏: Magical Curse 2 (static)
+2025-05-23 15:49:58,578 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980374
+2025-05-23 15:49:59,642 - INFO - 提取到游戏: Dave's House (static)
+2025-05-23 15:49:59,643 - INFO - 从 https://www.newgrounds.com/games/browse 提取到 3 个游戏
+2025-05-23 15:50:03,764 - INFO - 正在爬取种子URL: https://www.kongregate.com/games
+2025-05-23 15:50:03,765 - INFO - 正在获取页面: https://www.kongregate.com/games
+2025-05-23 15:50:04,551 - INFO - 从 https://www.kongregate.com/games 提取到 0 个游戏
+2025-05-23 15:50:08,036 - INFO - 正在爬取种子URL: https://armorgames.com/games
+2025-05-23 15:50:08,036 - INFO - 正在获取页面: https://armorgames.com/games
+2025-05-23 15:50:08,618 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 31 个游戏元素
+2025-05-23 15:50:08,622 - INFO - 正在获取页面: https://armorgames.com/category/all
+2025-05-23 15:50:08,940 - INFO - 提取到游戏: Categories (static)
+2025-05-23 15:50:08,941 - INFO - 从 https://armorgames.com/games 提取到 1 个游戏
+2025-05-23 15:50:12,908 - INFO - 正在爬取种子URL: https://poki.com/en/g/action
+2025-05-23 15:50:12,909 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:50:13,476 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:50:15,477 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:50:15,885 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:50:17,887 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:50:18,548 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:50:18,548 - ERROR - 爬取种子URL失败 https://poki.com/en/g/action: RetryError[<Future at 0x1ee62c77150 state=finished raised HTTPError>]
+2025-05-23 15:50:18,549 - INFO - 正在爬取种子URL: https://www.crazygames.com/c/html5
+2025-05-23 15:50:18,549 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:50:19,134 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:50:21,135 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:50:21,462 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:50:23,464 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:50:23,785 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:50:23,786 - ERROR - 爬取种子URL失败 https://www.crazygames.com/c/html5: RetryError[<Future at 0x1ee62c77f50 state=finished raised HTTPError>]
+2025-05-23 15:50:23,787 - INFO - 正在爬取种子URL: https://www.miniclip.com/games/en/
+2025-05-23 15:50:23,787 - INFO - 正在获取页面: https://www.miniclip.com/games/en/
+2025-05-23 15:50:24,491 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 55 个游戏元素
+2025-05-23 15:50:24,494 - INFO - 正在获取页面: https://www.miniclip.com/
+2025-05-23 15:50:24,728 - INFO - 提取到游戏: Miniclip Logo (static)
+2025-05-23 15:50:24,731 - INFO - 正在获取页面: https://www.miniclip.com/our-story
+2025-05-23 15:50:24,981 - INFO - 提取到游戏: “unleash the gamer in everyone” (static)
+2025-05-23 15:50:24,982 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-has-acquired-lessmore-maker-of-eatventure-and-we-are-warriors/
+2025-05-23 15:50:25,499 - INFO - 提取到游戏: Lessmore joins Miniclip (iframe)
+2025-05-23 15:50:25,500 - INFO - 正在获取页面: https://www.linkedin.com/company/miniclip/
+2025-05-23 15:50:27,019 - INFO - 提取到游戏: 'Best Mobile Publisher' Winner (static)
+2025-05-23 15:50:27,021 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-acquires-easybrain-from-embracer-for-1-2bn/
+2025-05-23 15:50:27,316 - INFO - 提取到游戏: Easybrain joins Miniclip (iframe)
+2025-05-23 15:50:27,317 - INFO - 从 https://www.miniclip.com/games/en/ 提取到 5 个游戏
+2025-05-23 15:50:31,103 - INFO - 正在爬取种子URL: https://www.addictinggames.com/
+2025-05-23 15:50:31,104 - INFO - 正在获取页面: https://www.addictinggames.com/
+2025-05-23 15:50:32,033 - INFO - 从 https://www.addictinggames.com/ 提取到 0 个游戏
+2025-05-23 15:50:35,047 - INFO - 正在爬取种子URL: https://www.y8.com/games
+2025-05-23 15:50:35,048 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:50:46,473 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:50:48,473 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:50:58,078 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:51:00,079 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:51:09,509 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:51:09,510 - ERROR - 爬取种子URL失败 https://www.y8.com/games: RetryError[<Future at 0x1ee62d583d0 state=finished raised TooManyRedirects>]
+2025-05-23 15:51:09,510 - INFO - 步骤2: 使用搜索引擎搜索...
+2025-05-23 15:51:09,510 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aitch.io%20browser%20games
+2025-05-23 15:51:10,565 - INFO - DuckDuckGo搜索 'site:itch.io browser games' 找到 0 个结果
+2025-05-23 15:51:14,086 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Agamejolt.com%20html5%20games
+2025-05-23 15:51:14,594 - INFO - DuckDuckGo搜索 'site:gamejolt.com html5 games' 找到 0 个结果
+2025-05-23 15:51:19,266 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Anewgrounds.com%20games
+2025-05-23 15:51:19,772 - INFO - DuckDuckGo搜索 'site:newgrounds.com games' 找到 0 个结果
+2025-05-23 15:51:24,837 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Akongregate.com%20games
+2025-05-23 15:51:25,340 - INFO - DuckDuckGo搜索 'site:kongregate.com games' 找到 0 个结果
+2025-05-23 15:51:30,112 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aarmorgames.com%20games
+2025-05-23 15:51:30,615 - INFO - DuckDuckGo搜索 'site:armorgames.com games' 找到 0 个结果
+2025-05-23 15:51:33,681 - INFO - 去重后共找到 28 个游戏
+2025-05-23 15:51:33,681 - INFO - 步骤3: 处理游戏数据...
+2025-05-23 15:51:33,682 - INFO - 处理游戏完成: SIDE EFFECTS
+2025-05-23 15:51:33,683 - INFO - 处理游戏完成: Incredibox - Sprunki
+2025-05-23 15:51:33,683 - INFO - 处理游戏完成: The Orchid's Edge
+2025-05-23 15:51:33,684 - INFO - 处理游戏完成: Bloodletter
+2025-05-23 15:51:33,684 - INFO - 处理游戏完成: Holder of Place
+2025-05-23 15:51:33,685 - INFO - 处理游戏完成: Forever Gold
+2025-05-23 15:51:33,685 - INFO - 处理游戏完成: Arcane Earth - Increment Clicker
+2025-05-23 15:51:33,686 - INFO - 处理游戏完成: Lucky Dig
+2025-05-23 15:51:33,686 - INFO - 处理游戏完成: TEMPOVERDOSE
+2025-05-23 15:51:33,687 - INFO - 处理游戏完成: Sort the Court!
+2025-05-23 15:51:33,687 - INFO - 处理游戏完成: Toasted Crossroads
+2025-05-23 15:51:33,688 - INFO - 处理游戏完成: A Dance of Fire and Ice
+2025-05-23 15:51:33,689 - INFO - 处理游戏完成: Batter Up!
+2025-05-23 15:51:33,690 - INFO - 处理游戏完成: Lookouts
+2025-05-23 15:51:33,690 - INFO - 处理游戏完成: We Become What We Behold
+2025-05-23 15:51:33,691 - INFO - 处理游戏完成: Kiss Three Fish
+2025-05-23 15:51:33,691 - INFO - 处理游戏完成: Ages of Conflict: World War Simulator
+2025-05-23 15:51:33,692 - INFO - 处理游戏完成: Graveyard Oracle
+2025-05-23 15:51:33,693 - INFO - 处理游戏完成: RetroFab
+2025-05-23 15:51:38,077 - INFO - 下载缩略图成功: 20.jpg
+2025-05-23 15:51:38,078 - INFO - 处理游戏完成: [unnamed radius]
+2025-05-23 15:51:38,324 - INFO - 下载缩略图成功: 21.jpg
+2025-05-23 15:51:38,324 - INFO - 处理游戏完成: Magical Curse 2
+2025-05-23 15:51:38,567 - INFO - 下载缩略图成功: 22.jpg
+2025-05-23 15:51:38,568 - INFO - 处理游戏完成: Dave's House
+2025-05-23 15:51:38,569 - INFO - 处理游戏完成: Categories
+2025-05-23 15:51:38,786 - INFO - 下载缩略图成功: 24.jpg
+2025-05-23 15:51:38,787 - INFO - 处理游戏完成: Miniclip Logo
+2025-05-23 15:51:39,054 - INFO - 下载缩略图成功: 25.png
+2025-05-23 15:51:39,054 - INFO - 处理游戏完成: “unleash the gamer in everyone”
+2025-05-23 15:51:39,611 - INFO - 下载缩略图成功: 26.jpg
+2025-05-23 15:51:39,612 - INFO - 处理游戏完成: Lessmore joins Miniclip
+2025-05-23 15:51:39,935 - INFO - 下载缩略图成功: 27.jpg
+2025-05-23 15:51:39,936 - INFO - 处理游戏完成: 'Best Mobile Publisher' Winner
+2025-05-23 15:51:40,258 - INFO - 下载缩略图成功: 28.jpg
+2025-05-23 15:51:40,258 - INFO - 处理游戏完成: Easybrain joins Miniclip
+2025-05-23 15:51:40,258 - INFO - 步骤4: 保存游戏数据...
+2025-05-23 15:51:40,260 - INFO - 成功保存 28 个新游戏到JSON文件: E:\code\any-game\scripts\crawled_games.json
+2025-05-23 15:51:40,262 - INFO - 成功追加 28 个新游戏到 E:\code\any-game\src\data\games.ts
+2025-05-23 15:51:40,263 - INFO - 爬虫运行完成！成功添加 28 个游戏
+2025-05-23 15:54:06,295 - INFO - 开始运行游戏爬虫...
+2025-05-23 15:54:06,296 - INFO - 步骤1: 爬取种子URL...
+2025-05-23 15:54:06,296 - INFO - 正在爬取种子URL: https://itch.io/games/html5
+2025-05-23 15:54:06,296 - INFO - 正在获取页面: https://itch.io/games/html5
+2025-05-23 15:54:06,871 - INFO - 使用选择器 '.game_cell, .game_grid_widget' 找到 37 个游戏元素
+2025-05-23 15:54:06,910 - INFO - 正在获取页面: https://hirohun.itch.io/side-effects
+2025-05-23 15:54:07,926 - INFO - 提取到游戏: SIDE EFFECTS (static)
+2025-05-23 15:54:07,929 - INFO - 正在获取页面: https://wolf-hal.itch.io/incredibox-sprunki
+2025-05-23 15:54:09,186 - INFO - 提取到游戏: Incredibox - Sprunki (static)
+2025-05-23 15:54:09,187 - INFO - 正在获取页面: https://cornflowerblue.itch.io/the-orchids-edge
+2025-05-23 15:54:10,740 - INFO - 提取到游戏: The Orchid's Edge (static)
+2025-05-23 15:54:10,743 - INFO - 正在获取页面: https://aldamami-games.itch.io/bloodletter
+2025-05-23 15:54:11,348 - INFO - 提取到游戏: Bloodletter (static)
+2025-05-23 15:54:11,350 - INFO - 正在获取页面: https://zittacheng.itch.io/holder-of-place
+2025-05-23 15:54:12,026 - INFO - 提取到游戏: Holder of Place (iframe)
+2025-05-23 15:54:12,029 - INFO - 正在获取页面: https://weaselbear.itch.io/forever-gold
+2025-05-23 15:54:12,559 - INFO - 提取到游戏: Forever Gold (iframe)
+2025-05-23 15:54:12,561 - INFO - 正在获取页面: https://timberwolfgames.itch.io/arcaneearth
+2025-05-23 15:54:13,611 - INFO - 提取到游戏: Arcane Earth - Increment Clicker (iframe)
+2025-05-23 15:54:13,613 - INFO - 正在获取页面: https://jetamp.itch.io/lucky-dig
+2025-05-23 15:54:14,735 - INFO - 提取到游戏: Lucky Dig (iframe)
+2025-05-23 15:54:14,737 - INFO - 正在获取页面: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 15:54:15,757 - INFO - 提取到游戏: TEMPOVERDOSE (iframe)
+2025-05-23 15:54:15,759 - INFO - 正在获取页面: https://graebor.itch.io/sort-the-court
+2025-05-23 15:54:16,402 - INFO - 提取到游戏: Sort the Court! (iframe)
+2025-05-23 15:54:16,404 - INFO - 正在获取页面: https://nozomu57.itch.io/toasted-crossroads
+2025-05-23 15:54:17,029 - INFO - 提取到游戏: Toasted Crossroads (static)
+2025-05-23 15:54:17,031 - INFO - 正在获取页面: https://fizzd.itch.io/a-dance-of-fire-and-ice
+2025-05-23 15:54:17,773 - INFO - 提取到游戏: A Dance of Fire and Ice (iframe)
+2025-05-23 15:54:17,775 - INFO - 正在获取页面: https://jbroook.itch.io/batter-up-new
+2025-05-23 15:54:18,400 - INFO - 提取到游戏: Batter Up! (iframe)
+2025-05-23 15:54:18,402 - INFO - 正在获取页面: https://paranoidhawk.itch.io/lookouts
+2025-05-23 15:54:18,986 - INFO - 提取到游戏: Lookouts (iframe)
+2025-05-23 15:54:18,987 - INFO - 正在获取页面: https://ncase.itch.io/wbwwb
+2025-05-23 15:54:19,509 - INFO - 提取到游戏: We Become What We Behold (iframe)
+2025-05-23 15:54:19,511 - INFO - 正在获取页面: https://3hg.itch.io/kiss-three-fish
+2025-05-23 15:54:20,041 - INFO - 提取到游戏: Kiss Three Fish (static)
+2025-05-23 15:54:20,043 - INFO - 正在获取页面: https://jokupelle.itch.io/ages-of-conflict
+2025-05-23 15:54:20,795 - INFO - 提取到游戏: Ages of Conflict: World War Simulator (iframe)
+2025-05-23 15:54:20,797 - INFO - 正在获取页面: https://polyducks.itch.io/graveyard-oracle
+2025-05-23 15:54:21,349 - INFO - 提取到游戏: Graveyard Oracle (static)
+2025-05-23 15:54:21,351 - INFO - 正在获取页面: https://itizso.itch.io/retrofab
+2025-05-23 15:54:22,220 - INFO - 提取到游戏: RetroFab (iframe)
+2025-05-23 15:54:22,220 - INFO - 从 https://itch.io/games/html5 提取到 19 个游戏
+2025-05-23 15:54:25,833 - INFO - 正在爬取种子URL: https://gamejolt.com/games/best
+2025-05-23 15:54:25,834 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:54:26,305 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:54:28,306 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:54:28,514 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:54:30,515 - INFO - 正在获取页面: https://gamejolt.com/games/best
+2025-05-23 15:54:30,724 - ERROR - 获取页面失败 https://gamejolt.com/games/best: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best
+2025-05-23 15:54:30,724 - ERROR - 爬取种子URL失败 https://gamejolt.com/games/best: RetryError[<Future at 0x1ef66e3fdd0 state=finished raised HTTPError>]
+2025-05-23 15:54:30,725 - INFO - 正在爬取种子URL: https://www.newgrounds.com/games/browse
+2025-05-23 15:54:30,725 - INFO - 正在获取页面: https://www.newgrounds.com/games/browse
+2025-05-23 15:54:35,683 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 11 个游戏元素
+2025-05-23 15:54:35,686 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980701
+2025-05-23 15:54:36,224 - INFO - 提取到游戏: [unnamed radius] (static)
+2025-05-23 15:54:36,225 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980879
+2025-05-23 15:54:36,757 - INFO - 提取到游戏: Magical Curse 2 (static)
+2025-05-23 15:54:36,758 - INFO - 正在获取页面: https://www.newgrounds.com/portal/view/980374
+2025-05-23 15:54:37,363 - INFO - 提取到游戏: Dave's House (static)
+2025-05-23 15:54:37,364 - INFO - 从 https://www.newgrounds.com/games/browse 提取到 3 个游戏
+2025-05-23 15:54:41,339 - INFO - 正在爬取种子URL: https://www.kongregate.com/games
+2025-05-23 15:54:41,339 - INFO - 正在获取页面: https://www.kongregate.com/games
+2025-05-23 15:54:42,132 - INFO - 从 https://www.kongregate.com/games 提取到 0 个游戏
+2025-05-23 15:54:44,448 - INFO - 正在爬取种子URL: https://armorgames.com/games
+2025-05-23 15:54:44,448 - INFO - 正在获取页面: https://armorgames.com/games
+2025-05-23 15:54:45,107 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 31 个游戏元素
+2025-05-23 15:54:45,111 - INFO - 正在获取页面: https://armorgames.com/category/all
+2025-05-23 15:54:45,465 - INFO - 提取到游戏: Categories (static)
+2025-05-23 15:54:45,467 - INFO - 从 https://armorgames.com/games 提取到 1 个游戏
+2025-05-23 15:54:48,809 - INFO - 正在爬取种子URL: https://poki.com/en/g/action
+2025-05-23 15:54:48,810 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:54:49,696 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:54:51,698 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:54:52,333 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:54:54,334 - INFO - 正在获取页面: https://poki.com/en/g/action
+2025-05-23 15:54:54,714 - ERROR - 获取页面失败 https://poki.com/en/g/action: 404 Client Error: Not Found for url: https://poki.com/en/g/action
+2025-05-23 15:54:54,714 - ERROR - 爬取种子URL失败 https://poki.com/en/g/action: RetryError[<Future at 0x1ef673ff8d0 state=finished raised HTTPError>]
+2025-05-23 15:54:54,715 - INFO - 正在爬取种子URL: https://www.crazygames.com/c/html5
+2025-05-23 15:54:54,715 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:54:55,497 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:54:57,498 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:54:57,848 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:54:59,849 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 15:55:00,129 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 15:55:00,130 - ERROR - 爬取种子URL失败 https://www.crazygames.com/c/html5: RetryError[<Future at 0x1ef66e05ed0 state=finished raised HTTPError>]
+2025-05-23 15:55:00,130 - INFO - 正在爬取种子URL: https://www.miniclip.com/games/en/
+2025-05-23 15:55:00,130 - INFO - 正在获取页面: https://www.miniclip.com/games/en/
+2025-05-23 15:55:00,916 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 55 个游戏元素
+2025-05-23 15:55:00,919 - INFO - 正在获取页面: https://www.miniclip.com/
+2025-05-23 15:55:01,207 - INFO - 提取到游戏: Miniclip Logo (static)
+2025-05-23 15:55:01,212 - INFO - 正在获取页面: https://www.miniclip.com/our-story
+2025-05-23 15:55:01,512 - INFO - 提取到游戏: “unleash the gamer in everyone” (static)
+2025-05-23 15:55:01,514 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-has-acquired-lessmore-maker-of-eatventure-and-we-are-warriors/
+2025-05-23 15:55:02,081 - ERROR - 解析页面失败 https://mobilegamer.biz/miniclip-has-acquired-lessmore-maker-of-eatventure-and-we-are-warriors/: The markup you provided was rejected by the parser. Trying a different parser or a different encoding may help.
+
+Original exception(s) from parser:
+ AssertionError: expected name token at '<![/��\x1f�~�@���\x07,M�\x031'
+2025-05-23 15:55:02,082 - INFO - 提取到游戏: Lessmore joins Miniclip (iframe)
+2025-05-23 15:55:02,083 - INFO - 正在获取页面: https://www.linkedin.com/company/miniclip/
+2025-05-23 15:55:03,831 - INFO - 提取到游戏: 'Best Mobile Publisher' Winner (static)
+2025-05-23 15:55:03,832 - INFO - 正在获取页面: https://mobilegamer.biz/miniclip-acquires-easybrain-from-embracer-for-1-2bn/
+2025-05-23 15:55:04,132 - INFO - 提取到游戏: Easybrain joins Miniclip (iframe)
+2025-05-23 15:55:04,132 - INFO - 从 https://www.miniclip.com/games/en/ 提取到 5 个游戏
+2025-05-23 15:55:08,190 - INFO - 正在爬取种子URL: https://www.addictinggames.com/
+2025-05-23 15:55:08,191 - INFO - 正在获取页面: https://www.addictinggames.com/
+2025-05-23 15:55:09,068 - INFO - 从 https://www.addictinggames.com/ 提取到 0 个游戏
+2025-05-23 15:55:13,317 - INFO - 正在爬取种子URL: https://www.y8.com/games
+2025-05-23 15:55:13,317 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:55:23,922 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:55:25,923 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:55:35,312 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:55:37,313 - INFO - 正在获取页面: https://www.y8.com/games
+2025-05-23 15:55:46,665 - ERROR - 获取页面失败 https://www.y8.com/games: Exceeded 30 redirects.
+2025-05-23 15:55:46,666 - ERROR - 爬取种子URL失败 https://www.y8.com/games: RetryError[<Future at 0x1ef6753f5d0 state=finished raised TooManyRedirects>]
+2025-05-23 15:55:46,666 - INFO - 步骤2: 使用搜索引擎搜索...
+2025-05-23 15:55:46,667 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aitch.io%20browser%20games
+2025-05-23 15:55:47,775 - INFO - DuckDuckGo搜索 'site:itch.io browser games' 找到 0 个结果
+2025-05-23 15:55:53,062 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Agamejolt.com%20html5%20games
+2025-05-23 15:55:53,606 - INFO - DuckDuckGo搜索 'site:gamejolt.com html5 games' 找到 0 个结果
+2025-05-23 15:55:58,167 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Anewgrounds.com%20games
+2025-05-23 15:55:58,709 - INFO - DuckDuckGo搜索 'site:newgrounds.com games' 找到 0 个结果
+2025-05-23 15:56:02,782 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Akongregate.com%20games
+2025-05-23 15:56:03,330 - INFO - DuckDuckGo搜索 'site:kongregate.com games' 找到 0 个结果
+2025-05-23 15:56:08,116 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aarmorgames.com%20games
+2025-05-23 15:56:08,661 - INFO - DuckDuckGo搜索 'site:armorgames.com games' 找到 0 个结果
+2025-05-23 15:56:13,771 - INFO - 去重后共找到 28 个游戏
+2025-05-23 15:56:13,771 - INFO - 步骤3: 处理游戏数据...
+2025-05-23 15:56:13,772 - INFO - 处理游戏完成: SIDE EFFECTS
+2025-05-23 15:56:13,772 - INFO - 处理游戏完成: Incredibox - Sprunki
+2025-05-23 15:56:13,773 - INFO - 处理游戏完成: The Orchid's Edge
+2025-05-23 15:56:13,773 - INFO - 处理游戏完成: Bloodletter
+2025-05-23 15:56:13,774 - INFO - 处理游戏完成: Holder of Place
+2025-05-23 15:56:13,774 - INFO - 处理游戏完成: Forever Gold
+2025-05-23 15:56:13,774 - INFO - 处理游戏完成: Arcane Earth - Increment Clicker
+2025-05-23 15:56:13,775 - INFO - 处理游戏完成: Lucky Dig
+2025-05-23 15:56:13,775 - INFO - 处理游戏完成: TEMPOVERDOSE
+2025-05-23 15:56:13,775 - INFO - 处理游戏完成: Sort the Court!
+2025-05-23 15:56:13,776 - INFO - 处理游戏完成: Toasted Crossroads
+2025-05-23 15:56:13,776 - INFO - 处理游戏完成: A Dance of Fire and Ice
+2025-05-23 15:56:13,776 - INFO - 处理游戏完成: Batter Up!
+2025-05-23 15:56:13,777 - INFO - 处理游戏完成: Lookouts
+2025-05-23 15:56:13,777 - INFO - 处理游戏完成: We Become What We Behold
+2025-05-23 15:56:13,777 - INFO - 处理游戏完成: Kiss Three Fish
+2025-05-23 15:56:13,778 - INFO - 处理游戏完成: Ages of Conflict: World War Simulator
+2025-05-23 15:56:13,779 - INFO - 处理游戏完成: Graveyard Oracle
+2025-05-23 15:56:13,779 - INFO - 处理游戏完成: RetroFab
+2025-05-23 15:56:15,429 - INFO - 下载缩略图成功: 20.jpg
+2025-05-23 15:56:15,430 - INFO - 处理游戏完成: [unnamed radius]
+2025-05-23 15:56:15,694 - INFO - 下载缩略图成功: 21.jpg
+2025-05-23 15:56:15,695 - INFO - 处理游戏完成: Magical Curse 2
+2025-05-23 15:56:15,959 - INFO - 下载缩略图成功: 22.jpg
+2025-05-23 15:56:15,959 - INFO - 处理游戏完成: Dave's House
+2025-05-23 15:56:15,960 - INFO - 处理游戏完成: Categories
+2025-05-23 15:56:16,180 - INFO - 下载缩略图成功: 24.jpg
+2025-05-23 15:56:16,181 - INFO - 处理游戏完成: Miniclip Logo
+2025-05-23 15:56:16,720 - INFO - 下载缩略图成功: 25.png
+2025-05-23 15:56:16,720 - INFO - 处理游戏完成: “unleash the gamer in everyone”
+2025-05-23 15:56:17,216 - INFO - 下载缩略图成功: 26.jpg
+2025-05-23 15:56:17,216 - INFO - 处理游戏完成: Lessmore joins Miniclip
+2025-05-23 15:56:17,503 - INFO - 下载缩略图成功: 27.jpg
+2025-05-23 15:56:17,503 - INFO - 处理游戏完成: 'Best Mobile Publisher' Winner
+2025-05-23 15:56:17,802 - INFO - 下载缩略图成功: 28.jpg
+2025-05-23 15:56:17,802 - INFO - 处理游戏完成: Easybrain joins Miniclip
+2025-05-23 15:56:17,803 - INFO - 步骤4: 保存游戏数据...
+2025-05-23 15:56:17,804 - INFO - 成功保存 28 个新游戏到JSON文件: E:\code\any-game\scripts\crawled_games.json
+2025-05-23 15:56:17,805 - INFO - 成功追加 28 个新游戏到 E:\code\any-game\src\data\games.ts
+2025-05-23 15:56:17,806 - INFO - 爬虫运行完成！成功添加 28 个游戏
+2025-05-23 16:35:12,284 - INFO - 开始运行游戏爬虫...
+2025-05-23 16:35:12,285 - INFO - 步骤1: 爬取种子URL...
+2025-05-23 16:35:12,285 - INFO - 正在爬取种子URL: https://itch.io/games/html5
+2025-05-23 16:35:12,285 - INFO - 正在获取页面: https://itch.io/games/html5
+2025-05-23 16:35:12,797 - INFO - 使用选择器 '.game_cell, .game_grid_widget' 找到 37 个游戏元素
+2025-05-23 16:35:12,801 - INFO - 正在获取页面: https://hirohun.itch.io/side-effects
+2025-05-23 16:35:13,513 - WARNING - 未找到可嵌入的游戏内容: https://hirohun.itch.io/side-effects
+2025-05-23 16:35:13,514 - INFO - 跳过不适合嵌入的游戏: SIDE EFFECTS
+2025-05-23 16:35:13,515 - INFO - 正在获取页面: https://wolf-hal.itch.io/incredibox-sprunki
+2025-05-23 16:35:15,078 - WARNING - 未找到可嵌入的游戏内容: https://wolf-hal.itch.io/incredibox-sprunki
+2025-05-23 16:35:15,078 - INFO - 跳过不适合嵌入的游戏: Incredibox - Sprunki
+2025-05-23 16:35:15,079 - INFO - 正在获取页面: https://cornflowerblue.itch.io/the-orchids-edge
+2025-05-23 16:35:16,291 - WARNING - 未找到可嵌入的游戏内容: https://cornflowerblue.itch.io/the-orchids-edge
+2025-05-23 16:35:16,291 - INFO - 跳过不适合嵌入的游戏: The Orchid's Edge
+2025-05-23 16:35:16,292 - INFO - 正在获取页面: https://aldamami-games.itch.io/bloodletter
+2025-05-23 16:35:17,543 - WARNING - 未找到可嵌入的游戏内容: https://aldamami-games.itch.io/bloodletter
+2025-05-23 16:35:17,543 - INFO - 跳过不适合嵌入的游戏: Bloodletter
+2025-05-23 16:35:17,544 - INFO - 正在获取页面: https://zittacheng.itch.io/holder-of-place
+2025-05-23 16:35:18,789 - INFO - 跳过不适合嵌入的URL: https://www.youtube.com/embed/Ed4d6U1MKU0
+2025-05-23 16:35:18,884 - WARNING - 未找到可嵌入的游戏内容: https://zittacheng.itch.io/holder-of-place
+2025-05-23 16:35:18,885 - INFO - 跳过不适合嵌入的游戏: Holder of Place
+2025-05-23 16:35:18,886 - INFO - 正在获取页面: https://weaselbear.itch.io/forever-gold
+2025-05-23 16:35:19,952 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/13725449/play/index.html
+2025-05-23 16:35:19,955 - INFO - ✅ 游戏数据验证通过: Forever Gold
+2025-05-23 16:35:19,955 - INFO - ✅ 提取到可嵌入游戏: Forever Gold (iframe)
+2025-05-23 16:35:19,957 - INFO - 正在获取页面: https://timberwolfgames.itch.io/arcaneearth
+2025-05-23 16:35:20,937 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+2025-05-23 16:35:20,939 - INFO - ✅ 游戏数据验证通过: Arcane Earth - Increment Clicker
+2025-05-23 16:35:20,940 - INFO - ✅ 提取到可嵌入游戏: Arcane Earth - Increment Clicker (iframe)
+2025-05-23 16:35:20,940 - INFO - 正在获取页面: https://jetamp.itch.io/lucky-dig
+2025-05-23 16:35:21,757 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/13694006/_dig_game_html/index.html
+2025-05-23 16:35:21,759 - INFO - ✅ 游戏数据验证通过: Lucky Dig
+2025-05-23 16:35:21,760 - INFO - ✅ 提取到可嵌入游戏: Lucky Dig (iframe)
+2025-05-23 16:35:21,768 - INFO - 正在获取页面: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 16:35:22,538 - INFO - 跳过不适合嵌入的URL: https://www.youtube.com/embed/D5Kqeue9LH8
+2025-05-23 16:35:22,578 - WARNING - 未找到可嵌入的游戏内容: https://pierre-vandermaesen.itch.io/tempoverdose
+2025-05-23 16:35:22,578 - INFO - 跳过不适合嵌入的游戏: TEMPOVERDOSE
+2025-05-23 16:35:22,579 - INFO - 正在获取页面: https://graebor.itch.io/sort-the-court
+2025-05-23 16:35:23,369 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/347310/index.html?v=1542780889
+2025-05-23 16:35:23,371 - INFO - ✅ 游戏数据验证通过: Sort the Court!
+2025-05-23 16:35:23,371 - INFO - ✅ 提取到可嵌入游戏: Sort the Court! (iframe)
+2025-05-23 16:35:23,372 - INFO - 正在获取页面: https://nozomu57.itch.io/toasted-crossroads
+2025-05-23 16:35:24,037 - WARNING - 未找到可嵌入的游戏内容: https://nozomu57.itch.io/toasted-crossroads
+2025-05-23 16:35:24,038 - INFO - 跳过不适合嵌入的游戏: Toasted Crossroads
+2025-05-23 16:35:24,038 - INFO - 正在获取页面: https://fizzd.itch.io/a-dance-of-fire-and-ice
+2025-05-23 16:35:24,829 - INFO - 跳过不适合嵌入的URL: https://www.youtube.com/embed/Bqj-tnv5K2c
+2025-05-23 16:35:24,911 - WARNING - 未找到可嵌入的游戏内容: https://fizzd.itch.io/a-dance-of-fire-and-ice
+2025-05-23 16:35:24,911 - INFO - 跳过不适合嵌入的游戏: A Dance of Fire and Ice
+2025-05-23 16:35:24,912 - INFO - 正在获取页面: https://jbroook.itch.io/batter-up-new
+2025-05-23 16:35:25,773 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/11461904/index.html
+2025-05-23 16:35:25,775 - INFO - ✅ 游戏数据验证通过: Batter Up!
+2025-05-23 16:35:25,775 - INFO - ✅ 提取到可嵌入游戏: Batter Up! (iframe)
+2025-05-23 16:35:25,775 - INFO - 正在获取页面: https://paranoidhawk.itch.io/lookouts
+2025-05-23 16:35:26,472 - INFO - 跳过不适合嵌入的URL: https://www.youtube.com/embed/Q8vNG8BRY3k
+2025-05-23 16:35:26,517 - WARNING - 未找到可嵌入的游戏内容: https://paranoidhawk.itch.io/lookouts
+2025-05-23 16:35:26,518 - INFO - 跳过不适合嵌入的游戏: Lookouts
+2025-05-23 16:35:26,519 - INFO - 正在获取页面: https://ncase.itch.io/wbwwb
+2025-05-23 16:35:27,279 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/300364/index.html?v=1542781840
+2025-05-23 16:35:27,281 - INFO - ✅ 游戏数据验证通过: We Become What We Behold
+2025-05-23 16:35:27,281 - INFO - ✅ 提取到可嵌入游戏: We Become What We Behold (iframe)
+2025-05-23 16:35:27,281 - INFO - 正在获取页面: https://3hg.itch.io/kiss-three-fish
+2025-05-23 16:35:28,014 - WARNING - 未找到可嵌入的游戏内容: https://3hg.itch.io/kiss-three-fish
+2025-05-23 16:35:28,014 - INFO - 跳过不适合嵌入的游戏: Kiss Three Fish
+2025-05-23 16:35:28,015 - INFO - 正在获取页面: https://jokupelle.itch.io/ages-of-conflict
+2025-05-23 16:35:28,637 - INFO - 跳过不适合嵌入的URL: https://www.youtube.com/embed/w0mLK8iLXXs
+2025-05-23 16:35:28,728 - WARNING - 未找到可嵌入的游戏内容: https://jokupelle.itch.io/ages-of-conflict
+2025-05-23 16:35:28,728 - INFO - 跳过不适合嵌入的游戏: Ages of Conflict: World War Simulator
+2025-05-23 16:35:28,729 - INFO - 正在获取页面: https://polyducks.itch.io/graveyard-oracle
+2025-05-23 16:35:29,395 - WARNING - 未找到可嵌入的游戏内容: https://polyducks.itch.io/graveyard-oracle
+2025-05-23 16:35:29,395 - INFO - 跳过不适合嵌入的游戏: Graveyard Oracle
+2025-05-23 16:35:29,396 - INFO - 正在获取页面: https://itizso.itch.io/retrofab
+2025-05-23 16:35:30,484 - INFO - 找到可嵌入iframe: https://html-classic.itch.zone/html/5770112/index.html?v=1732313714
+2025-05-23 16:35:30,485 - INFO - ✅ 游戏数据验证通过: RetroFab
+2025-05-23 16:35:30,486 - INFO - ✅ 提取到可嵌入游戏: RetroFab (iframe)
+2025-05-23 16:35:30,486 - INFO - 从 https://itch.io/games/html5 提取到 7 个游戏
+2025-05-23 16:35:34,976 - INFO - 正在爬取种子URL: https://html-classic.itch.zone/
+2025-05-23 16:35:34,977 - INFO - 正在获取页面: https://html-classic.itch.zone/
+2025-05-23 16:35:35,286 - ERROR - 获取页面失败 https://html-classic.itch.zone/: 403 Client Error: Forbidden for url: https://html-classic.itch.zone/
+2025-05-23 16:35:37,287 - INFO - 正在获取页面: https://html-classic.itch.zone/
+2025-05-23 16:35:37,534 - ERROR - 获取页面失败 https://html-classic.itch.zone/: 403 Client Error: Forbidden for url: https://html-classic.itch.zone/
+2025-05-23 16:35:39,535 - INFO - 正在获取页面: https://html-classic.itch.zone/
+2025-05-23 16:35:39,781 - ERROR - 获取页面失败 https://html-classic.itch.zone/: 403 Client Error: Forbidden for url: https://html-classic.itch.zone/
+2025-05-23 16:35:39,782 - ERROR - 爬取种子URL失败 https://html-classic.itch.zone/: RetryError[<Future at 0x1d3ecfbdad0 state=finished raised HTTPError>]
+2025-05-23 16:35:39,783 - INFO - 正在爬取种子URL: https://gamejolt.com/games/best/html
+2025-05-23 16:35:39,783 - INFO - 正在获取页面: https://gamejolt.com/games/best/html
+2025-05-23 16:35:40,234 - ERROR - 获取页面失败 https://gamejolt.com/games/best/html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best/html
+2025-05-23 16:35:42,235 - INFO - 正在获取页面: https://gamejolt.com/games/best/html
+2025-05-23 16:35:42,462 - ERROR - 获取页面失败 https://gamejolt.com/games/best/html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best/html
+2025-05-23 16:35:44,463 - INFO - 正在获取页面: https://gamejolt.com/games/best/html
+2025-05-23 16:35:44,677 - ERROR - 获取页面失败 https://gamejolt.com/games/best/html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best/html
+2025-05-23 16:35:44,677 - ERROR - 爬取种子URL失败 https://gamejolt.com/games/best/html: RetryError[<Future at 0x1d3ecfbe1d0 state=finished raised HTTPError>]
+2025-05-23 16:35:44,678 - INFO - 正在爬取种子URL: https://www.newgrounds.com/games/browse/tag/html5
+2025-05-23 16:35:44,678 - INFO - 正在获取页面: https://www.newgrounds.com/games/browse/tag/html5
+2025-05-23 16:35:46,403 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 4 个游戏元素
+2025-05-23 16:35:46,406 - INFO - 从 https://www.newgrounds.com/games/browse/tag/html5 提取到 0 个游戏
+2025-05-23 16:35:48,456 - INFO - 正在爬取种子URL: https://www.kongregate.com/games/new?tag=HTML5
+2025-05-23 16:35:48,457 - INFO - 正在获取页面: https://www.kongregate.com/games/new?tag=HTML5
+2025-05-23 16:35:49,470 - INFO - 从 https://www.kongregate.com/games/new?tag=HTML5 提取到 0 个游戏
+2025-05-23 16:35:52,691 - INFO - 正在爬取种子URL: https://armorgames.com/search?type=games&q=html5
+2025-05-23 16:35:52,691 - INFO - 正在获取页面: https://armorgames.com/search?type=games&q=html5
+2025-05-23 16:35:53,326 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 30 个游戏元素
+2025-05-23 16:35:53,329 - INFO - 正在获取页面: https://armorgames.com/category/all
+2025-05-23 16:35:54,173 - INFO - 找到可下载游戏: https://armorgames.com/category/player-level-games
+2025-05-23 16:35:54,176 - INFO - ✅ 游戏数据验证通过: Categories
+2025-05-23 16:35:54,176 - INFO - ✅ 提取到可嵌入游戏: Categories (static)
+2025-05-23 16:35:54,178 - INFO - 从 https://armorgames.com/search?type=games&q=html5 提取到 1 个游戏
+2025-05-23 16:35:57,322 - INFO - 正在爬取种子URL: https://poki.com/en/g/html5
+2025-05-23 16:35:57,323 - INFO - 正在获取页面: https://poki.com/en/g/html5
+2025-05-23 16:36:00,624 - ERROR - 获取页面失败 https://poki.com/en/g/html5: 404 Client Error: Not Found for url: https://poki.com/en/g/html5
+2025-05-23 16:36:02,626 - INFO - 正在获取页面: https://poki.com/en/g/html5
+2025-05-23 16:36:03,077 - ERROR - 获取页面失败 https://poki.com/en/g/html5: 404 Client Error: Not Found for url: https://poki.com/en/g/html5
+2025-05-23 16:36:05,079 - INFO - 正在获取页面: https://poki.com/en/g/html5
+2025-05-23 16:36:05,537 - ERROR - 获取页面失败 https://poki.com/en/g/html5: 404 Client Error: Not Found for url: https://poki.com/en/g/html5
+2025-05-23 16:36:05,537 - ERROR - 爬取种子URL失败 https://poki.com/en/g/html5: RetryError[<Future at 0x1d3ed5109d0 state=finished raised HTTPError>]
+2025-05-23 16:36:05,538 - INFO - 正在爬取种子URL: https://www.crazygames.com/c/html5
+2025-05-23 16:36:05,538 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 16:36:06,552 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 16:36:08,553 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 16:36:09,019 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 16:36:11,021 - INFO - 正在获取页面: https://www.crazygames.com/c/html5
+2025-05-23 16:36:11,347 - ERROR - 获取页面失败 https://www.crazygames.com/c/html5: 404 Client Error: Not Found for url: https://www.crazygames.com/c/html5
+2025-05-23 16:36:11,347 - ERROR - 爬取种子URL失败 https://www.crazygames.com/c/html5: RetryError[<Future at 0x1d3ed5117d0 state=finished raised HTTPError>]
+2025-05-23 16:36:11,348 - INFO - 正在爬取种子URL: https://html5games.com/
+2025-05-23 16:36:11,349 - INFO - 正在获取页面: https://html5games.com/
+2025-05-23 16:36:12,916 - INFO - 使用选择器 '[class*="game"], [class*="item"], article, .card' 找到 2 个游戏元素
+2025-05-23 16:36:12,918 - INFO - 正在获取页面: https://html5games.com/Game/Om-Nom-Run/abe80572-560a-444d-baf7-2fa4a7b2c02f
+2025-05-23 16:36:13,333 - WARNING - 未找到可嵌入的游戏内容: https://html5games.com/Game/Om-Nom-Run/abe80572-560a-444d-baf7-2fa4a7b2c02f
+2025-05-23 16:36:13,334 - INFO - 跳过不适合嵌入的游戏: Om Nom Run
+2025-05-23 16:36:13,336 - INFO - 正在获取页面: https://html5games.com/Game/Om-Nom-Tower-3D/ae8c5359-4160-4f89-9616-e06b9551d672
+2025-05-23 16:36:13,754 - WARNING - 未找到可嵌入的游戏内容: https://html5games.com/Game/Om-Nom-Tower-3D/ae8c5359-4160-4f89-9616-e06b9551d672
+2025-05-23 16:36:13,755 - INFO - 跳过不适合嵌入的游戏: Om Nom Tower 3D
+2025-05-23 16:36:13,755 - INFO - 从 https://html5games.com/ 提取到 0 个游戏
+2025-05-23 16:36:17,918 - INFO - 正在爬取种子URL: https://www.gameflare.com/online-games/
+2025-05-23 16:36:17,918 - INFO - 正在获取页面: https://www.gameflare.com/online-games/
+2025-05-23 16:36:18,772 - ERROR - 获取页面失败 https://www.gameflare.com/online-games/: 403 Client Error: Forbidden for url: https://www.gameflare.com/online-games/
+2025-05-23 16:36:20,774 - INFO - 正在获取页面: https://www.gameflare.com/online-games/
+2025-05-23 16:36:21,181 - ERROR - 获取页面失败 https://www.gameflare.com/online-games/: 403 Client Error: Forbidden for url: https://www.gameflare.com/online-games/
+2025-05-23 16:36:23,183 - INFO - 正在获取页面: https://www.gameflare.com/online-games/
+2025-05-23 16:36:23,619 - ERROR - 获取页面失败 https://www.gameflare.com/online-games/: 403 Client Error: Forbidden for url: https://www.gameflare.com/online-games/
+2025-05-23 16:36:23,619 - ERROR - 爬取种子URL失败 https://www.gameflare.com/online-games/: RetryError[<Future at 0x1d3ed49b8d0 state=finished raised HTTPError>]
+2025-05-23 16:36:23,620 - INFO - 正在爬取种子URL: https://www.silvergames.com/html5
+2025-05-23 16:36:23,620 - INFO - 正在获取页面: https://www.silvergames.com/html5
+2025-05-23 16:36:25,400 - ERROR - 获取页面失败 https://www.silvergames.com/html5: 404 Client Error: Not Found for url: https://www.silvergames.com/en/html5
+2025-05-23 16:36:27,402 - INFO - 正在获取页面: https://www.silvergames.com/html5
+2025-05-23 16:36:28,122 - ERROR - 获取页面失败 https://www.silvergames.com/html5: 404 Client Error: Not Found for url: https://www.silvergames.com/en/html5
+2025-05-23 16:36:30,123 - INFO - 正在获取页面: https://www.silvergames.com/html5
+2025-05-23 16:36:30,847 - ERROR - 获取页面失败 https://www.silvergames.com/html5: 404 Client Error: Not Found for url: https://www.silvergames.com/en/html5
+2025-05-23 16:36:30,847 - ERROR - 爬取种子URL失败 https://www.silvergames.com/html5: RetryError[<Future at 0x1d3ed53d550 state=finished raised HTTPError>]
+2025-05-23 16:36:30,848 - INFO - 正在爬取种子URL: https://www.agame.com/games/html5
+2025-05-23 16:36:30,849 - INFO - 正在获取页面: https://www.agame.com/games/html5
+2025-05-23 16:36:32,124 - ERROR - 获取页面失败 https://www.agame.com/games/html5: 403 Client Error: Forbidden for url: https://www.agame.com/games/html5
+2025-05-23 16:36:34,125 - INFO - 正在获取页面: https://www.agame.com/games/html5
+2025-05-23 16:36:34,366 - ERROR - 获取页面失败 https://www.agame.com/games/html5: 403 Client Error: Forbidden for url: https://www.agame.com/games/html5
+2025-05-23 16:36:36,367 - INFO - 正在获取页面: https://www.agame.com/games/html5
+2025-05-23 16:36:36,607 - ERROR - 获取页面失败 https://www.agame.com/games/html5: 403 Client Error: Forbidden for url: https://www.agame.com/games/html5
+2025-05-23 16:36:36,608 - ERROR - 爬取种子URL失败 https://www.agame.com/games/html5: RetryError[<Future at 0x1d3ed53e5d0 state=finished raised HTTPError>]
+2025-05-23 16:36:36,609 - INFO - 步骤2: 使用搜索引擎搜索...
+2025-05-23 16:36:36,609 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aitch.io%20HTML5%20games%20embed
+2025-05-23 16:36:37,674 - INFO - DuckDuckGo搜索 'site:itch.io HTML5 games embed' 找到 0 个结果
+2025-05-23 16:36:43,475 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Agamejolt.com%20HTML5%20browser%20games
+2025-05-23 16:36:43,987 - INFO - DuckDuckGo搜索 'site:gamejolt.com HTML5 browser games' 找到 0 个结果
+2025-05-23 16:36:47,062 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Anewgrounds.com%20HTML5%20games
+2025-05-23 16:36:47,579 - INFO - DuckDuckGo搜索 'site:newgrounds.com HTML5 games' 找到 0 个结果
+2025-05-23 16:36:51,494 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Akongregate.com%20HTML5%20games
+2025-05-23 16:36:52,001 - INFO - DuckDuckGo搜索 'site:kongregate.com HTML5 games' 找到 0 个结果
+2025-05-23 16:36:55,978 - INFO - 正在获取页面: https://duckduckgo.com/html/?q=site%3Aarmorgames.com%20HTML5%20games
+2025-05-23 16:36:56,488 - INFO - DuckDuckGo搜索 'site:armorgames.com HTML5 games' 找到 0 个结果
+2025-05-23 16:37:01,055 - INFO - 去重后共找到 8 个游戏
+2025-05-23 16:37:01,056 - INFO - 步骤3: 处理游戏数据...
+2025-05-23 16:37:01,484 - INFO - ✅ 添加iframe游戏: Forever Gold -> https://html-classic.itch.zone/html/13725449/play/index.html
+2025-05-23 16:37:01,690 - INFO - ✅ 添加iframe游戏: Arcane Earth - Increment Clicker -> https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+2025-05-23 16:37:01,894 - INFO - ✅ 添加iframe游戏: Lucky Dig -> https://html-classic.itch.zone/html/13694006/_dig_game_html/index.html
+2025-05-23 16:37:02,103 - INFO - ✅ 添加iframe游戏: Sort the Court! -> https://html-classic.itch.zone/html/347310/index.html?v=1542780889
+2025-05-23 16:37:02,315 - INFO - ✅ 添加iframe游戏: Batter Up! -> https://html-classic.itch.zone/html/11461904/index.html
+2025-05-23 16:37:02,523 - INFO - ✅ 添加iframe游戏: We Become What We Behold -> https://html-classic.itch.zone/html/300364/index.html?v=1542781840
+2025-05-23 16:37:02,729 - INFO - ✅ 添加iframe游戏: RetroFab -> https://html-classic.itch.zone/html/5770112/index.html?v=1732313714
+2025-05-23 16:37:02,943 - INFO - ✅ 添加静态游戏: Categories -> https://armorgames.com/category/player-level-games
+2025-05-23 16:37:02,944 - INFO - 🎮 成功处理 8 个可嵌入游戏
+2025-05-23 16:37:02,944 - INFO - 步骤4: 保存游戏数据...
+2025-05-23 16:37:02,945 - INFO - 成功保存 8 个新游戏到JSON文件: E:\code\any-game\scripts\crawled_games.json
+2025-05-23 16:37:02,946 - INFO - 成功追加 8 个新游戏到 E:\code\any-game\src\data\games.ts
+2025-05-23 16:37:02,946 - INFO - 爬虫运行完成！成功添加 8 个游戏

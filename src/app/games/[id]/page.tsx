@@ -5,13 +5,14 @@ import { notFound } from 'next/navigation';
 import { getGameById, getCategoryById } from '@/data/games';
 
 interface GamePageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: GamePageProps): Metadata {
-  const game = getGameById(params.id);
+export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {
+  const { id } = await params;
+  const game = getGameById(id);
   
   if (!game) {
     return {
@@ -26,8 +27,9 @@ export function generateMetadata({ params }: GamePageProps): Metadata {
   };
 }
 
-export default function GamePage({ params }: GamePageProps) {
-  const game = getGameById(params.id);
+export default async function GamePage({ params }: GamePageProps) {
+  const { id } = await params;
+  const game = getGameById(id);
   
   if (!game) {
     notFound();
@@ -84,14 +86,6 @@ export default function GamePage({ params }: GamePageProps) {
             ))}
           </div>
           
-          <a 
-            href={game.type === 'iframe' ? game.iframeUrl : game.staticPath} 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-block"
-          >
-            立即游玩
-          </a>
         </div>
       </div>
       

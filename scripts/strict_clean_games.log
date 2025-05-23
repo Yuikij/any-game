@@ -1,0 +1,44 @@
+2025-05-23 16:27:18,806 - INFO - 🔒 开始严格清理games.ts文件...
+2025-05-23 16:27:18,807 - INFO - 💡 只保留真正可以iframe嵌入或本地运行的游戏
+2025-05-23 16:27:18,808 - INFO - 已备份原文件到: E:\code\any-game\src\data\games.ts.strict_backup
+2025-05-23 16:27:18,809 - INFO - ❌ 黑名单域名: https://itch.io/games/prototypes
+2025-05-23 16:27:18,809 - INFO - ❌ URL不可嵌入: SIDE EFFECTS -> https://itch.io/games/prototypes
+2025-05-23 16:27:18,810 - INFO - ❌ 黑名单域名: https://itch.io/games-like/2955066/incredibox-sprunki
+2025-05-23 16:27:18,810 - INFO - ❌ URL不可嵌入: Incredibox - Sprunki -> https://itch.io/games-like/2955066/incredibox-sprunki
+2025-05-23 16:27:18,811 - INFO - ❌ 黑名单域名: https://itch.io/games-like/2191474/bloodletter
+2025-05-23 16:27:18,811 - INFO - ❌ URL不可嵌入: Bloodletter -> https://itch.io/games-like/2191474/bloodletter
+2025-05-23 16:27:18,811 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13725449/play/index.html
+2025-05-23 16:27:18,812 - INFO - ✅ 严格验证通过: Forever Gold
+2025-05-23 16:27:18,813 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+2025-05-23 16:27:18,814 - INFO - ✅ 严格验证通过: Arcane Earth - Increment Clicker
+2025-05-23 16:27:18,814 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13694006/_dig_game_html/index.html
+2025-05-23 16:27:18,815 - INFO - ✅ 严格验证通过: Lucky Dig
+2025-05-23 16:27:18,816 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/347310/index.html?v=1542780889
+2025-05-23 16:27:18,816 - INFO - ✅ 严格验证通过: Sort the Court!
+2025-05-23 16:27:18,816 - INFO - ❌ 黑名单域名: https://itch.io/games-like/2161107/toasted-crossroads
+2025-05-23 16:27:18,817 - INFO - ❌ URL不可嵌入: Toasted Crossroads -> https://itch.io/games-like/2161107/toasted-crossroads
+2025-05-23 16:27:18,817 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/11461904/index.html
+2025-05-23 16:27:18,818 - INFO - ✅ 严格验证通过: Batter Up!
+2025-05-23 16:27:18,818 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/300364/index.html?v=1542781840
+2025-05-23 16:27:18,818 - INFO - ✅ 严格验证通过: We Become What We Behold
+2025-05-23 16:27:18,819 - INFO - ❌ 黑名单域名: https://itch.io/games-like/1713589/kiss-three-fish
+2025-05-23 16:27:18,819 - INFO - ❌ URL不可嵌入: Kiss Three Fish -> https://itch.io/games-like/1713589/kiss-three-fish
+2025-05-23 16:27:18,820 - INFO - ❌ 黑名单域名: https://itch.io/games-like/2989721/graveyard-oracle
+2025-05-23 16:27:18,820 - INFO - ❌ URL不可嵌入: Graveyard Oracle -> https://itch.io/games-like/2989721/graveyard-oracle
+2025-05-23 16:27:18,820 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/5770112/index.html?v=1732313714
+2025-05-23 16:27:18,820 - INFO - ✅ 严格验证通过: RetroFab
+2025-05-23 16:27:18,821 - INFO - ❌ 无效标题: Categories
+2025-05-23 16:27:18,821 - INFO - ❌ 无效标题: Easybrain joins Miniclip
+2025-05-23 16:27:18,821 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13725449/play/index.html
+2025-05-23 16:27:18,821 - INFO - ✅ 严格验证通过: Forever Gold
+2025-05-23 16:27:18,821 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+2025-05-23 16:27:18,822 - INFO - ✅ 严格验证通过: Arcane Earth - Increment Clicker
+2025-05-23 16:27:18,822 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/13694006/_dig_game_html/index.html
+2025-05-23 16:27:18,822 - INFO - ✅ 严格验证通过: Lucky Dig
+2025-05-23 16:27:18,823 - INFO - ✅ 白名单域名: https://html-classic.itch.zone/html/347310/index.html?v=1542780889
+2025-05-23 16:27:18,823 - INFO - ✅ 严格验证通过: Sort the Court!
+2025-05-23 16:27:18,824 - INFO - 严格验证后保留 11 个真正可嵌入的游戏
+2025-05-23 16:27:18,825 - INFO - ✅ 成功重建games.ts文件，包含 11 个真正可嵌入的游戏
+2025-05-23 16:27:18,825 - INFO - ✅ 严格清理完成！
+2025-05-23 16:27:18,825 - INFO - 📊 结果: 保留了 11 个真正可嵌入的游戏
+2025-05-23 16:27:18,825 - INFO - 🎮 所有保留的游戏都可以在平台内直接运行，不会跳转到外部链接

@@ -5,13 +5,14 @@ import GameGrid from '@/components/GameGrid';
 import { getCategoryById, getGamesByCategory } from '@/data/games';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export function generateMetadata({ params }: CategoryPageProps): Metadata {
-  const category = getCategoryById(params.id);
+export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+  const { id } = await params;
+  const category = getCategoryById(id);
   
   if (!category) {
     return {
@@ -26,14 +27,15 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const category = getCategoryById(params.id);
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { id } = await params;
+  const category = getCategoryById(id);
   
   if (!category) {
     notFound();
   }
   
-  const games = getGamesByCategory(params.id);
+  const games = getGamesByCategory(id);
   
   return (
     <div className="space-y-8">
