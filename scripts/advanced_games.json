@@ -1,0 +1,39 @@
+[
+  {
+    "id": "itch.io_html5_2",
+    "title": "Incredibox - Sprunki",
+    "description": "来自itch.io HTML5的HTML5游戏",
+    "category": "休闲",
+    "categoryId": "1",
+    "thumbnail": "/games/thumbnails/default.jpg",
+    "path": "/games/itch.io_html5_2",
+    "featured": false,
+    "addedAt": "2025-05-23",
+    "tags": [
+      "HTML5",
+      "在线"
+    ],
+    "source": "itch.io HTML5",
+    "type": "static",
+    "staticPath": "/games/itch.io_html5_2/index.html",
+    "local_path": "E:\\code\\any-game\\public\\games\\itch.io_html5_2\\index.html"
+  },
+  {
+    "id": "itch.io_html5_6",
+    "title": "Forever Gold",
+    "description": "来自itch.io HTML5的HTML5游戏",
+    "category": "休闲",
+    "categoryId": "1",
+    "thumbnail": "/games/thumbnails/default.jpg",
+    "path": "/games/itch.io_html5_6",
+    "featured": false,
+    "addedAt": "2025-05-23",
+    "tags": [
+      "HTML5",
+      "在线"
+    ],
+    "source": "itch.io HTML5",
+    "type": "iframe",
+    "iframeUrl": "https://html-classic.itch.zone/html/13725449/play/index.html"
+  }
+]

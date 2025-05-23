@@ -1,0 +1,23 @@
+2025-05-23 17:16:01,950 - INFO - 🚀 开始运行高级游戏爬虫...
+2025-05-23 17:16:01,950 - INFO - 💡 优先下载HTML5游戏到本地，其次考虑iframe嵌入
+2025-05-23 17:16:01,951 - INFO - 正在爬取: itch.io HTML5
+2025-05-23 17:16:02,435 - INFO - 尝试下载游戏: SIDE EFFECTS
+2025-05-23 17:16:03,086 - WARNING - ❌ 无法下载游戏: SIDE EFFECTS
+2025-05-23 17:16:07,030 - INFO - 尝试下载游戏: Incredibox - Sprunki
+2025-05-23 17:16:08,250 - INFO - ✅ 成功下载游戏: Incredibox - Sprunki
+2025-05-23 17:16:10,252 - INFO - 尝试下载游戏: The Orchid's Edge
+2025-05-23 17:16:11,381 - WARNING - ❌ 无法下载游戏: The Orchid's Edge
+2025-05-23 17:16:14,664 - INFO - 尝试下载游戏: Bloodletter
+2025-05-23 17:16:15,763 - WARNING - ❌ 无法下载游戏: Bloodletter
+2025-05-23 17:16:19,774 - INFO - 尝试下载游戏: Holder of Place
+2025-05-23 17:16:20,539 - WARNING - ❌ 无法下载游戏: Holder of Place
+2025-05-23 17:16:23,156 - INFO - 尝试下载游戏: Forever Gold
+2025-05-23 17:16:23,678 - WARNING - ❌ 无法下载游戏: Forever Gold
+2025-05-23 17:16:23,975 - INFO - ✅ 找到可嵌入游戏: Forever Gold
+2025-05-23 17:16:31,810 - INFO - 正在爬取: GameJolt HTML5
+2025-05-23 17:16:32,241 - ERROR - 爬取网站失败 GameJolt HTML5: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best/html
+2025-05-23 17:16:32,242 - INFO - 正在爬取: OpenGameArt
+2025-05-23 17:16:40,806 - INFO - ✅ 保存 2 个游戏到 E:\code\any-game\scripts\advanced_games.json
+2025-05-23 17:16:40,806 - INFO - 📁 本地游戏: 1 个
+2025-05-23 17:16:40,807 - INFO - 🌐 iframe游戏: 1 个
+2025-05-23 17:16:40,808 - INFO - ✅ 高级爬虫完成！总共处理 2 个游戏
