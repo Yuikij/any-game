@@ -105,6 +105,7 @@ export async function addGame(game: Omit<Game, 'id' | 'path' | 'addedAt'>): Prom
  * @param _url 游戏网站URL
  * @returns 添加是否成功
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function scrapeAndAddGame(_url: string): Promise<{success: boolean; message: string; id?: string}> {
   try {
     // 这里只是一个示例函数，实际实现需要根据目标网站的结构编写爬虫逻辑
