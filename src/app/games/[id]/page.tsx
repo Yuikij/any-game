@@ -4,6 +4,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getGameById, getCategoryById } from '@/data/games';
 
+// 配置为Edge Runtime以支持Cloudflare Pages
+export const runtime = 'edge';
+
 interface GamePageProps {
   params: Promise<{
     id: string;

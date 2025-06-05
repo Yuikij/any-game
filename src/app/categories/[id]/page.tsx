@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation';
 import GameGrid from '@/components/GameGrid';
 import { getCategoryById, getGamesByCategory } from '@/data/games';
 
+// 配置为Edge Runtime以支持Cloudflare Pages
+export const runtime = 'edge';
+
 interface CategoryPageProps {
   params: Promise<{
     id: string;
