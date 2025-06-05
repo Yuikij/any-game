@@ -1,0 +1,273 @@
+import { Game, Category } from '../types';
+
+export const categories: Category[] = [
+  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 17, slug: 'casual' },
+  { id: '2', name: '益智', description: '锻炼大脑的益智游戏，提升思维能力', count: 0, slug: 'puzzle' },
+  { id: '3', name: '动作', description: '刺激的动作游戏，考验你的反应速度', count: 0, slug: 'action' },
+  { id: '4', name: '卡牌', description: '卡牌和棋牌类游戏，策略与运气的结合', count: 0, slug: 'card' },
+  { id: '5', name: '体育', description: '各类体育模拟游戏，感受体育竞技的乐趣', count: 0, slug: 'sports' },
+  { id: '6', name: '棋盘', description: '经典的棋盘游戏，考验战略思维', count: 0, slug: 'board' },
+];
+
+export const games: Game[] = [
+  {
+    id: 'crawled_1749114980_0',
+    title: 'Jeri II: Tower\'',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_0.jpg',
+    path: '/games/crawled_1749114980_0',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983235',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_1',
+    title: 'every \'',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_1.jpg',
+    path: '/games/crawled_1749114980_1',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983095',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_2',
+    title: 'betadale commercial!',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_2.jpg',
+    path: '/games/crawled_1749114980_2',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983094',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_3',
+    title: 'A Game About Typing The Alphabet',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_3.jpg',
+    path: '/games/crawled_1749114980_3',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983081',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_4',
+    title: 'Jacare Anao',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_4.jpg',
+    path: '/games/crawled_1749114980_4',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983080',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_5',
+    title: 'RoboNips 2',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_5.jpg',
+    path: '/games/crawled_1749114980_5',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983069',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_6',
+    title: 'breaking arms',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_6.jpg',
+    path: '/games/crawled_1749114980_6',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983059',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_7',
+    title: 'Panic Attack',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_7.jpg',
+    path: '/games/crawled_1749114980_7',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983054',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_8',
+    title: 'Electric Wizard 3D',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_8.jpg',
+    path: '/games/crawled_1749114980_8',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983038',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_9',
+    title: 'RCyT_DebuggerGL',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_9.jpg',
+    path: '/games/crawled_1749114980_9',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983010',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_10',
+    title: 'Tower of levels (and also doom)',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_10.jpg',
+    path: '/games/crawled_1749114980_10',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/983007',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_11',
+    title: 'Soul Coins - Twine Demo',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_11.jpg',
+    path: '/games/crawled_1749114980_11',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/982997',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_12',
+    title: 'The Tail of a Demon Girl',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_12.jpg',
+    path: '/games/crawled_1749114980_12',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/982973',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_13',
+    title: 'SOULS & THRONES',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_13.jpg',
+    path: '/games/crawled_1749114980_13',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/982961',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_14',
+    title: '[ Space Aliens ]',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_14.jpg',
+    path: '/games/crawled_1749114980_14',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/982954',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'crawled_1749114980_15',
+    title: 'Granny Reloaded [IN DEVELOPMENT]',
+    description: '来自Newgrounds的游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/crawled_1749114980_15.jpg',
+    path: '/games/crawled_1749114980_15',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://www.newgrounds.com/portal/view/982944',
+    addedAt: '2025-06-05',
+    tags: ["Flash", "在线", "Newgrounds"]
+  },
+  {
+    id: 'basic_itch.io_html5_1749127413_0',
+    title: 'SIDE EFFECTS',
+    description: '来自itch.io HTML5的HTML5游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/default.jpg',
+    path: '/games/basic_itch.io_html5_1749127413_0',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://itch.io/games/html5',
+    addedAt: '2025-06-05',
+    tags: ["HTML5", "在线", "itch.io HTML5"]
+  },
+];
+
+export const getFeaturedGames = (): Game[] => {
+  return games.filter(game => game.featured);
+};
+
+export const getRecentGames = (limit: number = 8): Game[] => {
+  return games
+    .sort((a, b) => new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime())
+    .slice(0, limit);
+};
+
+export const getGamesByCategory = (categoryId: string): Game[] => {
+  return games.filter(game => game.categoryId === categoryId);
+};
+
+export const getGameById = (id: string): Game | undefined => {
+  return games.find(game => game.id === id);
+};
+
+export const getCategoryById = (id: string): Category | undefined => {
+  return categories.find(category => category.id === id);
+};

@@ -1377,3 +1377,263 @@
 2025-06-05 20:53:21,765 - INFO - 🌐 开始基础站点爬取...
 2025-06-05 20:53:21,765 - INFO - 爬取平台: itch.io HTML5
 2025-06-05 20:53:28,891 - INFO - 找到 1 个游戏元素
+2025-06-05 22:16:21,527 - WARNING - ⚠️ 代理测试失败: HTTP 503
+2025-06-05 22:23:09,217 - WARNING - ⚠️ 代理不可用: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)"))
+2025-06-05 22:45:07,907 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:45:07,909 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 22:45:07,909 - INFO - 🌐 代理配置已启用: 127.0.0.1:7890
+2025-06-05 22:45:07,910 - INFO -   - 环境变量已设置，所有HTTP请求将尝试使用代理
+2025-06-05 22:45:07,910 - INFO -   - 代理连接测试通过
+2025-06-05 22:45:07,910 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 22:45:07,910 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 22:45:07,910 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 22:45:07,910 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 22:45:07,911 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 22:45:07,911 - INFO -   - 白名单域名: 40 个
+2025-06-05 22:45:07,912 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 22:45:07,912 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 22:45:07,912 - INFO - 🔄 开始全面管理...
+2025-06-05 22:45:07,915 - INFO - 成功读取 17 个游戏
+2025-06-05 22:45:07,915 - WARNING - 域名不在白名单中: www.newgrounds.com - Jeri II: Tower\
+2025-06-05 22:45:07,916 - WARNING - 域名不在白名单中: www.newgrounds.com - every \
+2025-06-05 22:45:07,916 - WARNING - 域名不在白名单中: www.newgrounds.com - betadale commercial!
+2025-06-05 22:45:07,916 - WARNING - 域名不在白名单中: www.newgrounds.com - A Game About Typing The Alphabet
+2025-06-05 22:45:07,916 - WARNING - 域名不在白名单中: www.newgrounds.com - Jacare Anao
+2025-06-05 22:45:07,918 - WARNING - 域名不在白名单中: www.newgrounds.com - RoboNips 2
+2025-06-05 22:45:07,918 - WARNING - 域名不在白名单中: www.newgrounds.com - breaking arms
+2025-06-05 22:45:07,919 - WARNING - 域名不在白名单中: www.newgrounds.com - Panic Attack
+2025-06-05 22:45:07,919 - WARNING - 域名不在白名单中: www.newgrounds.com - Electric Wizard 3D
+2025-06-05 22:45:07,919 - WARNING - 域名不在白名单中: www.newgrounds.com - RCyT_DebuggerGL
+2025-06-05 22:45:07,919 - WARNING - 域名不在白名单中: www.newgrounds.com - Tower of levels (and also doom)
+2025-06-05 22:45:07,920 - WARNING - 域名不在白名单中: www.newgrounds.com - Soul Coins - Twine Demo
+2025-06-05 22:45:07,920 - WARNING - 域名不在白名单中: www.newgrounds.com - The Tail of a Demon Girl
+2025-06-05 22:45:07,920 - WARNING - 域名不在白名单中: www.newgrounds.com - SOULS & THRONES
+2025-06-05 22:45:07,921 - WARNING - 域名不在白名单中: www.newgrounds.com - [ Space Aliens ]
+2025-06-05 22:45:07,921 - WARNING - 域名不在白名单中: www.newgrounds.com - Granny Reloaded [IN DEVELOPMENT]
+2025-06-05 22:45:07,921 - WARNING - 域名不在白名单中: itch.io - SIDE EFFECTS
+2025-06-05 22:45:07,922 - INFO - 清理完成: 0/17 个有效游戏
+2025-06-05 22:45:07,922 - INFO - 去重完成: 0/0 个唯一游戏
+2025-06-05 22:45:07,922 - INFO - 找到 83 个现有缩略图
+2025-06-05 22:45:07,924 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 22:45:07,924 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 22:45:07,925 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 22:45:13,394 - INFO - 找到 1 个游戏元素
+2025-06-05 22:45:27,121 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 22:45:29,585 - INFO - 基础爬取完成，找到 1 个游戏
+2025-06-05 22:45:29,585 - INFO - 爬取完成，总共找到 1 个新游戏
+2025-06-05 22:45:29,585 - INFO - 去重完成: 1/1 个唯一游戏
+2025-06-05 22:45:29,586 - INFO - 找到 83 个现有缩略图
+2025-06-05 22:45:29,586 - INFO - 🎨 为游戏 'SIDE EFFECTS' 生成新缩略图...
+2025-06-05 22:45:29,732 - INFO - ✅ 生成完成: SIDE EFFECTS
+2025-06-05 22:45:29,733 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749134729
+2025-06-05 22:45:29,736 - INFO - ✅ 成功更新games.ts文件，包含 1 个游戏
+2025-06-05 22:45:29,736 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 22:45:31,430 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:45:31,434 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 22:45:31,434 - INFO - 🌐 代理配置已启用: 127.0.0.1:7890
+2025-06-05 22:45:31,434 - INFO -   - 环境变量已设置，所有HTTP请求将尝试使用代理
+2025-06-05 22:45:31,435 - INFO -   - 代理连接测试通过
+2025-06-05 22:45:31,435 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 22:45:31,435 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 22:45:31,435 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 22:45:31,436 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 22:45:31,436 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 22:45:31,436 - INFO -   - 白名单域名: 40 个
+2025-06-05 22:45:31,436 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 22:45:31,438 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 22:45:31,439 - INFO - 🔄 开始全面管理...
+2025-06-05 22:45:31,440 - INFO - 成功读取 1 个游戏
+2025-06-05 22:45:31,441 - WARNING - 域名不在白名单中: itch.io - SIDE EFFECTS
+2025-06-05 22:45:31,441 - INFO - 清理完成: 0/1 个有效游戏
+2025-06-05 22:45:31,441 - INFO - 去重完成: 0/0 个唯一游戏
+2025-06-05 22:45:31,442 - INFO - 找到 84 个现有缩略图
+2025-06-05 22:45:31,442 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 22:45:31,442 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 22:45:31,443 - INFO - 基础爬取完成，找到 0 个游戏
+2025-06-05 22:45:31,444 - INFO - 爬取完成，总共找到 0 个新游戏
+2025-06-05 22:45:31,444 - INFO - 去重完成: 0/0 个唯一游戏
+2025-06-05 22:45:31,445 - INFO - 找到 84 个现有缩略图
+2025-06-05 22:45:31,447 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749134731
+2025-06-05 22:45:31,448 - INFO - ✅ 成功更新games.ts文件，包含 0 个游戏
+2025-06-05 22:45:31,450 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 22:45:54,410 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:49:18,038 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:50:00,046 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:50:00,050 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 22:50:00,051 - INFO - 🌐 代理配置已启用: 127.0.0.1:7890
+2025-06-05 22:50:00,051 - INFO -   - 环境变量已设置，所有HTTP请求将尝试使用代理
+2025-06-05 22:50:00,051 - INFO -   - 代理连接测试通过
+2025-06-05 22:50:00,052 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 22:50:00,052 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 22:50:00,052 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 22:50:00,052 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 22:50:00,054 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 22:50:00,055 - INFO -   - 白名单域名: 40 个
+2025-06-05 22:50:00,055 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 22:50:00,056 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 22:50:00,056 - INFO - 🕷️ 开始爬取新游戏（最多20个）...
+2025-06-05 22:50:00,056 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 22:50:00,057 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 22:50:00,057 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 22:50:04,681 - INFO - 找到 10 个游戏元素
+2025-06-05 22:50:19,201 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 22:50:39,001 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 22:50:54,255 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 22:51:09,640 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 22:51:25,107 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 22:51:34,222 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:51:42,959 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 22:51:54,366 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:52:01,649 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 22:52:13,990 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 22:52:27,158 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:52:33,825 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 22:52:44,079 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:52:55,137 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 22:52:57,377 - INFO - 基础爬取完成，找到 10 个游戏
+2025-06-05 22:52:57,378 - INFO - 爬取完成，总共找到 10 个新游戏
+2025-06-05 22:52:57,379 - INFO - 成功读取 0 个游戏
+2025-06-05 22:52:57,380 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 22:52:57,380 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 22:52:57,380 - INFO - 移除重复URL: Average Routine
+2025-06-05 22:52:57,380 - INFO - 移除重复URL: Assessment Examination
+2025-06-05 22:52:57,381 - INFO - 移除重复URL: Cheese is the Reason
+2025-06-05 22:52:57,381 - INFO - 移除重复URL: Six Cats Under
+2025-06-05 22:52:57,381 - INFO - 移除重复URL: GET YOKED: Extreme Bodybuilding
+2025-06-05 22:52:57,381 - INFO - 去重完成: 3/10 个唯一游戏
+2025-06-05 22:52:57,383 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749135177
+2025-06-05 22:52:57,386 - INFO - ✅ 成功更新games.ts文件，包含 3 个游戏
+2025-06-05 22:52:57,387 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 22:56:51,649 - INFO - ✅ 代理测试成功: 127.0.0.1:7890 (使用 https://www.google.com/generate_204)
+2025-06-05 22:56:51,653 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 22:56:51,653 - INFO - 🌐 代理配置已启用: 127.0.0.1:7890
+2025-06-05 22:56:51,654 - INFO -   - 环境变量已设置，所有HTTP请求将尝试使用代理
+2025-06-05 22:56:51,654 - INFO -   - 代理连接测试通过
+2025-06-05 22:56:51,654 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 22:56:51,654 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 22:56:51,655 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 22:56:51,655 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 22:56:51,655 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 22:56:51,655 - INFO -   - 白名单域名: 40 个
+2025-06-05 22:56:51,656 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 22:56:51,657 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 22:56:51,658 - INFO - 🕷️ 开始爬取新游戏（最多300个）...
+2025-06-05 22:56:51,658 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 22:56:51,658 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 22:56:51,658 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 22:56:57,721 - INFO - 找到 36 个游戏元素
+2025-06-05 22:57:10,621 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 22:57:27,456 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 22:57:41,904 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 22:58:00,680 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 22:58:14,679 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 22:58:24,532 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:58:35,865 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 22:58:44,594 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:58:51,967 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 22:59:04,548 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 22:59:15,392 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:59:23,210 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 22:59:34,341 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 22:59:45,230 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 23:00:01,632 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 23:00:10,532 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:00:20,126 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 23:00:30,328 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:00:40,994 - INFO - ✅ 基础爬取找到游戏: PEREELOUS - itch.io HTML5
+2025-06-05 23:00:49,444 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:00:59,491 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 23:01:09,913 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:01:21,457 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 23:01:30,711 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:01:40,498 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 23:01:50,573 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:02:01,224 - INFO - ✅ 基础爬取找到游戏: Cupid's Kiss: a short, romance comedy - itch.io HTML5
+2025-06-05 23:02:12,052 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:02:23,175 - INFO - ✅ 基础爬取找到游戏: an average day at the cat cafe - itch.io HTML5
+2025-06-05 23:02:33,139 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:02:41,739 - INFO - ✅ 基础爬取找到游戏: Mr. Magpie's Harmless Card Game - itch.io HTML5
+2025-06-05 23:02:52,162 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:03:03,372 - INFO - ✅ 基础爬取找到游戏: Die in the Dungeon CLASSIC - itch.io HTML5
+2025-06-05 23:03:14,205 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:03:21,099 - INFO - ✅ 基础爬取找到游戏: Lookouts - itch.io HTML5
+2025-06-05 23:03:30,389 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:03:39,759 - INFO - ✅ 基础爬取找到游戏: Little Chef - itch.io HTML5
+2025-06-05 23:03:47,813 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:03:58,905 - INFO - ✅ 基础爬取找到游戏: Incredibox - Sprunki - itch.io HTML5
+2025-06-05 23:04:15,064 - INFO - ✅ 基础爬取找到游戏: Cattle Crisis - itch.io HTML5
+2025-06-05 23:04:28,243 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:04:34,679 - INFO - ✅ 基础爬取找到游戏: Trapped with Jester - itch.io HTML5
+2025-06-05 23:04:43,120 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:04:53,526 - INFO - ✅ 基础爬取找到游戏: Dating Killmulator - itch.io HTML5
+2025-06-05 23:05:05,916 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:05:17,590 - INFO - ✅ 基础爬取找到游戏: Leftovers - itch.io HTML5
+2025-06-05 23:05:30,504 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:05:42,636 - INFO - ✅ 基础爬取找到游戏: Flesh, Blood, & Concrete - itch.io HTML5
+2025-06-05 23:05:51,226 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:06:03,391 - INFO - ✅ 基础爬取找到游戏: PolyTrack - itch.io HTML5
+2025-06-05 23:06:15,383 - INFO - ✅ 基础爬取找到游戏: Adventures With Anxiety! - itch.io HTML5
+2025-06-05 23:06:26,182 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:06:32,927 - INFO - ✅ 基础爬取找到游戏: intertwine - itch.io HTML5
+2025-06-05 23:06:41,774 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:06:48,646 - INFO - ✅ 基础爬取找到游戏: Bru & Boegie: EPISODE 1 â Get da MILK! - itch.io HTML5
+2025-06-05 23:07:01,344 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:07:12,414 - INFO - ✅ 基础爬取找到游戏: KittyToy - itch.io HTML5
+2025-06-05 23:07:21,905 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:07:32,125 - INFO - ✅ 基础爬取找到游戏: last seen online - itch.io HTML5
+2025-06-05 23:07:40,102 - WARNING - ⚠️ [html-classic.itch.zone] 请求频繁，延迟增加到 3.0-7.5s
+2025-06-05 23:07:43,727 - INFO - ✅ 基础爬取找到游戏: Evolution - itch.io HTML5
+2025-06-05 23:07:51,923 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 23:07:59,213 - INFO - ✅ 基础爬取找到游戏: irori - itch.io HTML5
+2025-06-05 23:08:01,462 - INFO - 爬取平台: GameJolt
+2025-06-05 23:08:05,389 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 23:08:11,280 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 23:08:19,126 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 23:08:19,126 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x1dff447a950 state=finished raised HTTPError>]
+2025-06-05 23:08:19,127 - INFO - 爬取平台: CrazyGames New
+2025-06-05 23:08:24,166 - INFO - 找到 0 个游戏元素
+2025-06-05 23:08:24,167 - INFO - 爬取平台: GameDistribution
+2025-06-05 23:08:29,626 - INFO - 找到 0 个游戏元素
+2025-06-05 23:08:29,627 - INFO - 爬取平台: Scratch MIT
+2025-06-05 23:08:37,123 - INFO - 找到 0 个游戏元素
+2025-06-05 23:08:37,131 - INFO - 爬取平台: Miniplay
+2025-06-05 23:08:42,448 - INFO - 找到 0 个游戏元素
+2025-06-05 23:08:42,448 - INFO - 基础爬取完成，找到 36 个游戏
+2025-06-05 23:08:42,448 - INFO - 爬取完成，总共找到 36 个新游戏
+2025-06-05 23:08:42,453 - INFO - 成功读取 3 个游戏
+2025-06-05 23:08:42,453 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 23:08:42,453 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 23:08:42,454 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 23:08:42,454 - INFO - 移除重复URL: Average Routine
+2025-06-05 23:08:42,454 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 23:08:42,454 - INFO - 移除重复URL: Assessment Examination
+2025-06-05 23:08:42,454 - INFO - 移除重复URL: Cheese is the Reason
+2025-06-05 23:08:42,455 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 23:08:42,456 - INFO - 移除重复URL: Six Cats Under
+2025-06-05 23:08:42,457 - INFO - 移除重复URL: GET YOKED: Extreme Bodybuilding
+2025-06-05 23:08:42,457 - INFO - 移除重复URL: SLAUGHTERâSQUAD
+2025-06-05 23:08:42,458 - INFO - 移除重复URL: PEREELOUS
+2025-06-05 23:08:42,458 - INFO - 移除重复URL: Soul Void
+2025-06-05 23:08:42,458 - INFO - 移除重复URL: A Dance of Fire and Ice
+2025-06-05 23:08:42,458 - INFO - 移除重复URL: goodbye, doggy
+2025-06-05 23:08:42,459 - INFO - 移除重复URL: Cupid's Kiss: a short, romance comedy
+2025-06-05 23:08:42,459 - INFO - 移除重复URL: an average day at the cat cafe
+2025-06-05 23:08:42,459 - INFO - 移除重复URL: Mr. Magpie's Harmless Card Game
+2025-06-05 23:08:42,459 - INFO - 移除重复URL: Die in the Dungeon CLASSIC
+2025-06-05 23:08:42,460 - INFO - 移除重复URL: Lookouts
+2025-06-05 23:08:42,460 - INFO - 移除重复URL: Little Chef
+2025-06-05 23:08:42,461 - INFO - 移除重复URL: Incredibox - Sprunki
+2025-06-05 23:08:42,463 - INFO - 移除重复URL: Trapped with Jester
+2025-06-05 23:08:42,463 - INFO - 移除重复URL: Dating Killmulator
+2025-06-05 23:08:42,464 - INFO - 移除重复URL: Leftovers
+2025-06-05 23:08:42,464 - INFO - 移除重复URL: Flesh, Blood, & Concrete
+2025-06-05 23:08:42,464 - INFO - 移除重复URL: PolyTrack
+2025-06-05 23:08:42,464 - INFO - 移除重复URL: intertwine
+2025-06-05 23:08:42,465 - INFO - 移除重复URL: Bru & Boegie: EPISODE 1 â Get da MILK!
+2025-06-05 23:08:42,465 - INFO - 移除重复URL: KittyToy
+2025-06-05 23:08:42,465 - INFO - 移除重复URL: last seen online
+2025-06-05 23:08:42,465 - INFO - 移除重复URL: irori
+2025-06-05 23:08:42,465 - INFO - 去重完成: 7/39 个唯一游戏
+2025-06-05 23:08:42,469 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749136122
+2025-06-05 23:08:42,471 - INFO - ✅ 成功更新games.ts文件，包含 7 个游戏
+2025-06-05 23:08:42,471 - INFO - ✅ 游戏管理器执行完成！

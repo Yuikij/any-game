@@ -1,0 +1,49 @@
+import { Game, Category } from '../types';
+
+export const categories: Category[] = [
+  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 1, slug: 'casual' },
+  { id: '2', name: '益智', description: '锻炼大脑的益智游戏，提升思维能力', count: 0, slug: 'puzzle' },
+  { id: '3', name: '动作', description: '刺激的动作游戏，考验你的反应速度', count: 0, slug: 'action' },
+  { id: '4', name: '卡牌', description: '卡牌和棋牌类游戏，策略与运气的结合', count: 0, slug: 'card' },
+  { id: '5', name: '体育', description: '各类体育模拟游戏，感受体育竞技的乐趣', count: 0, slug: 'sports' },
+  { id: '6', name: '棋盘', description: '经典的棋盘游戏，考验战略思维', count: 0, slug: 'board' },
+];
+
+export const games: Game[] = [
+  {
+    id: 'basic_itch.io_html5_1749134727_0',
+    title: 'SIDE EFFECTS',
+    description: '来自itch.io HTML5的HTML5游戏',
+    category: '休闲',
+    categoryId: '1',
+    thumbnail: '/games/thumbnails/basic_itch.io_html5_1749134727_0.jpg',
+    path: '/games/basic_itch.io_html5_1749134727_0',
+    featured: false,
+    type: 'iframe',
+    iframeUrl: 'https://itch.io/games/html5',
+    addedAt: '2025-06-05',
+    tags: ["HTML5", "在线", "itch.io HTML5"]
+  },
+];
+
+export const getFeaturedGames = (): Game[] => {
+  return games.filter(game => game.featured);
+};
+
+export const getRecentGames = (limit: number = 8): Game[] => {
+  return games
+    .sort((a, b) => new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime())
+    .slice(0, limit);
+};
+
+export const getGamesByCategory = (categoryId: string): Game[] => {
+  return games.filter(game => game.categoryId === categoryId);
+};
+
+export const getGameById = (id: string): Game | undefined => {
+  return games.find(game => game.id === id);
+};
+
+export const getCategoryById = (id: string): Category | undefined => {
+  return categories.find(category => category.id === id);
+};

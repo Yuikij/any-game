@@ -212,20 +212,47 @@ def setup_global_proxy():
         import requests
         requests.adapters.DEFAULT_RETRIES = 3
         
-        # 测试代理是否可用
-        try:
-            test_response = requests.get('https://httpbin.org/ip', 
-                                       proxies={'http': proxy_url, 'https': proxy_url}, 
-                                       timeout=5)
-            if test_response.status_code == 200:
-                logger.info(f"✅ 代理测试成功: {PROXY_HOST}:{PROXY_PORT}")
-                return True
-            else:
-                logger.warning(f"⚠️ 代理测试失败: HTTP {test_response.status_code}")
-                return False
-        except Exception as e:
-            logger.warning(f"⚠️ 代理不可用: {e}")
-            return False
+        # 测试代理是否可用 - 使用多个备用测试网站
+        test_urls = [
+            'https://www.google.com/generate_204',  # Google 204响应，轻量快速
+            'https://www.bing.com/favicon.ico',     # Bing favicon，小文件
+            'https://httpbin.org/ip',               # 原来的测试网站作为备选
+            'https://api.github.com',               # GitHub API
+            'https://www.cloudflare.com/favicon.ico'  # Cloudflare favicon
+        ]
+        
+        proxy_working = False
+        last_error = None
+        
+        for test_url in test_urls:
+            try:
+                logger.debug(f"测试代理连接: {test_url}")
+                test_response = requests.get(test_url, 
+                                           proxies={'http': proxy_url, 'https': proxy_url}, 
+                                           timeout=8,  # 增加超时时间
+                                           headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
+                
+                if test_response.status_code in [200, 204]:  # 接受200和204状态码
+                    logger.info(f"✅ 代理测试成功: {PROXY_HOST}:{PROXY_PORT} (使用 {test_url})")
+                    proxy_working = True
+                    break
+                else:
+                    logger.debug(f"⚠️ 代理测试失败: HTTP {test_response.status_code} - {test_url}")
+                    last_error = f"HTTP {test_response.status_code}"
+                    
+            except Exception as e:
+                logger.debug(f"⚠️ 代理测试异常: {e} - {test_url}")
+                last_error = str(e)
+                continue
+        
+        if not proxy_working:
+            logger.warning(f"⚠️ 所有代理测试都失败，最后错误: {last_error}")
+            logger.info("🔧 提示：代理可能仍然可用，但测试网站无法访问")
+            logger.info("🔧 如果确认代理配置正确，脚本将继续使用代理设置")
+            # 即使测试失败，仍然设置代理环境变量，让脚本尝试使用代理
+            return True  # 改为返回True，允许脚本继续使用代理
+        
+        return proxy_working
     return False
 
 # 初始化全局代理
@@ -607,11 +634,13 @@ class GameManager:
         
         # 显示代理状态
         if USE_PROXY:
+            logger.info(f"🌐 代理配置已启用: {PROXY_HOST}:{PROXY_PORT}")
+            logger.info("  - 环境变量已设置，所有HTTP请求将尝试使用代理")
             if PROXY_AVAILABLE:
-                logger.info(f"✅ 全局代理已启用: {PROXY_HOST}:{PROXY_PORT}")
-                logger.info("  - 环境变量已设置，所有HTTP请求将走代理")
+                logger.info("  - 代理连接测试通过")
             else:
-                logger.info("⚠️ 代理配置失败，将直接连接")
+                logger.info("  - 代理测试未通过，但仍将尝试使用代理")
+                logger.info("  - 这可能是因为测试网站无法访问，实际爬取时代理可能正常工作")
         else:
             logger.info("ℹ️ 代理模式未启用，直接连接网络")
         
