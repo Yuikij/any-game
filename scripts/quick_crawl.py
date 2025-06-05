@@ -43,6 +43,21 @@ class QuickGameCrawler:
         # 加载现有游戏标题
         self._load_existing_titles()
     
+    def _escape_string(self, text):
+        """转义字符串用于JavaScript/TypeScript输出"""
+        if not text:
+            return text
+        
+        # 转义特殊字符，反斜杠必须首先转义
+        text = text.replace('\\', '\\\\')  # 反斜杠
+        text = text.replace("'", "\\'")    # 单引号
+        text = text.replace('"', '\\"')    # 双引号  
+        text = text.replace('\n', '\\n')   # 换行符
+        text = text.replace('\r', '\\r')   # 回车符
+        text = text.replace('\t', '\\t')   # 制表符
+        
+        return text
+    
     def _load_existing_titles(self):
         """加载现有游戏标题"""
         try:
@@ -421,17 +436,25 @@ export const games: Game[] = [
             tags = game.get('tags', ['休闲'])
             tags_str = ', '.join([f'"{tag}"' for tag in tags])
             
+            # 转义特殊字符
+            title = self._escape_string(game['title'])
+            description = self._escape_string(game.get('description', ''))
+            category = self._escape_string(game.get('category', '休闲'))
+            thumbnail = self._escape_string(game.get('thumbnail', '/games/thumbnails/default.jpg'))
+            path = self._escape_string(game.get('path', f'/games/{game['id']}'))
+            iframe_url = self._escape_string(game.get('iframeUrl', ''))
+            
             content += f"""  {{
     id: '{game['id']}',
-    title: '{game['title']}',
-    description: '{game.get('description', '')}',
-    category: '{game.get('category', '休闲')}',
+    title: '{title}',
+    description: '{description}',
+    category: '{category}',
     categoryId: '{game.get('categoryId', '1')}',
-    thumbnail: '{game.get('thumbnail', '/games/thumbnails/default.jpg')}',
-    path: '{game.get('path', f'/games/{game['id']}')}',
+    thumbnail: '{thumbnail}',
+    path: '{path}',
     featured: {str(game.get('featured', False)).lower()},
     type: '{game.get('type', 'iframe')}',
-    iframeUrl: '{game.get('iframeUrl', '')}',
+    iframeUrl: '{iframe_url}',
     addedAt: '{game.get('addedAt', datetime.now().strftime('%Y-%m-%d'))}',
     tags: [{tags_str}]
   }},

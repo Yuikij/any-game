@@ -1,0 +1,45 @@
+2025-06-05 15:07:05,051 - INFO - 📚 已加载 45 个现有游戏标题，45 个URL
+2025-06-05 15:07:05,052 - INFO - 🚀 开始并发爬取 5 个平台，目标 50 个游戏
+2025-06-05 15:07:05,054 - INFO - 🎮 开始爬取平台: itch.io
+2025-06-05 15:07:05,054 - INFO - 🎮 开始爬取平台: Newgrounds
+2025-06-05 15:07:05,055 - INFO - 🎮 开始爬取平台: Kongregate
+2025-06-05 15:07:05,852 - INFO - ✅ Kongregate - https://www.kongregate.com/games: 找到 0 个游戏
+2025-06-05 15:07:07,361 - INFO - ✅ Kongregate - https://www.kongregate.com/games/new: 找到 0 个游戏
+2025-06-05 15:07:07,411 - INFO - ✅ Newgrounds - https://www.newgrounds.com/games/browse: 找到 3 个游戏
+2025-06-05 15:07:08,294 - INFO - ✅ Kongregate - https://www.kongregate.com/games/featured: 找到 0 个游戏
+2025-06-05 15:07:09,102 - INFO - 🎯 Kongregate 总共找到 0 个游戏
+2025-06-05 15:07:09,102 - INFO - 🎮 开始爬取平台: CrazyGames
+2025-06-05 15:07:09,103 - INFO - ✅ Kongregate 完成，找到 0 个游戏
+2025-06-05 15:07:09,256 - INFO - ✅ Newgrounds - https://www.newgrounds.com/games/browse/newest: 找到 0 个游戏
+2025-06-05 15:07:09,836 - WARNING - ❌ CrazyGames - https://www.crazygames.com/c/html5: HTTP 404
+2025-06-05 15:07:10,284 - WARNING - ❌ CrazyGames - https://www.crazygames.com/c/new: HTTP 404
+2025-06-05 15:07:10,728 - WARNING - ❌ CrazyGames - https://www.crazygames.com/c/trending: HTTP 404
+2025-06-05 15:07:10,728 - INFO - 🎯 CrazyGames 总共找到 0 个游戏
+2025-06-05 15:07:10,729 - INFO - 🎮 开始爬取平台: Poki
+2025-06-05 15:07:10,729 - INFO - ✅ CrazyGames 完成，找到 0 个游戏
+2025-06-05 15:07:11,050 - INFO - ✅ Newgrounds - https://www.newgrounds.com/games/browse/featured: 找到 0 个游戏
+2025-06-05 15:07:11,743 - INFO - 🎯 Newgrounds 总共找到 3 个游戏
+2025-06-05 15:07:11,744 - INFO - ✅ Newgrounds 完成，找到 3 个游戏
+2025-06-05 15:07:11,976 - WARNING - ❌ Poki - https://poki.com/en/g/new: HTTP 404
+2025-06-05 15:07:12,963 - WARNING - ❌ Poki - https://poki.com/en/g/trending: HTTP 404
+2025-06-05 15:07:13,453 - WARNING - ❌ Poki - https://poki.com/en/g/top-rated: HTTP 404
+2025-06-05 15:07:13,453 - INFO - 🎯 Poki 总共找到 0 个游戏
+2025-06-05 15:07:13,453 - INFO - ✅ Poki 完成，找到 0 个游戏
+2025-06-05 15:07:17,649 - INFO - ✅ itch.io - https://itch.io/games/html5: 找到 1 个游戏
+2025-06-05 15:07:35,037 - INFO - ✅ itch.io - https://itch.io/games/html5/newest: 找到 0 个游戏
+2025-06-05 15:07:48,090 - INFO - ✅ itch.io - https://itch.io/games/html5/featured: 找到 6 个游戏
+2025-06-05 15:08:01,509 - INFO - ✅ itch.io - https://itch.io/games/html5/free: 找到 0 个游戏
+2025-06-05 15:08:02,462 - INFO - 🎯 itch.io 总共找到 7 个游戏
+2025-06-05 15:08:02,463 - INFO - ✅ itch.io 完成，找到 7 个游戏
+2025-06-05 15:08:02,464 - INFO - 🔄 去重完成: 10/10 个唯一游戏
+2025-06-05 15:08:02,465 - INFO - 🎉 爬取完成！总共找到 10 个唯一游戏
+2025-06-05 15:08:02,471 - INFO - 📚 解析到 45 个现有游戏
+2025-06-05 15:08:02,472 - INFO - 🔄 去重完成: 55/55 个唯一游戏
+2025-06-05 15:08:02,475 - INFO - 📁 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749107282
+2025-06-05 15:08:02,476 - INFO - ✅ 成功保存 55 个游戏到 E:\code\any-game\src\data\games.ts
+2025-06-05 15:08:02,476 - INFO - 📊 爬取统计:
+2025-06-05 15:08:02,477 - INFO -   📈 总游戏数: 10
+2025-06-05 15:08:02,477 - INFO -   🎮 Newgrounds: 3 个游戏
+2025-06-05 15:08:02,478 - INFO -   🎮 itch.io: 7 个游戏
+2025-06-05 15:08:02,478 - INFO -   🖼️ 自定义缩略图: 3/10 个
+2025-06-05 15:08:02,479 - INFO - 🎉 优化版爬虫执行完成！

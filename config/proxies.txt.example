@@ -1,0 +1,16 @@
+# 代理服务器列表
+# 格式: http://ip:port 或 http://user:pass@ip:port
+# 每行一个代理
+
+# 示例代理 (请替换为实际可用的代理)
+http://127.0.0.1:8080
+http://127.0.0.1:8888
+http://127.0.0.1:1080
+
+# 如果有认证的代理
+# http://username:password@proxy.example.com:8080
+
+# 注意：
+# 1. 请将此文件重命名为 proxies.txt
+# 2. 填入真实可用的代理服务器地址
+# 3. 确保代理服务器支持HTTP/HTTPS协议 

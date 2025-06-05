@@ -1,10 +1,10 @@
 import { Game, Category } from '../types';
 
 export const categories: Category[] = [
-  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 54, slug: 'casual' },
+  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 51, slug: 'casual' },
   { id: '2', name: '益智', description: '锻炼大脑的益智游戏，提升思维能力', count: 0, slug: 'puzzle' },
   { id: '3', name: '动作', description: '刺激的动作游戏，考验你的反应速度', count: 2, slug: 'action' },
-  { id: '4', name: '卡牌', description: '卡牌和棋牌类游戏，策略与运气的结合', count: 3, slug: 'card' },
+  { id: '4', name: '卡牌', description: '卡牌和棋牌类游戏，策略与运气的结合', count: 2, slug: 'card' },
   { id: '5', name: '体育', description: '各类体育模拟游戏，感受体育竞技的乐趣', count: 0, slug: 'sports' },
   { id: '6', name: '棋盘', description: '经典的棋盘游戏，考验战略思维', count: 0, slug: 'board' },
 ];
@@ -652,7 +652,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://www.newgrounds.com/portal/view/982134',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "Newgrounds"]
   },
   {
     id: 'newgrounds_1749107227_9637',
@@ -666,7 +666,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://www.newgrounds.com/portal/view/982320',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "Newgrounds"]
   },
   {
     id: 'newgrounds_1749107227_9593',
@@ -680,11 +680,11 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://www.newgrounds.com/portal/view/982356',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "Newgrounds"]
   },
   {
     id: 'itch.io_1749107229_1766',
-    title: 'NSMB Mario Vs Luigi - KKT',
+    title: 'NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)',
     description: '来自itch.io的HTML5游戏',
     category: '休闲',
     categoryId: '1',
@@ -694,11 +694,11 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://kingkittyturnip.itch.io/kkts-gooffy-little-mod/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107260_7350',
-    title: 'Mr. Magpie',
+    title: 'Mr. Magpie's Harmless Card',
     description: '来自itch.io的HTML5游戏',
     category: '卡牌',
     categoryId: '4',
@@ -708,7 +708,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://giantlight.itch.io/mr-magpies-harmless-card-game/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107264_8526',
@@ -722,7 +722,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://mikdog.itch.io/bru-boegie-get-da-milk/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107265_8389',
@@ -736,7 +736,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://pomepomelo.itch.io/irori/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107266_8703',
@@ -750,11 +750,11 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://joseph-supino.itch.io/raven-star/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107267_1695',
-    title: 'Friday Night Funkin',
+    title: 'Friday Night Funkin'',
     description: '来自itch.io的HTML5游戏',
     category: '休闲',
     categoryId: '1',
@@ -764,7 +764,7 @@ export const games: Game[] = [
     type: 'iframe',
     iframeUrl: 'https://ninja-muffin24.itch.io/funkin/embed',
     addedAt: '2025-06-05',
-    tags: ["休闲"]
+    tags: ["HTML5", "在线", "itch.io"]
   },
   {
     id: 'itch.io_1749107268_2216',
@@ -777,62 +777,6 @@ export const games: Game[] = [
     featured: false,
     type: 'iframe',
     iframeUrl: 'https://aldamami-games.itch.io/bloodletter/embed',
-    addedAt: '2025-06-05',
-    tags: ["休闲"]
-  },
-  {
-    id: 'quick_1749107921_0',
-    title: 'NSMB Mario Vs Luigi - KKT\'s Gooffy little Mod (V.1.1.0)',
-    description: '来自itch.io的HTML5游戏',
-    category: '休闲',
-    categoryId: '1',
-    thumbnail: '/games/thumbnails/auto_game_001.jpg',
-    path: '/games/quick_1749107921_0',
-    featured: false,
-    type: 'iframe',
-    iframeUrl: 'https://html-classic.itch.zone/html/kkts-gooffy-little-mod/index.html',
-    addedAt: '2025-06-05',
-    tags: ["HTML5", "在线", "itch.io"]
-  },
-  {
-    id: 'quick_1749107922_1',
-    title: 'The Talented Tales of Joey Jungle',
-    description: '来自itch.io的HTML5游戏',
-    category: '休闲',
-    categoryId: '1',
-    thumbnail: '/games/thumbnails/auto_game_002.jpg',
-    path: '/games/quick_1749107922_1',
-    featured: false,
-    type: 'iframe',
-    iframeUrl: 'https://html-classic.itch.zone/html/the-talented-tales-of-joey-jungle/index.html',
-    addedAt: '2025-06-05',
-    tags: ["HTML5", "在线", "itch.io"]
-  },
-  {
-    id: 'quick_1749107924_2',
-    title: 'Mr. Magpie\'s Harmless Card Game',
-    description: '来自itch.io的HTML5游戏',
-    category: '卡牌',
-    categoryId: '4',
-    thumbnail: '/games/thumbnails/auto_game_003.jpg',
-    path: '/games/quick_1749107924_2',
-    featured: false,
-    type: 'iframe',
-    iframeUrl: 'https://html-classic.itch.zone/html/mr-magpies-harmless-card-game/index.html',
-    addedAt: '2025-06-05',
-    tags: ["HTML5", "在线", "itch.io"]
-  },
-  {
-    id: 'quick_1749107924_3',
-    title: 'Friday Night Funkin\'',
-    description: '来自itch.io的HTML5游戏',
-    category: '休闲',
-    categoryId: '1',
-    thumbnail: '/games/thumbnails/auto_game_004.jpg',
-    path: '/games/quick_1749107924_3',
-    featured: false,
-    type: 'iframe',
-    iframeUrl: 'https://html-classic.itch.zone/html/funkin/index.html',
     addedAt: '2025-06-05',
     tags: ["HTML5", "在线", "itch.io"]
   },

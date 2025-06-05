@@ -5,6 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 // 配置为Edge Runtime以支持Cloudflare Pages
 export const runtime = 'edge';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function POST(_request: NextRequest) {
   try {
     // 在Edge Runtime环境下，文件系统操作不被支持
@@ -69,6 +70,7 @@ export async function POST(_request: NextRequest) {
 }
 
 // 处理从网站爬取游戏的请求
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function PUT(_request: NextRequest) {
   try {
     // 在Edge Runtime环境下，不支持复杂的爬取操作

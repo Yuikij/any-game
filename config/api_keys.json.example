@@ -1,0 +1,18 @@
+{
+  "serp_api_key": "your_serpapi_key_here",
+  "google_api_key": "your_google_api_key_here",
+  "bing_api_key": "your_bing_api_key_here",
+  
+  "// 说明": {
+    "serp_api_key": "SerpAPI密钥，用于Google搜索API，获取地址: https://serpapi.com/",
+    "google_api_key": "Google Custom Search API密钥 (可选)",
+    "bing_api_key": "Bing Search API密钥 (可选)"
+  },
+  
+  "// 使用说明": [
+    "1. 将此文件重命名为 api_keys.json",
+    "2. 在相应网站注册并获取API密钥",
+    "3. 替换上面的密钥值",
+    "4. 如果不使用API搜索，可以跳过此配置"
+  ]
+} 
