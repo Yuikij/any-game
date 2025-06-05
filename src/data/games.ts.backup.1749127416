@@ -1,7 +1,7 @@
 import { Game, Category } from '../types';
 
 export const categories: Category[] = [
-  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 17, slug: 'casual' },
+  { id: '1', name: '休闲', description: '简单有趣的休闲游戏，适合所有年龄段玩家', count: 16, slug: 'casual' },
   { id: '2', name: '益智', description: '锻炼大脑的益智游戏，提升思维能力', count: 0, slug: 'puzzle' },
   { id: '3', name: '动作', description: '刺激的动作游戏，考验你的反应速度', count: 0, slug: 'action' },
   { id: '4', name: '卡牌', description: '卡牌和棋牌类游戏，策略与运气的结合', count: 0, slug: 'card' },
@@ -12,7 +12,7 @@ export const categories: Category[] = [
 export const games: Game[] = [
   {
     id: 'crawled_1749114980_0',
-    title: 'Jeri II: Tower\'',
+    title: 'Jeri II: Tower\',
     description: '来自Newgrounds的游戏',
     category: '休闲',
     categoryId: '1',
@@ -26,7 +26,7 @@ export const games: Game[] = [
   },
   {
     id: 'crawled_1749114980_1',
-    title: 'every \'',
+    title: 'every \',
     description: '来自Newgrounds的游戏',
     category: '休闲',
     categoryId: '1',
@@ -233,20 +233,6 @@ export const games: Game[] = [
     iframeUrl: 'https://www.newgrounds.com/portal/view/982944',
     addedAt: '2025-06-05',
     tags: ["Flash", "在线", "Newgrounds"]
-  },
-  {
-    id: 'basic_itch.io_html5_1749127413_0',
-    title: 'SIDE EFFECTS',
-    description: '来自itch.io HTML5的HTML5游戏',
-    category: '休闲',
-    categoryId: '1',
-    thumbnail: '/games/thumbnails/default.jpg',
-    path: '/games/basic_itch.io_html5_1749127413_0',
-    featured: false,
-    type: 'iframe',
-    iframeUrl: 'https://itch.io/games/html5',
-    addedAt: '2025-06-05',
-    tags: ["HTML5", "在线", "itch.io HTML5"]
   },
 ];
 

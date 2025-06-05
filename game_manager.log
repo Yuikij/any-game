@@ -935,3 +935,445 @@
 2025-06-05 16:09:28,953 - INFO - ✅ 基础爬取找到游戏: Leftovers - itch.io HTML5
 2025-06-05 16:09:40,026 - INFO - ✅ 基础爬取找到游戏: Adventures With Anxiety! - itch.io HTML5
 2025-06-05 16:09:47,981 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:09:56,580 - INFO - ✅ 基础爬取找到游戏: Last Train Home - itch.io HTML5
+2025-06-05 16:10:04,877 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:10:12,606 - INFO - ✅ 基础爬取找到游戏: Bru & Boegie: EPISODE 1 â Get da MILK! - itch.io HTML5
+2025-06-05 16:10:21,520 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:10:32,090 - INFO - ✅ 基础爬取找到游戏: irori - itch.io HTML5
+2025-06-05 16:10:42,184 - WARNING - ⚠️ [html-classic.itch.zone] 请求频繁，延迟增加到 3.0-7.5s
+2025-06-05 16:10:45,738 - INFO - ✅ 基础爬取找到游戏: POOM - itch.io HTML5
+2025-06-05 16:10:54,580 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:11:06,805 - INFO - ✅ 基础爬取找到游戏: intertwine - itch.io HTML5
+2025-06-05 16:11:17,518 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:11:24,369 - INFO - ✅ 基础爬取找到游戏: purrgatory - itch.io HTML5
+2025-06-05 16:11:27,878 - INFO - 爬取平台: GameJolt
+2025-06-05 16:11:33,905 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:11:40,363 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:11:45,816 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:11:45,817 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x2bacaad9e50 state=finished raised HTTPError>]
+2025-06-05 16:11:45,817 - INFO - 爬取平台: 平台名称
+2025-06-05 16:11:51,249 - INFO - 🔍 自动检测 平台名称 的CSS选择器...
+2025-06-05 16:11:51,311 - WARNING - ⚠️ 未找到合适的选择器组合 (最高得分: 0)
+2025-06-05 16:11:51,311 - WARNING - ❌ 选择器检测失败，跳过平台: 平台名称
+2025-06-05 16:11:51,311 - INFO - 基础爬取完成，找到 36 个游戏
+2025-06-05 16:11:51,311 - INFO - 爬取完成，总共找到 36 个新游戏
+2025-06-05 16:11:51,312 - INFO - 移除重复标题: Average Routine
+2025-06-05 16:11:51,312 - INFO - 移除重复标题: Podvodsk (Ludum Dare 57)
+2025-06-05 16:11:51,312 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 16:11:51,312 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 16:11:51,313 - INFO - 移除重复标题: Assessment Examination
+2025-06-05 16:11:51,313 - INFO - 移除重复标题: Cheese is the Reason
+2025-06-05 16:11:51,313 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 16:11:51,313 - INFO - 移除重复标题: Six Cats Under
+2025-06-05 16:11:51,314 - INFO - 移除重复标题: GET YOKED: Extreme Bodybuilding
+2025-06-05 16:11:51,314 - INFO - 移除重复标题: Exhibit of Sorrows
+2025-06-05 16:11:51,314 - INFO - 移除重复标题: SLAUGHTERâSQUAD
+2025-06-05 16:11:51,314 - INFO - 移除重复标题: Soul Void
+2025-06-05 16:11:51,315 - INFO - 移除重复标题: A Dance of Fire and Ice
+2025-06-05 16:11:51,315 - INFO - 移除重复标题: goodbye, doggy
+2025-06-05 16:11:51,315 - INFO - 移除重复标题: PEREELOUS
+2025-06-05 16:11:51,316 - INFO - 移除重复URL: Incredibox - Sprunki
+2025-06-05 16:11:51,316 - INFO - 移除重复URL: Cupid's Kiss: a short, romance comedy
+2025-06-05 16:11:51,316 - INFO - 移除重复URL: Lookouts
+2025-06-05 16:11:51,316 - INFO - 移除重复URL: Mr. Magpie's Harmless Card Game
+2025-06-05 16:11:51,317 - INFO - 移除重复标题: Die in the Dungeon CLASSIC
+2025-06-05 16:11:51,317 - INFO - 移除重复URL: Little Chef
+2025-06-05 16:11:51,317 - INFO - 移除重复标题: an average day at the cat cafe
+2025-06-05 16:11:51,317 - INFO - 移除重复标题: Cattle Crisis
+2025-06-05 16:11:51,318 - INFO - 移除重复URL: Dating Killmulator
+2025-06-05 16:11:51,318 - INFO - 移除重复URL: Trapped with Jester
+2025-06-05 16:11:51,318 - INFO - 移除重复URL: Flesh, Blood, & Concrete
+2025-06-05 16:11:51,318 - INFO - 移除重复URL: PolyTrack
+2025-06-05 16:11:51,318 - INFO - 移除重复URL: Leftovers
+2025-06-05 16:11:51,319 - INFO - 移除重复标题: Adventures With Anxiety!
+2025-06-05 16:11:51,319 - INFO - 移除重复URL: Last Train Home
+2025-06-05 16:11:51,319 - INFO - 移除重复URL: Bru & Boegie: EPISODE 1 â Get da MILK!
+2025-06-05 16:11:51,319 - INFO - 移除重复URL: irori
+2025-06-05 16:11:51,319 - INFO - 移除重复标题: POOM
+2025-06-05 16:11:51,320 - INFO - 移除重复URL: intertwine
+2025-06-05 16:11:51,320 - INFO - 移除重复URL: purrgatory
+2025-06-05 16:11:51,320 - INFO - 去重完成: 44/79 个唯一游戏
+2025-06-05 16:11:51,320 - INFO - 找到 67 个可用缩略图
+2025-06-05 16:11:51,321 - INFO - 为游戏 'Forever Gold' 分配缩略图: 20.jpg
+2025-06-05 16:11:51,321 - INFO - 为游戏 'Arcane Earth - Increment Clicker' 分配缩略图: 21.jpg
+2025-06-05 16:11:51,322 - INFO - 为游戏 'Lucky Dig' 分配缩略图: 22.jpg
+2025-06-05 16:11:51,322 - INFO - 为游戏 'Sort the Court!' 分配缩略图: 24.jpg
+2025-06-05 16:11:51,322 - INFO - 为游戏 'Batter Up!' 分配缩略图: 25.png
+2025-06-05 16:11:51,323 - INFO - 为游戏 'We Become What We Behold' 分配缩略图: 26.jpg
+2025-06-05 16:11:51,323 - INFO - 为游戏 'RetroFab' 分配缩略图: 27.jpg
+2025-06-05 16:11:51,323 - INFO - 为游戏 'Exhibit of Sorrows' 分配缩略图: 28.jpg
+2025-06-05 16:11:51,324 - INFO - 为游戏 'Cattle Crisis' 分配缩略图: auto_game_001.jpg
+2025-06-05 16:11:51,324 - INFO - 为游戏 'Adventures With Anxiety!' 分配缩略图: auto_game_002.jpg
+2025-06-05 16:11:51,325 - INFO - 为游戏 'POOM' 分配缩略图: auto_game_003.jpg
+2025-06-05 16:11:51,325 - INFO - 为游戏 'Average Routine' 分配缩略图: auto_game_004.jpg
+2025-06-05 16:11:51,326 - INFO - 为游戏 'Podvodsk (Ludum Dare 57)' 分配缩略图: auto_game_005.jpg
+2025-06-05 16:11:51,326 - INFO - 为游戏 'NSMB Mario Vs Luigi - KKT' 分配缩略图: auto_game_006.jpg
+2025-06-05 16:11:51,326 - INFO - 为游戏 'Assessment Examination' 分配缩略图: auto_game_007.jpg
+2025-06-05 16:11:51,327 - INFO - 为游戏 'Cheese is the Reason' 分配缩略图: auto_game_008.jpg
+2025-06-05 16:11:51,327 - INFO - 为游戏 'Six Cats Under' 分配缩略图: auto_game_009.jpg
+2025-06-05 16:11:51,327 - INFO - 为游戏 'GET YOKED: Extreme Bodybuilding' 分配缩略图: auto_game_010.jpg
+2025-06-05 16:11:51,327 - INFO - 为游戏 'SLAUGHTERâSQUAD' 分配缩略图: auto_game_011.jpg
+2025-06-05 16:11:51,328 - INFO - 为游戏 'Soul Void' 分配缩略图: auto_game_012.jpg
+2025-06-05 16:11:51,328 - INFO - 为游戏 'A Dance of Fire and Ice' 分配缩略图: auto_game_013.jpg
+2025-06-05 16:11:51,328 - INFO - 为游戏 'goodbye, doggy' 分配缩略图: auto_game_014.jpg
+2025-06-05 16:11:51,329 - INFO - 为游戏 'Rainbow Frontline' 分配缩略图: auto_game_015.jpg
+2025-06-05 16:11:51,329 - INFO - 为游戏 'Lem-stroids' 分配缩略图: auto_game_016.jpg
+2025-06-05 16:11:51,330 - INFO - 为游戏 'Affection at Heart, Grief in Practice' 分配缩略图: auto_game_017.jpg
+2025-06-05 16:11:51,330 - INFO - 为游戏 'Touhou survivors' 分配缩略图: auto_game_018.jpg
+2025-06-05 16:11:51,331 - INFO - 为游戏 'Sedation Surge' 分配缩略图: auto_game_019.jpg
+2025-06-05 16:11:51,331 - INFO - 为游戏 'Test Flight' 分配缩略图: auto_game_020.jpg
+2025-06-05 16:11:51,332 - INFO - 为游戏 'It all seemed lost in the ocean of stars' 分配缩略图: auto_game_021.jpg
+2025-06-05 16:11:51,332 - INFO - 为游戏 'IPLIER BOUTIQUE' 分配缩略图: auto_game_022.jpg
+2025-06-05 16:11:51,333 - INFO - 为游戏 'FLAPPY CAT' 分配缩略图: auto_game_023.jpg
+2025-06-05 16:11:51,333 - INFO - 为游戏 'My Final Project' 分配缩略图: auto_game_024.jpg
+2025-06-05 16:11:51,334 - INFO - 为游戏 'La Gran Batalla de Los Molinos' 分配缩略图: auto_game_025.jpg
+2025-06-05 16:11:51,334 - INFO - 为游戏 'Upslash Demo' 分配缩略图: auto_game_026.jpg
+2025-06-05 16:11:51,335 - INFO - 为游戏 'Shape Survival Goofiness' 分配缩略图: auto_game_027.jpg
+2025-06-05 16:11:51,335 - INFO - 为游戏 'Still Here....' 分配缩略图: auto_game_028.jpg
+2025-06-05 16:11:51,335 - INFO - 为游戏 'Misfit: TBaTI Willy DEMO' 分配缩略图: auto_game_029.jpg
+2025-06-05 16:11:51,335 - INFO - 为游戏 'PEREELOUS' 分配缩略图: auto_game_030.jpg
+2025-06-05 16:11:51,336 - INFO - 为游戏 'Mr. Magpie' 分配缩略图: auto_game_031.jpg
+2025-06-05 16:11:51,336 - INFO - 为游戏 'Die in the Dungeon CLASSIC' 分配缩略图: auto_game_032.jpg
+2025-06-05 16:11:51,336 - INFO - 为游戏 'an average day at the cat cafe' 分配缩略图: auto_game_033.jpg
+2025-06-05 16:11:51,336 - INFO - 为游戏 'The Talented Tales of Joey Jungle' 分配缩略图: auto_game_034.jpg
+2025-06-05 16:11:51,337 - INFO - 为游戏 'Friday Night Funkin\' 分配缩略图: auto_game_035.jpg
+2025-06-05 16:11:51,337 - INFO - 为游戏 'SIDE EFFECTS' 分配缩略图: auto_game_036.jpg
+2025-06-05 16:11:51,342 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749111111
+2025-06-05 16:11:51,345 - INFO - ✅ 成功更新games.ts文件，包含 44 个游戏
+2025-06-05 16:11:51,345 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 16:33:53,846 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 16:33:53,849 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 16:33:53,849 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 16:33:53,849 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 16:33:53,849 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 16:33:53,849 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 16:33:53,850 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 16:33:53,850 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 16:33:53,850 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 16:33:53,850 - INFO -   - 白名单域名: 20 个
+2025-06-05 16:33:53,850 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 16:33:53,851 - INFO - 🔄 开始全面管理...
+2025-06-05 16:33:53,856 - INFO - 成功读取 44 个游戏
+2025-06-05 16:33:53,856 - WARNING - 域名不在白名单中: itch.io - SIDE EFFECTS
+2025-06-05 16:33:53,857 - INFO - 清理完成: 43/44 个有效游戏
+2025-06-05 16:33:53,857 - INFO - 去重完成: 43/43 个唯一游戏
+2025-06-05 16:33:53,857 - INFO - 找到 67 个可用缩略图
+2025-06-05 16:33:53,857 - INFO - 为游戏 'Forever Gold' 分配缩略图: 20.jpg
+2025-06-05 16:33:53,857 - INFO - 为游戏 'Arcane Earth - Increment Clicker' 分配缩略图: 21.jpg
+2025-06-05 16:33:53,858 - INFO - 为游戏 'Lucky Dig' 分配缩略图: 22.jpg
+2025-06-05 16:33:53,858 - INFO - 为游戏 'Sort the Court!' 分配缩略图: 24.jpg
+2025-06-05 16:33:53,858 - INFO - 为游戏 'Batter Up!' 分配缩略图: 25.png
+2025-06-05 16:33:53,858 - INFO - 为游戏 'We Become What We Behold' 分配缩略图: 26.jpg
+2025-06-05 16:33:53,858 - INFO - 为游戏 'RetroFab' 分配缩略图: 27.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'Exhibit of Sorrows' 分配缩略图: 28.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'Cattle Crisis' 分配缩略图: auto_game_001.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'Adventures With Anxiety!' 分配缩略图: auto_game_002.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'POOM' 分配缩略图: auto_game_003.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'Average Routine' 分配缩略图: auto_game_004.jpg
+2025-06-05 16:33:53,859 - INFO - 为游戏 'Podvodsk (Ludum Dare 57)' 分配缩略图: auto_game_005.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'NSMB Mario Vs Luigi - KKT' 分配缩略图: auto_game_006.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'Assessment Examination' 分配缩略图: auto_game_007.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'Cheese is the Reason' 分配缩略图: auto_game_008.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'Six Cats Under' 分配缩略图: auto_game_009.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'GET YOKED: Extreme Bodybuilding' 分配缩略图: auto_game_010.jpg
+2025-06-05 16:33:53,860 - INFO - 为游戏 'SLAUGHTERâSQUAD' 分配缩略图: auto_game_011.jpg
+2025-06-05 16:33:53,861 - INFO - 为游戏 'Soul Void' 分配缩略图: auto_game_012.jpg
+2025-06-05 16:33:53,861 - INFO - 为游戏 'A Dance of Fire and Ice' 分配缩略图: auto_game_013.jpg
+2025-06-05 16:33:53,861 - INFO - 为游戏 'goodbye, doggy' 分配缩略图: auto_game_014.jpg
+2025-06-05 16:33:53,861 - INFO - 为游戏 'Rainbow Frontline' 分配缩略图: auto_game_015.jpg
+2025-06-05 16:33:53,862 - INFO - 为游戏 'Lem-stroids' 分配缩略图: auto_game_016.jpg
+2025-06-05 16:33:53,862 - INFO - 为游戏 'Affection at Heart, Grief in Practice' 分配缩略图: auto_game_017.jpg
+2025-06-05 16:33:53,863 - INFO - 为游戏 'Touhou survivors' 分配缩略图: auto_game_018.jpg
+2025-06-05 16:33:53,863 - INFO - 为游戏 'Sedation Surge' 分配缩略图: auto_game_019.jpg
+2025-06-05 16:33:53,864 - INFO - 为游戏 'Test Flight' 分配缩略图: auto_game_020.jpg
+2025-06-05 16:33:53,864 - INFO - 为游戏 'It all seemed lost in the ocean of stars' 分配缩略图: auto_game_021.jpg
+2025-06-05 16:33:53,864 - INFO - 为游戏 'IPLIER BOUTIQUE' 分配缩略图: auto_game_022.jpg
+2025-06-05 16:33:53,864 - INFO - 为游戏 'FLAPPY CAT' 分配缩略图: auto_game_023.jpg
+2025-06-05 16:33:53,865 - INFO - 为游戏 'My Final Project' 分配缩略图: auto_game_024.jpg
+2025-06-05 16:33:53,865 - INFO - 为游戏 'La Gran Batalla de Los Molinos' 分配缩略图: auto_game_025.jpg
+2025-06-05 16:33:53,865 - INFO - 为游戏 'Upslash Demo' 分配缩略图: auto_game_026.jpg
+2025-06-05 16:33:53,866 - INFO - 为游戏 'Shape Survival Goofiness' 分配缩略图: auto_game_027.jpg
+2025-06-05 16:33:53,866 - INFO - 为游戏 'Still Here....' 分配缩略图: auto_game_028.jpg
+2025-06-05 16:33:53,866 - INFO - 为游戏 'Misfit: TBaTI Willy DEMO' 分配缩略图: auto_game_029.jpg
+2025-06-05 16:33:53,866 - INFO - 为游戏 'PEREELOUS' 分配缩略图: auto_game_030.jpg
+2025-06-05 16:33:53,866 - INFO - 为游戏 'Mr. Magpie' 分配缩略图: auto_game_031.jpg
+2025-06-05 16:33:53,867 - INFO - 为游戏 'Die in the Dungeon CLASSIC' 分配缩略图: auto_game_032.jpg
+2025-06-05 16:33:53,867 - INFO - 为游戏 'an average day at the cat cafe' 分配缩略图: auto_game_033.jpg
+2025-06-05 16:33:53,867 - INFO - 为游戏 'The Talented Tales of Joey Jungle' 分配缩略图: auto_game_034.jpg
+2025-06-05 16:33:53,867 - INFO - 为游戏 'Friday Night Funkin\' 分配缩略图: auto_game_035.jpg
+2025-06-05 16:33:53,868 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 16:33:53,868 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 16:33:53,868 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 16:34:01,171 - INFO - 找到 36 个游戏元素
+2025-06-05 16:34:13,302 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 16:34:32,251 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 16:34:49,158 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 16:35:05,532 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 16:35:19,996 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 16:35:29,433 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:35:38,157 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 16:35:47,480 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:35:57,062 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 16:36:11,525 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 16:36:20,876 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:36:33,069 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 16:36:41,960 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:36:49,008 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 16:37:01,556 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 16:37:12,133 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:37:20,137 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 16:37:30,219 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:37:38,434 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 16:37:48,045 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:37:59,316 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 16:38:08,693 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:38:20,531 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 16:38:29,810 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:38:40,815 - INFO - ✅ 基础爬取找到游戏: PEREELOUS - itch.io HTML5
+2025-06-05 16:38:52,408 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:39:04,712 - INFO - ✅ 基础爬取找到游戏: Incredibox - Sprunki - itch.io HTML5
+2025-06-05 16:39:15,231 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:39:26,579 - INFO - ✅ 基础爬取找到游戏: Cupid's Kiss: a short, romance comedy - itch.io HTML5
+2025-06-05 16:39:34,490 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:39:45,431 - INFO - ✅ 基础爬取找到游戏: Lookouts - itch.io HTML5
+2025-06-05 16:39:57,261 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:40:06,907 - INFO - ✅ 基础爬取找到游戏: Mr. Magpie's Harmless Card Game - itch.io HTML5
+2025-06-05 16:40:16,051 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:40:23,612 - INFO - ✅ 基础爬取找到游戏: Die in the Dungeon CLASSIC - itch.io HTML5
+2025-06-05 16:40:35,085 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:40:42,333 - INFO - ✅ 基础爬取找到游戏: Little Chef - itch.io HTML5
+2025-06-05 16:40:52,975 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:41:03,532 - INFO - ✅ 基础爬取找到游戏: an average day at the cat cafe - itch.io HTML5
+2025-06-05 16:41:17,204 - INFO - ✅ 基础爬取找到游戏: Cattle Crisis - itch.io HTML5
+2025-06-05 16:41:27,788 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:41:35,075 - INFO - ✅ 基础爬取找到游戏: Dating Killmulator - itch.io HTML5
+2025-06-05 16:41:42,821 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:41:50,709 - INFO - ✅ 基础爬取找到游戏: Trapped with Jester - itch.io HTML5
+2025-06-05 16:42:00,412 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:42:06,811 - INFO - ✅ 基础爬取找到游戏: Flesh, Blood, & Concrete - itch.io HTML5
+2025-06-05 16:42:17,356 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:42:27,405 - INFO - ✅ 基础爬取找到游戏: PolyTrack - itch.io HTML5
+2025-06-05 16:42:36,949 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:42:46,168 - INFO - ✅ 基础爬取找到游戏: Leftovers - itch.io HTML5
+2025-06-05 16:42:56,947 - INFO - ✅ 基础爬取找到游戏: Adventures With Anxiety! - itch.io HTML5
+2025-06-05 16:43:05,069 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:43:11,405 - INFO - ✅ 基础爬取找到游戏: Last Train Home - itch.io HTML5
+2025-06-05 16:43:22,231 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:43:33,282 - INFO - ✅ 基础爬取找到游戏: Bru & Boegie: EPISODE 1 â Get da MILK! - itch.io HTML5
+2025-06-05 16:43:42,881 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:43:52,202 - INFO - ✅ 基础爬取找到游戏: irori - itch.io HTML5
+2025-06-05 16:44:02,172 - WARNING - ⚠️ [html-classic.itch.zone] 请求频繁，延迟增加到 3.0-7.5s
+2025-06-05 16:44:07,539 - INFO - ✅ 基础爬取找到游戏: POOM - itch.io HTML5
+2025-06-05 16:44:18,608 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:44:26,168 - INFO - ✅ 基础爬取找到游戏: intertwine - itch.io HTML5
+2025-06-05 16:44:37,724 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:44:47,988 - INFO - ✅ 基础爬取找到游戏: purrgatory - itch.io HTML5
+2025-06-05 16:44:51,274 - INFO - 爬取平台: GameJolt
+2025-06-05 16:44:56,808 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:45:03,851 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:45:09,375 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 16:45:09,376 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x12402e52dd0 state=finished raised HTTPError>]
+2025-06-05 16:45:09,376 - INFO - 爬取平台: 平台名称
+2025-06-05 16:45:14,611 - INFO - 🔍 自动检测 平台名称 的CSS选择器...
+2025-06-05 16:45:14,620 - WARNING - ⚠️ 未找到合适的选择器组合 (最高得分: 0)
+2025-06-05 16:45:14,620 - WARNING - ❌ 选择器检测失败，跳过平台: 平台名称
+2025-06-05 16:45:14,620 - INFO - 基础爬取完成，找到 36 个游戏
+2025-06-05 16:45:14,621 - INFO - 爬取完成，总共找到 36 个新游戏
+2025-06-05 16:45:14,621 - INFO - 移除重复标题: Average Routine
+2025-06-05 16:45:14,621 - INFO - 移除重复标题: Podvodsk (Ludum Dare 57)
+2025-06-05 16:45:14,621 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 16:45:14,622 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 16:45:14,622 - INFO - 移除重复标题: Assessment Examination
+2025-06-05 16:45:14,622 - INFO - 移除重复标题: Cheese is the Reason
+2025-06-05 16:45:14,622 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 16:45:14,623 - INFO - 移除重复标题: Six Cats Under
+2025-06-05 16:45:14,623 - INFO - 移除重复标题: GET YOKED: Extreme Bodybuilding
+2025-06-05 16:45:14,623 - INFO - 移除重复标题: Exhibit of Sorrows
+2025-06-05 16:45:14,623 - INFO - 移除重复标题: SLAUGHTERâSQUAD
+2025-06-05 16:45:14,623 - INFO - 移除重复标题: Soul Void
+2025-06-05 16:45:14,624 - INFO - 移除重复标题: A Dance of Fire and Ice
+2025-06-05 16:45:14,624 - INFO - 移除重复标题: goodbye, doggy
+2025-06-05 16:45:14,624 - INFO - 移除重复标题: PEREELOUS
+2025-06-05 16:45:14,624 - INFO - 移除重复URL: Incredibox - Sprunki
+2025-06-05 16:45:14,624 - INFO - 移除重复URL: Cupid's Kiss: a short, romance comedy
+2025-06-05 16:45:14,625 - INFO - 移除重复URL: Lookouts
+2025-06-05 16:45:14,625 - INFO - 移除重复URL: Mr. Magpie's Harmless Card Game
+2025-06-05 16:45:14,625 - INFO - 移除重复标题: Die in the Dungeon CLASSIC
+2025-06-05 16:45:14,625 - INFO - 移除重复URL: Little Chef
+2025-06-05 16:45:14,626 - INFO - 移除重复标题: an average day at the cat cafe
+2025-06-05 16:45:14,626 - INFO - 移除重复标题: Cattle Crisis
+2025-06-05 16:45:14,626 - INFO - 移除重复URL: Dating Killmulator
+2025-06-05 16:45:14,626 - INFO - 移除重复URL: Trapped with Jester
+2025-06-05 16:45:14,626 - INFO - 移除重复URL: Flesh, Blood, & Concrete
+2025-06-05 16:45:14,627 - INFO - 移除重复URL: PolyTrack
+2025-06-05 16:45:14,627 - INFO - 移除重复URL: Leftovers
+2025-06-05 16:45:14,627 - INFO - 移除重复标题: Adventures With Anxiety!
+2025-06-05 16:45:14,627 - INFO - 移除重复URL: Last Train Home
+2025-06-05 16:45:14,627 - INFO - 移除重复URL: Bru & Boegie: EPISODE 1 â Get da MILK!
+2025-06-05 16:45:14,628 - INFO - 移除重复URL: irori
+2025-06-05 16:45:14,628 - INFO - 移除重复标题: POOM
+2025-06-05 16:45:14,628 - INFO - 移除重复URL: intertwine
+2025-06-05 16:45:14,628 - INFO - 移除重复URL: purrgatory
+2025-06-05 16:45:14,628 - INFO - 去重完成: 44/79 个唯一游戏
+2025-06-05 16:45:14,629 - INFO - 找到 67 个可用缩略图
+2025-06-05 16:45:14,629 - INFO - 为游戏 'Forever Gold' 分配缩略图: 20.jpg
+2025-06-05 16:45:14,629 - INFO - 为游戏 'Arcane Earth - Increment Clicker' 分配缩略图: 21.jpg
+2025-06-05 16:45:14,629 - INFO - 为游戏 'Lucky Dig' 分配缩略图: 22.jpg
+2025-06-05 16:45:14,630 - INFO - 为游戏 'Sort the Court!' 分配缩略图: 24.jpg
+2025-06-05 16:45:14,630 - INFO - 为游戏 'Batter Up!' 分配缩略图: 25.png
+2025-06-05 16:45:14,630 - INFO - 为游戏 'We Become What We Behold' 分配缩略图: 26.jpg
+2025-06-05 16:45:14,630 - INFO - 为游戏 'RetroFab' 分配缩略图: 27.jpg
+2025-06-05 16:45:14,630 - INFO - 为游戏 'Exhibit of Sorrows' 分配缩略图: 28.jpg
+2025-06-05 16:45:14,631 - INFO - 为游戏 'Cattle Crisis' 分配缩略图: auto_game_001.jpg
+2025-06-05 16:45:14,631 - INFO - 为游戏 'Adventures With Anxiety!' 分配缩略图: auto_game_002.jpg
+2025-06-05 16:45:14,631 - INFO - 为游戏 'POOM' 分配缩略图: auto_game_003.jpg
+2025-06-05 16:45:14,631 - INFO - 为游戏 'Average Routine' 分配缩略图: auto_game_004.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'Podvodsk (Ludum Dare 57)' 分配缩略图: auto_game_005.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'NSMB Mario Vs Luigi - KKT' 分配缩略图: auto_game_006.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'Assessment Examination' 分配缩略图: auto_game_007.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'Cheese is the Reason' 分配缩略图: auto_game_008.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'Six Cats Under' 分配缩略图: auto_game_009.jpg
+2025-06-05 16:45:14,632 - INFO - 为游戏 'GET YOKED: Extreme Bodybuilding' 分配缩略图: auto_game_010.jpg
+2025-06-05 16:45:14,633 - INFO - 为游戏 'SLAUGHTERâSQUAD' 分配缩略图: auto_game_011.jpg
+2025-06-05 16:45:14,633 - INFO - 为游戏 'Soul Void' 分配缩略图: auto_game_012.jpg
+2025-06-05 16:45:14,633 - INFO - 为游戏 'A Dance of Fire and Ice' 分配缩略图: auto_game_013.jpg
+2025-06-05 16:45:14,634 - INFO - 为游戏 'goodbye, doggy' 分配缩略图: auto_game_014.jpg
+2025-06-05 16:45:14,634 - INFO - 为游戏 'Rainbow Frontline' 分配缩略图: auto_game_015.jpg
+2025-06-05 16:45:14,635 - INFO - 为游戏 'Lem-stroids' 分配缩略图: auto_game_016.jpg
+2025-06-05 16:45:14,635 - INFO - 为游戏 'Affection at Heart, Grief in Practice' 分配缩略图: auto_game_017.jpg
+2025-06-05 16:45:14,635 - INFO - 为游戏 'Touhou survivors' 分配缩略图: auto_game_018.jpg
+2025-06-05 16:45:14,635 - INFO - 为游戏 'Sedation Surge' 分配缩略图: auto_game_019.jpg
+2025-06-05 16:45:14,636 - INFO - 为游戏 'Test Flight' 分配缩略图: auto_game_020.jpg
+2025-06-05 16:45:14,636 - INFO - 为游戏 'It all seemed lost in the ocean of stars' 分配缩略图: auto_game_021.jpg
+2025-06-05 16:45:14,636 - INFO - 为游戏 'IPLIER BOUTIQUE' 分配缩略图: auto_game_022.jpg
+2025-06-05 16:45:14,636 - INFO - 为游戏 'FLAPPY CAT' 分配缩略图: auto_game_023.jpg
+2025-06-05 16:45:14,637 - INFO - 为游戏 'My Final Project' 分配缩略图: auto_game_024.jpg
+2025-06-05 16:45:14,637 - INFO - 为游戏 'La Gran Batalla de Los Molinos' 分配缩略图: auto_game_025.jpg
+2025-06-05 16:45:14,637 - INFO - 为游戏 'Upslash Demo' 分配缩略图: auto_game_026.jpg
+2025-06-05 16:45:14,637 - INFO - 为游戏 'Shape Survival Goofiness' 分配缩略图: auto_game_027.jpg
+2025-06-05 16:45:14,637 - INFO - 为游戏 'Still Here....' 分配缩略图: auto_game_028.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'Misfit: TBaTI Willy DEMO' 分配缩略图: auto_game_029.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'PEREELOUS' 分配缩略图: auto_game_030.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'Mr. Magpie' 分配缩略图: auto_game_031.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'Die in the Dungeon CLASSIC' 分配缩略图: auto_game_032.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'an average day at the cat cafe' 分配缩略图: auto_game_033.jpg
+2025-06-05 16:45:14,638 - INFO - 为游戏 'The Talented Tales of Joey Jungle' 分配缩略图: auto_game_034.jpg
+2025-06-05 16:45:14,639 - INFO - 为游戏 'Friday Night Funkin\' 分配缩略图: auto_game_035.jpg
+2025-06-05 16:45:14,639 - INFO - 为游戏 'SIDE EFFECTS' 分配缩略图: auto_game_036.jpg
+2025-06-05 16:45:14,641 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749113114
+2025-06-05 16:45:14,644 - INFO - ✅ 成功更新games.ts文件，包含 44 个游戏
+2025-06-05 16:45:14,644 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 20:40:54,669 - WARNING - ⚠️ 代理不可用: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)"))
+2025-06-05 20:42:04,905 - WARNING - ⚠️ 代理不可用: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)"))
+2025-06-05 20:42:31,479 - WARNING - ⚠️ 代理不可用: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)"))
+2025-06-05 20:42:31,483 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 20:42:31,483 - INFO - ⚠️ 代理配置失败，将直接连接
+2025-06-05 20:42:31,483 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 20:42:31,483 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 20:42:31,484 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 20:42:31,484 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 20:42:31,484 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 20:42:31,484 - INFO -   - 白名单域名: 40 个
+2025-06-05 20:42:31,484 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 20:42:31,485 - INFO - 🖼️ 开始修复游戏封面...
+2025-06-05 20:42:31,488 - INFO - 成功读取 16 个游戏
+2025-06-05 20:42:31,488 - INFO - 找到 67 个现有缩略图
+2025-06-05 20:42:31,489 - INFO - 🎨 为游戏 'Jeri II: Tower\' 生成新缩略图...
+2025-06-05 20:42:31,489 - ERROR - 修复缩略图失败: 'GameManager' object has no attribute 'thumbnail_generator'
+2025-06-05 20:42:31,492 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749127351
+2025-06-05 20:42:31,494 - INFO - ✅ 成功更新games.ts文件，包含 16 个游戏
+2025-06-05 20:42:31,494 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 20:43:05,091 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 20:43:05,094 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 20:43:05,094 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 20:43:05,094 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 20:43:05,095 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 20:43:05,095 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 20:43:05,095 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 20:43:05,095 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 20:43:05,095 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 20:43:05,096 - INFO -   - 白名单域名: 40 个
+2025-06-05 20:43:05,096 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 20:43:05,096 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 20:43:05,096 - INFO - 🖼️ 开始修复游戏封面...
+2025-06-05 20:43:05,100 - INFO - 成功读取 16 个游戏
+2025-06-05 20:43:05,101 - INFO - 找到 67 个现有缩略图
+2025-06-05 20:43:05,101 - INFO - 🎨 为游戏 'Jeri II: Tower\' 生成新缩略图...
+2025-06-05 20:43:05,204 - INFO - ✅ 生成完成: Jeri II: Tower\
+2025-06-05 20:43:05,204 - INFO - 🎨 为游戏 'every \' 生成新缩略图...
+2025-06-05 20:43:05,262 - INFO - ✅ 生成完成: every \
+2025-06-05 20:43:05,262 - INFO - 🎨 为游戏 'betadale commercial!' 生成新缩略图...
+2025-06-05 20:43:05,269 - INFO - ✅ 生成完成: betadale commercial!
+2025-06-05 20:43:05,270 - INFO - 🎨 为游戏 'A Game About Typing The Alphabet' 生成新缩略图...
+2025-06-05 20:43:05,327 - INFO - ✅ 生成完成: A Game About Typing The Alphabet
+2025-06-05 20:43:05,327 - INFO - 🎨 为游戏 'Jacare Anao' 生成新缩略图...
+2025-06-05 20:43:05,335 - INFO - ✅ 生成完成: Jacare Anao
+2025-06-05 20:43:05,335 - INFO - 🎨 为游戏 'RoboNips 2' 生成新缩略图...
+2025-06-05 20:43:05,398 - INFO - ✅ 生成完成: RoboNips 2
+2025-06-05 20:43:05,400 - INFO - 🎨 为游戏 'breaking arms' 生成新缩略图...
+2025-06-05 20:43:05,473 - INFO - ✅ 生成完成: breaking arms
+2025-06-05 20:43:05,473 - INFO - 🎨 为游戏 'Panic Attack' 生成新缩略图...
+2025-06-05 20:43:05,540 - INFO - ✅ 生成完成: Panic Attack
+2025-06-05 20:43:05,540 - INFO - 🎨 为游戏 'Electric Wizard 3D' 生成新缩略图...
+2025-06-05 20:43:05,599 - INFO - ✅ 生成完成: Electric Wizard 3D
+2025-06-05 20:43:05,600 - INFO - 🎨 为游戏 'RCyT_DebuggerGL' 生成新缩略图...
+2025-06-05 20:43:05,607 - INFO - ✅ 生成完成: RCyT_DebuggerGL
+2025-06-05 20:43:05,607 - INFO - 🎨 为游戏 'Tower of levels (and also doom)' 生成新缩略图...
+2025-06-05 20:43:05,666 - INFO - ✅ 生成完成: Tower of levels (and also doom)
+2025-06-05 20:43:05,666 - INFO - 🎨 为游戏 'Soul Coins - Twine Demo' 生成新缩略图...
+2025-06-05 20:43:05,728 - INFO - ✅ 生成完成: Soul Coins - Twine Demo
+2025-06-05 20:43:05,729 - INFO - 🎨 为游戏 'The Tail of a Demon Girl' 生成新缩略图...
+2025-06-05 20:43:05,736 - INFO - ✅ 生成完成: The Tail of a Demon Girl
+2025-06-05 20:43:05,736 - INFO - 🎨 为游戏 'SOULS & THRONES' 生成新缩略图...
+2025-06-05 20:43:05,742 - INFO - ✅ 生成完成: SOULS & THRONES
+2025-06-05 20:43:05,742 - INFO - 🎨 为游戏 '[ Space Aliens ]' 生成新缩略图...
+2025-06-05 20:43:05,750 - INFO - ✅ 生成完成: [ Space Aliens ]
+2025-06-05 20:43:05,751 - INFO - 🎨 为游戏 'Granny Reloaded [IN DEVELOPMENT]' 生成新缩略图...
+2025-06-05 20:43:05,757 - INFO - ✅ 生成完成: Granny Reloaded [IN DEVELOPMENT]
+2025-06-05 20:43:05,758 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749127385
+2025-06-05 20:43:05,759 - INFO - ✅ 成功更新games.ts文件，包含 16 个游戏
+2025-06-05 20:43:05,760 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 20:43:13,947 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 20:43:13,951 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 20:43:13,951 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 20:43:13,951 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 20:43:13,951 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 20:43:13,951 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 20:43:13,951 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 20:43:13,952 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 20:43:13,952 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 20:43:13,952 - INFO -   - 白名单域名: 40 个
+2025-06-05 20:43:13,952 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 20:43:13,952 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 20:43:13,952 - INFO - 🕷️ 开始爬取新游戏（最多2个）...
+2025-06-05 20:43:13,952 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 20:43:13,953 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 20:43:13,953 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 20:43:21,629 - INFO - 找到 1 个游戏元素
+2025-06-05 20:43:33,258 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 20:43:36,778 - INFO - 基础爬取完成，找到 1 个游戏
+2025-06-05 20:43:36,779 - INFO - 爬取完成，总共找到 1 个新游戏
+2025-06-05 20:43:36,783 - INFO - 成功读取 16 个游戏
+2025-06-05 20:43:36,784 - INFO - 去重完成: 17/17 个唯一游戏
+2025-06-05 20:43:36,786 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749127416
+2025-06-05 20:43:36,800 - INFO - ✅ 成功更新games.ts文件，包含 17 个游戏
+2025-06-05 20:43:36,801 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 20:43:51,974 - WARNING - ⚠️ 代理测试失败: HTTP 503
+2025-06-05 20:52:39,553 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 20:52:51,427 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 20:53:21,759 - WARNING - ⚠️ 代理不可用: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /ip (Caused by ReadTimeoutError("HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=5)"))
+2025-06-05 20:53:21,762 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 20:53:21,762 - INFO - ⚠️ 代理配置失败，将直接连接
+2025-06-05 20:53:21,762 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 20:53:21,763 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 20:53:21,763 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 20:53:21,763 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 20:53:21,763 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 20:53:21,763 - INFO -   - 白名单域名: 40 个
+2025-06-05 20:53:21,764 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 20:53:21,764 - INFO - ✅ 缩略图生成器已启用
+2025-06-05 20:53:21,764 - INFO - 🕷️ 开始爬取新游戏（最多2个）...
+2025-06-05 20:53:21,765 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 20:53:21,765 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 20:53:21,765 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 20:53:28,891 - INFO - 找到 1 个游戏元素

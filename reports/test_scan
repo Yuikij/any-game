@@ -1,0 +1,114 @@
+================================================================================
+🎮 AnyGame 游戏扫描报告
+================================================================================
+生成时间: 2025-06-05 17:06:04
+
+📊 统计概要:
+  总游戏数: 44
+  ✅ 正常工作: 0 (0.0%)
+  🚫 GCS权限错误: 0 (0.0%)
+  ❌ 访问拒绝: 0
+  ⏰ 超时: 0
+  ⚠️ 无URL: 44
+  ❌ 其他错误: 0
+
+⚠️ 无URL的游戏 (44个):
+  - Forever Gold (1)
+    错误信息: 游戏没有URL
+  - Arcane Earth - Increment Clicker (2)
+    错误信息: 游戏没有URL
+  - Lucky Dig (3)
+    错误信息: 游戏没有URL
+  - Sort the Court! (4)
+    错误信息: 游戏没有URL
+  - Batter Up! (5)
+    错误信息: 游戏没有URL
+  - We Become What We Behold (6)
+    错误信息: 游戏没有URL
+  - RetroFab (7)
+    错误信息: 游戏没有URL
+  - Exhibit of Sorrows (crawled_1749090157_9)
+    错误信息: 游戏没有URL
+  - Cattle Crisis (basic_itch.io_html5_1749103496_23)
+    错误信息: 游戏没有URL
+  - Adventures With Anxiety! (basic_itch.io_html5_1749104821_29)
+    错误信息: 游戏没有URL
+  - POOM (basic_itch.io_html5_1749104889_33)
+    错误信息: 游戏没有URL
+  - Average Routine (quick_1749107147_0)
+    错误信息: 游戏没有URL
+  - Podvodsk (Ludum Dare 57) (quick_1749107147_1)
+    错误信息: 游戏没有URL
+  - NSMB Mario Vs Luigi - KKT (quick_1749107147_2)
+    错误信息: 游戏没有URL
+  - Assessment Examination (quick_1749107147_3)
+    错误信息: 游戏没有URL
+  - Cheese is the Reason (quick_1749107147_4)
+    错误信息: 游戏没有URL
+  - Six Cats Under (quick_1749107147_5)
+    错误信息: 游戏没有URL
+  - GET YOKED: Extreme Bodybuilding (quick_1749107147_6)
+    错误信息: 游戏没有URL
+  - SLAUGHTERâSQUAD (quick_1749107147_7)
+    错误信息: 游戏没有URL
+  - Soul Void (quick_1749107147_8)
+    错误信息: 游戏没有URL
+  - A Dance of Fire and Ice (quick_1749107147_9)
+    错误信息: 游戏没有URL
+  - goodbye, doggy (quick_1749107147_10)
+    错误信息: 游戏没有URL
+  - Rainbow Frontline (quick_1749107148_11)
+    错误信息: 游戏没有URL
+  - Lem-stroids (quick_1749107148_12)
+    错误信息: 游戏没有URL
+  - Affection at Heart, Grief in Practice (quick_1749107148_13)
+    错误信息: 游戏没有URL
+  - Touhou survivors (quick_1749107148_14)
+    错误信息: 游戏没有URL
+  - Sedation Surge (quick_1749107148_15)
+    错误信息: 游戏没有URL
+  - Test Flight (quick_1749107148_16)
+    错误信息: 游戏没有URL
+  - It all seemed lost in the ocean of stars (quick_1749107148_17)
+    错误信息: 游戏没有URL
+  - IPLIER BOUTIQUE (quick_1749107148_18)
+    错误信息: 游戏没有URL
+  - FLAPPY CAT (quick_1749107148_19)
+    错误信息: 游戏没有URL
+  - My Final Project (quick_1749107148_20)
+    错误信息: 游戏没有URL
+  - La Gran Batalla de Los Molinos (quick_1749107148_21)
+    错误信息: 游戏没有URL
+  - Upslash Demo (quick_1749107148_22)
+    错误信息: 游戏没有URL
+  - Shape Survival Goofiness (quick_1749107148_23)
+    错误信息: 游戏没有URL
+  - Still Here.... (quick_1749107148_24)
+    错误信息: 游戏没有URL
+  - Misfit: TBaTI Willy DEMO (quick_1749107148_25)
+    错误信息: 游戏没有URL
+  - PEREELOUS (quick_1749107149_26)
+    错误信息: 游戏没有URL
+  - Mr. Magpie (quick_1749107149_27)
+    错误信息: 游戏没有URL
+  - Die in the Dungeon CLASSIC (quick_1749107149_28)
+    错误信息: 游戏没有URL
+  - an average day at the cat cafe (quick_1749107149_29)
+    错误信息: 游戏没有URL
+  - The Talented Tales of Joey Jungle (quick_1749107922_1)
+    错误信息: 游戏没有URL
+  - Friday Night Funkin\ (quick_1749107924_3)
+    错误信息: 游戏没有URL
+  - SIDE EFFECTS (basic_itch.io_html5_1749112453_0)
+    错误信息: 游戏没有URL
+
+💡 处理建议:
+  1. ✅ 正常游戏：保持现状
+  2. 🚫 GCS权限错误：保留（用户可通过新窗口访问）
+  3. ❌ 其他错误游戏：建议移除
+  4. 🔄 定期运行扫描确保游戏库质量
+
+🔧 执行命令:
+  移除有问题游戏: python scripts/game_toolkit.py remove --no-dry-run
+  重新扫描: python scripts/game_toolkit.py scan
+  完整流程: python scripts/game_toolkit.py all

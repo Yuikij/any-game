@@ -1,0 +1,75 @@
+=== 游戏链接检查报告 ===
+检查时间: 2025-06-05 16:37:29
+
+🚫 有问题的游戏 (33个):
+  - Arcane Earth - Increment Clicker (2)
+    URL: https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+  - Average Routine (quick_1749107147_0)
+    URL: https://html-classic.itch.zone/html/average-routine/index.html
+  - Podvodsk (Ludum Dare 57) (quick_1749107147_1)
+    URL: https://html-classic.itch.zone/html/podvodsk/index.html
+  - NSMB Mario Vs Luigi - KKT (quick_1749107147_2)
+    URL: https://html-classic.itch.zone/html/kkts-gooffy-little-mod/index.html
+  - Assessment Examination (quick_1749107147_3)
+    URL: https://html-classic.itch.zone/html/assessment-examination/index.html
+  - Cheese is the Reason (quick_1749107147_4)
+    URL: https://html-classic.itch.zone/html/cheese-is-the-reason/index.html
+  - Six Cats Under (quick_1749107147_5)
+    URL: https://html-classic.itch.zone/html/six-cats-under/index.html
+  - GET YOKED: Extreme Bodybuilding (quick_1749107147_6)
+    URL: https://html-classic.itch.zone/html/get-yoked-2/index.html
+  - SLAUGHTERâSQUAD (quick_1749107147_7)
+    URL: https://html-classic.itch.zone/html/slsq/index.html
+  - Soul Void (quick_1749107147_8)
+    URL: https://html-classic.itch.zone/html/soul-void/index.html
+  - A Dance of Fire and Ice (quick_1749107147_9)
+    URL: https://html-classic.itch.zone/html/a-dance-of-fire-and-ice/index.html
+  - goodbye, doggy (quick_1749107147_10)
+    URL: https://html-classic.itch.zone/html/goodbye-doggy/index.html
+  - Rainbow Frontline (quick_1749107148_11)
+    URL: https://html-classic.itch.zone/html/rainbow-frontline/index.html
+  - Lem-stroids (quick_1749107148_12)
+    URL: https://html-classic.itch.zone/html/lem-stroids/index.html
+  - Affection at Heart, Grief in Practice (quick_1749107148_13)
+    URL: https://html-classic.itch.zone/html/affection-at-heart-grief-in-practice/index.html
+  - Touhou survivors (quick_1749107148_14)
+    URL: https://html-classic.itch.zone/html/touhou-survivors/index.html
+  - Sedation Surge (quick_1749107148_15)
+    URL: https://html-classic.itch.zone/html/sedation-surge/index.html
+  - Test Flight (quick_1749107148_16)
+    URL: https://html-classic.itch.zone/html/test-flight/index.html
+  - It all seemed lost in the ocean of stars (quick_1749107148_17)
+    URL: https://html-classic.itch.zone/html/it-all-seemed-lost-in-the-ocean-of-stars/index.html
+  - IPLIER BOUTIQUE (quick_1749107148_18)
+    URL: https://html-classic.itch.zone/html/iplier-boutique/index.html
+  - FLAPPY CAT (quick_1749107148_19)
+    URL: https://html-classic.itch.zone/html/flappy-cat/index.html
+  - My Final Project (quick_1749107148_20)
+    URL: https://html-classic.itch.zone/html/my-final-project/index.html
+  - La Gran Batalla de Los Molinos (quick_1749107148_21)
+    URL: https://html-classic.itch.zone/html/la-gran-batalla-de-los-molinos/index.html
+  - Upslash Demo (quick_1749107148_22)
+    URL: https://html-classic.itch.zone/html/upslash-demo/index.html
+  - Shape Survival Goofiness (quick_1749107148_23)
+    URL: https://html-classic.itch.zone/html/chaos-of-the-shapes/index.html
+  - Still Here.... (quick_1749107148_24)
+    URL: https://html-classic.itch.zone/html/still-here/index.html
+  - Misfit: TBaTI Willy DEMO (quick_1749107148_25)
+    URL: https://html-classic.itch.zone/html/misfit-tbati-willy-demo/index.html
+  - PEREELOUS (quick_1749107149_26)
+    URL: https://html-classic.itch.zone/html/pereelous/index.html
+  - Mr. Magpie (quick_1749107149_27)
+    URL: https://html-classic.itch.zone/html/mr-magpies-harmless-card-game/index.html
+  - Die in the Dungeon CLASSIC (quick_1749107149_28)
+    URL: https://html-classic.itch.zone/html/die-in-the-dungeon/index.html
+  - an average day at the cat cafe (quick_1749107149_29)
+    URL: https://html-classic.itch.zone/html/an-average-day-at-the-cat-cafe/index.html
+  - The Talented Tales of Joey Jungle (quick_1749107922_1)
+    URL: https://html-classic.itch.zone/html/the-talented-tales-of-joey-jungle/index.html
+  - Friday Night Funkin\ (quick_1749107924_3)
+    URL: https://html-classic.itch.zone/html/funkin/index.html
+
+总结:
+  - 有问题的游戏: 33
+  - 已修复的游戏: 0
+  - 修复成功率: 0.0%

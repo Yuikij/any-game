@@ -1,0 +1,778 @@
+{
+  "summary": {
+    "total_games": 44,
+    "working": 0,
+    "gcs_error": 0,
+    "access_denied": 0,
+    "timeout": 0,
+    "no_url": 44,
+    "other_error": 0,
+    "scan_time": "2025-06-05T17:06:04.713016"
+  },
+  "working_games": [],
+  "gcs_error_games": [],
+  "problematic_games": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "crawled_1749090157_9",
+    "basic_itch.io_html5_1749103496_23",
+    "basic_itch.io_html5_1749104821_29",
+    "basic_itch.io_html5_1749104889_33",
+    "quick_1749107147_0",
+    "quick_1749107147_1",
+    "quick_1749107147_2",
+    "quick_1749107147_3",
+    "quick_1749107147_4",
+    "quick_1749107147_5",
+    "quick_1749107147_6",
+    "quick_1749107147_7",
+    "quick_1749107147_8",
+    "quick_1749107147_9",
+    "quick_1749107147_10",
+    "quick_1749107148_11",
+    "quick_1749107148_12",
+    "quick_1749107148_13",
+    "quick_1749107148_14",
+    "quick_1749107148_15",
+    "quick_1749107148_16",
+    "quick_1749107148_17",
+    "quick_1749107148_18",
+    "quick_1749107148_19",
+    "quick_1749107148_20",
+    "quick_1749107148_21",
+    "quick_1749107148_22",
+    "quick_1749107148_23",
+    "quick_1749107148_24",
+    "quick_1749107148_25",
+    "quick_1749107149_26",
+    "quick_1749107149_27",
+    "quick_1749107149_28",
+    "quick_1749107149_29",
+    "quick_1749107922_1",
+    "quick_1749107924_3",
+    "basic_itch.io_html5_1749112453_0"
+  ],
+  "filter_list": {
+    "keep": [],
+    "remove": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "crawled_1749090157_9",
+      "basic_itch.io_html5_1749103496_23",
+      "basic_itch.io_html5_1749104821_29",
+      "basic_itch.io_html5_1749104889_33",
+      "quick_1749107147_0",
+      "quick_1749107147_1",
+      "quick_1749107147_2",
+      "quick_1749107147_3",
+      "quick_1749107147_4",
+      "quick_1749107147_5",
+      "quick_1749107147_6",
+      "quick_1749107147_7",
+      "quick_1749107147_8",
+      "quick_1749107147_9",
+      "quick_1749107147_10",
+      "quick_1749107148_11",
+      "quick_1749107148_12",
+      "quick_1749107148_13",
+      "quick_1749107148_14",
+      "quick_1749107148_15",
+      "quick_1749107148_16",
+      "quick_1749107148_17",
+      "quick_1749107148_18",
+      "quick_1749107148_19",
+      "quick_1749107148_20",
+      "quick_1749107148_21",
+      "quick_1749107148_22",
+      "quick_1749107148_23",
+      "quick_1749107148_24",
+      "quick_1749107148_25",
+      "quick_1749107149_26",
+      "quick_1749107149_27",
+      "quick_1749107149_28",
+      "quick_1749107149_29",
+      "quick_1749107922_1",
+      "quick_1749107924_3",
+      "basic_itch.io_html5_1749112453_0"
+    ]
+  },
+  "details": {
+    "working": [],
+    "gcs_error": [],
+    "access_denied": [],
+    "timeout": [],
+    "no_url": [
+      {
+        "game": {
+          "id": "1",
+          "title": "Forever Gold",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "简单有趣的休闲游戏，适合所有年龄段玩家"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:20.660588"
+      },
+      {
+        "game": {
+          "id": "2",
+          "title": "Arcane Earth - Increment Clicker",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的休闲游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:21.661160"
+      },
+      {
+        "game": {
+          "id": "3",
+          "title": "Lucky Dig",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的模拟游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:22.662153"
+      },
+      {
+        "game": {
+          "id": "4",
+          "title": "Sort the Court!",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的模拟游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:23.663361"
+      },
+      {
+        "game": {
+          "id": "5",
+          "title": "Batter Up!",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的动作游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:24.664777"
+      },
+      {
+        "game": {
+          "id": "6",
+          "title": "We Become What We Behold",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的休闲游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:25.665742"
+      },
+      {
+        "game": {
+          "id": "7",
+          "title": "RetroFab",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "一款有趣的模拟游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:26.667170"
+      },
+      {
+        "game": {
+          "id": "crawled_1749090157_9",
+          "title": "Exhibit of Sorrows",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:27.668038"
+      },
+      {
+        "game": {
+          "id": "basic_itch.io_html5_1749103496_23",
+          "title": "Cattle Crisis",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io HTML5的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:28.669252"
+      },
+      {
+        "game": {
+          "id": "basic_itch.io_html5_1749104821_29",
+          "title": "Adventures With Anxiety!",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io HTML5的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:29.670727"
+      },
+      {
+        "game": {
+          "id": "basic_itch.io_html5_1749104889_33",
+          "title": "POOM",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io HTML5的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:30.671543"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_0",
+          "title": "Average Routine",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:31.672118"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_1",
+          "title": "Podvodsk (Ludum Dare 57)",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:32.673395"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_2",
+          "title": "NSMB Mario Vs Luigi - KKT",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:33.675641"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_3",
+          "title": "Assessment Examination",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:34.676759"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_4",
+          "title": "Cheese is the Reason",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:35.677624"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_5",
+          "title": "Six Cats Under",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:36.678645"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_6",
+          "title": "GET YOKED: Extreme Bodybuilding",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:37.679080"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_7",
+          "title": "SLAUGHTERâSQUAD",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:38.680161"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_8",
+          "title": "Soul Void",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:39.681239"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_9",
+          "title": "A Dance of Fire and Ice",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:40.682322"
+      },
+      {
+        "game": {
+          "id": "quick_1749107147_10",
+          "title": "goodbye, doggy",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:41.683777"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_11",
+          "title": "Rainbow Frontline",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:42.684637"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_12",
+          "title": "Lem-stroids",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:43.685334"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_13",
+          "title": "Affection at Heart, Grief in Practice",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:44.687105"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_14",
+          "title": "Touhou survivors",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:45.687904"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_15",
+          "title": "Sedation Surge",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:46.688674"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_16",
+          "title": "Test Flight",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:47.689965"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_17",
+          "title": "It all seemed lost in the ocean of stars",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:48.691591"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_18",
+          "title": "IPLIER BOUTIQUE",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:49.692562"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_19",
+          "title": "FLAPPY CAT",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:50.693930"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_20",
+          "title": "My Final Project",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:51.694642"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_21",
+          "title": "La Gran Batalla de Los Molinos",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:52.695589"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_22",
+          "title": "Upslash Demo",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:53.697253"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_23",
+          "title": "Shape Survival Goofiness",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:54.698070"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_24",
+          "title": "Still Here....",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:55.699636"
+      },
+      {
+        "game": {
+          "id": "quick_1749107148_25",
+          "title": "Misfit: TBaTI Willy DEMO",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:56.700577"
+      },
+      {
+        "game": {
+          "id": "quick_1749107149_26",
+          "title": "PEREELOUS",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:57.701564"
+      },
+      {
+        "game": {
+          "id": "quick_1749107149_27",
+          "title": "Mr. Magpie",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:58.703196"
+      },
+      {
+        "game": {
+          "id": "quick_1749107149_28",
+          "title": "Die in the Dungeon CLASSIC",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:05:59.704972"
+      },
+      {
+        "game": {
+          "id": "quick_1749107149_29",
+          "title": "an average day at the cat cafe",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:06:00.705846"
+      },
+      {
+        "game": {
+          "id": "quick_1749107922_1",
+          "title": "The Talented Tales of Joey Jungle",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:06:01.707409"
+      },
+      {
+        "game": {
+          "id": "quick_1749107924_3",
+          "title": "Friday Night Funkin\\",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:06:02.709449"
+      },
+      {
+        "game": {
+          "id": "basic_itch.io_html5_1749112453_0",
+          "title": "SIDE EFFECTS",
+          "type": "iframe",
+          "iframeUrl": "",
+          "staticPath": "",
+          "description": "来自itch.io HTML5的HTML5游戏"
+        },
+        "status": "no_url",
+        "details": {
+          "message": "游戏没有URL"
+        },
+        "checked_at": "2025-06-05T17:06:03.710619"
+      }
+    ],
+    "other_error": []
+  }
+}

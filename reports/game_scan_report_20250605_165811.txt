@@ -1,0 +1,47 @@
+==================================================
+游戏可访问性扫描报告
+==================================================
+扫描时间: 2025-06-05 16:58:11
+总游戏数: 43
+
+📊 统计:
+  ✅ 正常: 11 (25.6%)
+  🚫 GCS错误: 32 (74.4%)
+  ❌ 其他错误: 0 (0.0%)
+  ⚠️  无URL: 0 (0.0%)
+
+🚫 GCS错误游戏(已有解决方案):
+  - Arcane Earth - Increment Clicker (2)
+  - Average Routine (quick_1749107147_0)
+  - Podvodsk (Ludum Dare 57) (quick_1749107147_1)
+  - NSMB Mario Vs Luigi - KKT (quick_1749107147_2)
+  - Assessment Examination (quick_1749107147_3)
+  - Cheese is the Reason (quick_1749107147_4)
+  - Six Cats Under (quick_1749107147_5)
+  - GET YOKED: Extreme Bodybuilding (quick_1749107147_6)
+  - SLAUGHTERâSQUAD (quick_1749107147_7)
+  - Soul Void (quick_1749107147_8)
+  - A Dance of Fire and Ice (quick_1749107147_9)
+  - goodbye, doggy (quick_1749107147_10)
+  - Rainbow Frontline (quick_1749107148_11)
+  - Lem-stroids (quick_1749107148_12)
+  - Affection at Heart, Grief in Practice (quick_1749107148_13)
+  - Touhou survivors (quick_1749107148_14)
+  - Sedation Surge (quick_1749107148_15)
+  - Test Flight (quick_1749107148_16)
+  - It all seemed lost in the ocean of stars (quick_1749107148_17)
+  - IPLIER BOUTIQUE (quick_1749107148_18)
+  - FLAPPY CAT (quick_1749107148_19)
+  - My Final Project (quick_1749107148_20)
+  - La Gran Batalla de Los Molinos (quick_1749107148_21)
+  - Upslash Demo (quick_1749107148_22)
+  - Shape Survival Goofiness (quick_1749107148_23)
+  - Still Here.... (quick_1749107148_24)
+  - Misfit: TBaTI Willy DEMO (quick_1749107148_25)
+  - PEREELOUS (quick_1749107149_26)
+  - Mr. Magpie (quick_1749107149_27)
+  - Die in the Dungeon CLASSIC (quick_1749107149_28)
+  - an average day at the cat cafe (quick_1749107149_29)
+  - The Talented Tales of Joey Jungle (quick_1749107922_1)
+
+✅ 所有游戏都可用或有解决方案!

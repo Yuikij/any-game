@@ -55,6 +55,14 @@ except ImportError:
     SERPAPI_AVAILABLE = False
     print("⚠️ SerpAPI库未安装，将使用基础API调用")
 
+# 尝试导入PIL（缩略图生成）
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    PIL_AVAILABLE = True
+except ImportError:
+    PIL_AVAILABLE = False
+    print("⚠️ PIL库未安装，缩略图生成功能不可用")
+
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
@@ -66,16 +74,127 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# ========================================================================================
+# 🔧 核心配置区域 - 集成所有配置
+# ========================================================================================
+
+class Config:
+    """游戏管理器配置类 - 集中管理所有配置项"""
+    
+    # 🌐 代理配置
+    USE_PROXY = True         # 📝 改为 True 启用代理
+    PROXY_HOST = '127.0.0.1'  # 📝 代理服务器地址
+    PROXY_PORT = '7890'       # 📝 代理服务器端口
+    
+    # 🛡️ 白名单配置
+    STRICT_WHITELIST = False  # 📝 改为 True 启用严格白名单模式
+    
+    # 🎯 爬虫配置
+    MAX_GAMES_DEFAULT = 10    # 📝 默认爬取游戏数量
+    CRAWL_DELAY_MIN = 2.0     # 📝 最小延迟（秒）
+    CRAWL_DELAY_MAX = 5.0     # 📝 最大延迟（秒）
+    REQUEST_TIMEOUT = 15      # 📝 请求超时时间（秒）
+    RETRY_ATTEMPTS = 3        # 📝 重试次数
+    
+    # 🚦 特定平台延迟配置（避免429错误）
+    PLATFORM_DELAYS = {
+        'itch.io': (4.0, 8.0),
+        'gamejolt.com': (3.0, 6.0),
+        'newgrounds.com': (2.0, 4.0),
+        'crazygames.com': (3.0, 5.0),
+        'gamedistribution.com': (2.0, 4.0),
+        'scratch.mit.edu': (5.0, 8.0),  # Scratch需要更长延迟
+        'miniplay.com': (3.0, 6.0),
+        'default': (2.0, 5.0)
+    }
+    
+    # 🔍 API配置
+    SERPAPI_KEY = ""        # 📝 在这里设置你的SerpAPI密钥
+    GOOGLE_API_KEY = ""     # 📝 在这里设置你的Google API密钥
+    GOOGLE_CX = ""          # 📝 在这里设置你的Google Custom Search Engine ID
+    
+    # 📁 路径配置
+    PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    GAMES_DATA_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'games.ts')
+    LOCAL_GAMES_DIR = os.path.join(PROJECT_ROOT, 'public', 'games')
+    THUMBNAILS_DIR = os.path.join(PROJECT_ROOT, 'public', 'games', 'thumbnails')
+    
+    # 🎮 游戏验证配置
+    GAME_URL_SCORE_THRESHOLD = 50  # 📝 智能验证的分数阈值
+    
+    @classmethod
+    def load_from_env(cls):
+        """从环境变量加载配置（可覆盖默认值）"""
+        cls.USE_PROXY = os.getenv('USE_PROXY', str(cls.USE_PROXY)).lower() == 'true'
+        cls.PROXY_HOST = os.getenv('PROXY_HOST', cls.PROXY_HOST)
+        cls.PROXY_PORT = os.getenv('PROXY_PORT', cls.PROXY_PORT)
+        cls.STRICT_WHITELIST = os.getenv('STRICT_WHITELIST', str(cls.STRICT_WHITELIST)).lower() == 'true'
+        
+        # API密钥优先从环境变量读取
+        cls.SERPAPI_KEY = os.getenv('SERPAPI_KEY', cls.SERPAPI_KEY)
+        cls.GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', cls.GOOGLE_API_KEY)
+        cls.GOOGLE_CX = os.getenv('GOOGLE_CX', cls.GOOGLE_CX)
+        
+        # 数值配置
+        try:
+            cls.MAX_GAMES_DEFAULT = int(os.getenv('MAX_GAMES_DEFAULT', str(cls.MAX_GAMES_DEFAULT)))
+            cls.CRAWL_DELAY_MIN = float(os.getenv('CRAWL_DELAY_MIN', str(cls.CRAWL_DELAY_MIN)))
+            cls.CRAWL_DELAY_MAX = float(os.getenv('CRAWL_DELAY_MAX', str(cls.CRAWL_DELAY_MAX)))
+            cls.REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', str(cls.REQUEST_TIMEOUT)))
+            cls.RETRY_ATTEMPTS = int(os.getenv('RETRY_ATTEMPTS', str(cls.RETRY_ATTEMPTS)))
+            cls.GAME_URL_SCORE_THRESHOLD = int(os.getenv('GAME_URL_SCORE_THRESHOLD', str(cls.GAME_URL_SCORE_THRESHOLD)))
+        except ValueError:
+            pass  # 使用默认值
+    
+    @classmethod
+    def update_from_args(cls, args):
+        """从命令行参数更新配置"""
+        if hasattr(args, 'use_proxy') and args.use_proxy:
+            cls.USE_PROXY = True
+        if hasattr(args, 'strict_whitelist') and args.strict_whitelist:
+            cls.STRICT_WHITELIST = True
+        if hasattr(args, 'max_games') and args.max_games:
+            cls.MAX_GAMES_DEFAULT = args.max_games
+    
+    @classmethod
+    def print_status(cls):
+        """打印当前配置状态"""
+        print("🔧 当前配置状态:")
+        print(f"  代理模式: {'✅ 启用' if cls.USE_PROXY else '❌ 禁用'}")
+        if cls.USE_PROXY:
+            print(f"  代理地址: {cls.PROXY_HOST}:{cls.PROXY_PORT}")
+        print(f"  白名单模式: {'🔒 严格模式' if cls.STRICT_WHITELIST else '🤖 智能模式'}")
+        print(f"  默认爬取数量: {cls.MAX_GAMES_DEFAULT}")
+        print(f"  API配置: SerpAPI={'✅' if cls.SERPAPI_KEY else '❌'}, Google={'✅' if cls.GOOGLE_API_KEY else '❌'}")
+        # 检查PIL是否可用
+        try:
+            from PIL import Image, ImageDraw, ImageFont
+            pil_available = True
+        except ImportError:
+            pil_available = False
+        print(f"  缩略图生成: {'✅ 可用' if pil_available else '❌ 不可用'}")
+
+# 初始化配置
+Config.load_from_env()
+
 # 项目配置
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GAMES_DATA_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'games.ts')
-LOCAL_GAMES_DIR = os.path.join(PROJECT_ROOT, 'public', 'games')
-THUMBNAILS_DIR = os.path.join(PROJECT_ROOT, 'public', 'games', 'thumbnails')
-
-
+PROJECT_ROOT = Config.PROJECT_ROOT
+GAMES_DATA_FILE = Config.GAMES_DATA_FILE
+LOCAL_GAMES_DIR = Config.LOCAL_GAMES_DIR
+THUMBNAILS_DIR = Config.THUMBNAILS_DIR
 
 # 导入共享配置
-from config import Config, USE_PROXY, PROXY_HOST, PROXY_PORT, STRICT_WHITELIST, SERPAPI_KEY, GOOGLE_API_KEY, GOOGLE_CX
+USE_PROXY = Config.USE_PROXY
+PROXY_HOST = Config.PROXY_HOST
+PROXY_PORT = Config.PROXY_PORT
+STRICT_WHITELIST = Config.STRICT_WHITELIST
+SERPAPI_KEY = Config.SERPAPI_KEY
+GOOGLE_API_KEY = Config.GOOGLE_API_KEY
+GOOGLE_CX = Config.GOOGLE_CX
+
+
+
+# 导入共享配置（已集成到本文件中）
 
 # 全局代理设置（类似Java的-Dhttps.proxyHost）
 def setup_global_proxy():
@@ -135,14 +254,12 @@ def get_random_headers():
         'Cache-Control': 'max-age=0'
     }
 
-# 高质量HTML5游戏平台
-# 📝 现在支持智能选择器检测！可以不填写game_selector和title_selector，脚本会自动检测
+# 高质量HTML5游戏平台 - 扩展版
 PREMIUM_GAME_SITES = [
     {
         'name': 'itch.io HTML5',
         'base_url': 'https://itch.io',
         'search_url': 'https://itch.io/games/html5',
-        # 可选：手动指定选择器（如果自动检测不准确）
         'game_selector': '.game_cell',
         'title_selector': '.title',
         'priority': 1
@@ -151,36 +268,43 @@ PREMIUM_GAME_SITES = [
         'name': 'GameJolt',
         'base_url': 'https://gamejolt.com',
         'search_url': 'https://gamejolt.com/games',
-        # 让脚本自动检测选择器
         'priority': 2
     },
-    # 📝 添加新平台现在更简单了！只需要提供基本信息：
     {
-        'name': '平台名称',
+        'name': 'CrazyGames New',
         'base_url': 'https://www.crazygames.com',
-        'search_url': 'https://www.crazygames.com',
+        'search_url': 'https://www.crazygames.com/new',
+        'game_selector': '.game-tile, .game-item, [data-game-id]',
+        'title_selector': '.game-title, .title, h3, h4',
         'priority': 3
+    },
+    {
+        'name': 'GameDistribution',
+        'base_url': 'https://gamedistribution.com',
+        'search_url': 'https://gamedistribution.com/games/',
+        'game_selector': '.game-item, .game-card, .grid-item',
+        'title_selector': '.game-title, .title, h3',
+        'priority': 4
+    },
+    {
+        'name': 'Scratch MIT',
+        'base_url': 'https://scratch.mit.edu',
+        'search_url': 'https://scratch.mit.edu/explore/projects/all/',
+        'game_selector': '.thumbnail, .gallery-item',
+        'title_selector': '.thumbnail-title, .title',
+        'priority': 5
+    },
+    {
+        'name': 'Miniplay',
+        'base_url': 'https://www.miniplay.com',
+        'search_url': 'https://www.miniplay.com/most-played',
+        'game_selector': '.game-item, .game-box, .grid-item',
+        'title_selector': '.game-title, .title, h3',
+        'priority': 6
     }
-    # 脚本会自动检测游戏列表的CSS选择器！
-    
-    # 示例：CrazyGames（自动检测选择器）
-    # {
-    #     'name': 'CrazyGames',
-    #     'base_url': 'https://www.crazygames.com',
-    #     'search_url': 'https://www.crazygames.com/c/html5',
-    #     'priority': 3
-    # },
-    
-    # 示例：Kongregate（自动检测选择器）
-    # {
-    #     'name': 'Kongregate',
-    #     'base_url': 'https://www.kongregate.com',
-    #     'search_url': 'https://www.kongregate.com/games',
-    #     'priority': 4
-    # }
 ]
 
-# 可嵌入域名白名单（真正的游戏托管域名）
+# 可嵌入域名白名单（扩展版，包含新网站）
 EMBEDDABLE_DOMAINS = [
     # itch.io 游戏托管域名
     'html-classic.itch.zone',
@@ -197,9 +321,33 @@ EMBEDDABLE_DOMAINS = [
     'gamejolt.net',
     'cdn.gamejolt.net',
     
-    # 其他知名游戏平台
+    # CrazyGames域名
     'crazygames.com/embed',
     'embed.crazygames.com',
+    'crazygames.com/new',
+    'files.crazygames.com',
+    'assets.crazygames.com',
+    
+    # GameDistribution域名
+    'gamedistribution.com',
+    'html5.gamedistribution.com',
+    'game-cdn.gamedistribution.com',
+    'gd-hbcontent.htmlgames.com',
+    'gamemonétize.com',
+    
+    # Scratch MIT域名
+    'scratch.mit.edu',
+    'cdn2.scratch.mit.edu',
+    'uploads.scratch.mit.edu',
+    'projects.scratch.mit.edu',
+    
+    # Miniplay域名
+    'miniplay.com',
+    'static.miniplay.com',
+    'games.miniplay.com',
+    'cdn.miniplay.com',
+    
+    # 其他知名游戏平台
     'poki.com/embed',
     'embed.poki.com',
     'kongregate.com/games',
@@ -211,20 +359,24 @@ EMBEDDABLE_DOMAINS = [
     'game-cdn.poki.com',
     'assets.crazygames.com',
     
-    # 📝 在这里添加新发现的游戏托管域名
-    # 例如：
-    'crazygames.com/new',
-    # 'games.miniclip.com',
-    # 'embed.armorgames.com'
+    # 通用游戏托管
+    'cloudfront.net',
+    'amazonaws.com',
+    'github.io',
+    'netlify.app',
+    'vercel.app'
 ]
 
-# API搜索查询词（针对在线可玩游戏优化）
+# API搜索查询词（针对在线可玩游戏优化，包含新网站）
 GAME_SEARCH_QUERIES = [
     # 针对特定平台的iframe游戏
     'site:itch.io "play in browser" iframe -forum -discussion -devlog',
     'site:gamejolt.com "play now" HTML5 -community -forum',
     'site:newgrounds.com "play online" -forum -review',
     'site:crazygames.com "play online" HTML5 -blog',
+    'site:gamedistribution.com games HTML5 embed',
+    'site:scratch.mit.edu projects "see inside" -tutorial',
+    'site:miniplay.com games "play online" -news',
     'site:poki.com games "play online" -blog -news',
     
     # 通用在线游戏搜索（排除非游戏内容）
@@ -235,10 +387,202 @@ GAME_SEARCH_QUERIES = [
     '"online game" HTML5 canvas "play free" -download -app store'
 ]
 
-# 代理池（可选）
-PROXY_LIST = []
+# ========================================================================================
+# 🎨 缩略图生成功能 - 集成到GameManager中
+# ========================================================================================
 
-# 移除复杂的ProxyManager类，使用全局代理设置
+class ThumbnailGenerator:
+    """缩略图生成器"""
+    
+    def __init__(self, thumbnails_dir):
+        self.thumbnails_dir = thumbnails_dir
+        os.makedirs(thumbnails_dir, exist_ok=True)
+    
+    def generate_gradient_background(self, width, height, color1, color2):
+        """生成渐变背景"""
+        if not PIL_AVAILABLE:
+            return None
+            
+        image = Image.new('RGB', (width, height))
+        
+        for y in range(height):
+            # 计算渐变比例
+            ratio = y / height
+            
+            # 线性插值
+            r = int(color1[0] * (1 - ratio) + color2[0] * ratio)
+            g = int(color1[1] * (1 - ratio) + color2[1] * ratio)
+            b = int(color1[2] * (1 - ratio) + color2[2] * ratio)
+            
+            # 填充这一行
+            for x in range(width):
+                image.putpixel((x, y), (r, g, b))
+        
+        return image
+    
+    def generate_geometric_pattern(self, width, height, base_color):
+        """生成几何图案背景"""
+        if not PIL_AVAILABLE:
+            return None
+            
+        image = Image.new('RGB', (width, height), base_color)
+        draw = ImageDraw.Draw(image)
+        
+        # 随机几何图案
+        patterns = ['circles', 'triangles', 'rectangles', 'lines']
+        pattern = random.choice(patterns)
+        
+        # 生成亮色和暗色变体
+        r, g, b = base_color
+        light_color = (min(255, r + 40), min(255, g + 40), min(255, b + 40))
+        dark_color = (max(0, r - 40), max(0, g - 40), max(0, b - 40))
+        
+        if pattern == 'circles':
+            for _ in range(8):
+                x = random.randint(0, width)
+                y = random.randint(0, height)
+                radius = random.randint(20, 60)
+                color = random.choice([light_color, dark_color])
+                draw.ellipse([x-radius, y-radius, x+radius, y+radius], 
+                            fill=color, outline=None)
+        
+        elif pattern == 'triangles':
+            for _ in range(6):
+                points = []
+                for _ in range(3):
+                    points.append((random.randint(0, width), random.randint(0, height)))
+                color = random.choice([light_color, dark_color])
+                draw.polygon(points, fill=color)
+        
+        elif pattern == 'rectangles':
+            for _ in range(10):
+                x1 = random.randint(0, width//2)
+                y1 = random.randint(0, height//2)
+                x2 = x1 + random.randint(30, 80)
+                y2 = y1 + random.randint(20, 60)
+                color = random.choice([light_color, dark_color])
+                draw.rectangle([x1, y1, x2, y2], fill=color)
+        
+        elif pattern == 'lines':
+            for _ in range(15):
+                x1 = random.randint(0, width)
+                y1 = random.randint(0, height)
+                x2 = random.randint(0, width)
+                y2 = random.randint(0, height)
+                color = random.choice([light_color, dark_color])
+                draw.line([x1, y1, x2, y2], fill=color, width=random.randint(2, 8))
+        
+        return image
+    
+    def create_game_thumbnail(self, title, style='gradient', width=300, height=200):
+        """创建游戏缩略图"""
+        if not PIL_AVAILABLE:
+            logger.warning("PIL不可用，无法生成缩略图")
+            return None
+            
+        # 预定义的颜色主题
+        color_themes = [
+            {'primary': (52, 152, 219), 'secondary': (155, 89, 182)},
+            {'primary': (46, 204, 113), 'secondary': (52, 152, 219)},
+            {'primary': (230, 126, 34), 'secondary': (231, 76, 60)},
+            {'primary': (155, 89, 182), 'secondary': (52, 73, 94)},
+            {'primary': (231, 76, 60), 'secondary': (192, 57, 43)},
+            {'primary': (26, 188, 156), 'secondary': (22, 160, 133)},
+            {'primary': (241, 196, 15), 'secondary': (230, 126, 34)},
+            {'primary': (52, 73, 94), 'secondary': (44, 62, 80)},
+        ]
+        
+        theme = random.choice(color_themes)
+        
+        if style == 'gradient':
+            image = self.generate_gradient_background(width, height, theme['primary'], theme['secondary'])
+        else:
+            image = self.generate_geometric_pattern(width, height, theme['primary'])
+        
+        if not image:
+            return None
+            
+        draw = ImageDraw.Draw(image)
+        
+        # 尝试加载字体
+        try:
+            # Windows系统字体
+            font_large = ImageFont.truetype("arial.ttf", 24)
+        except:
+            try:
+                # Linux系统字体
+                font_large = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 24)
+            except:
+                # 默认字体
+                font_large = ImageFont.load_default()
+        
+        # 添加半透明覆盖层
+        overlay = Image.new('RGBA', (width, height), (0, 0, 0, 80))
+        image = Image.alpha_composite(image.convert('RGBA'), overlay).convert('RGB')
+        draw = ImageDraw.Draw(image)
+        
+        # 处理标题文字
+        if len(title) > 20:
+            title = title[:17] + "..."
+        
+        # 获取文字颜色
+        text_color = (255, 255, 255)  # 白色文字在深色覆盖层上
+        
+        # 计算文字位置（居中）
+        bbox = draw.textbbox((0, 0), title, font=font_large)
+        text_width = bbox[2] - bbox[0]
+        text_height = bbox[3] - bbox[1]
+        
+        text_x = (width - text_width) // 2
+        text_y = (height - text_height) // 2
+        
+        # 添加文字阴影
+        shadow_offset = 2
+        draw.text((text_x + shadow_offset, text_y + shadow_offset), title, 
+                 fill=(0, 0, 0), font=font_large)
+        
+        # 添加主文字
+        draw.text((text_x, text_y), title, fill=text_color, font=font_large)
+        
+        # 添加装饰元素
+        if random.choice([True, False]):
+            # 添加小图标或装饰
+            icon_size = 20
+            icon_x = width - icon_size - 10
+            icon_y = 10
+            
+            # 简单的游戏手柄图标
+            draw.ellipse([icon_x, icon_y, icon_x + icon_size, icon_y + icon_size], 
+                        fill=text_color, outline=None)
+            draw.ellipse([icon_x + 4, icon_y + 4, icon_x + icon_size - 4, icon_y + icon_size - 4], 
+                        fill=theme['primary'], outline=None)
+        
+        return image
+    
+    def save_thumbnail(self, image, filename):
+        """保存缩略图"""
+        if not image:
+            return False
+            
+        filepath = os.path.join(self.thumbnails_dir, filename)
+        try:
+            image.save(filepath, 'JPEG', quality=90, optimize=True)
+            return True
+        except Exception as e:
+            logger.error(f"保存缩略图失败 {filename}: {e}")
+            return False
+    
+    def generate_for_game(self, game_title, game_id):
+        """为特定游戏生成缩略图"""
+        style = random.choice(['gradient', 'geometric'])
+        image = self.create_game_thumbnail(game_title, style)
+        
+        if image:
+            filename = f"{game_id}.jpg"
+            if self.save_thumbnail(image, filename):
+                return f'/games/thumbnails/{filename}'
+        
+        return '/games/thumbnails/default.jpg'
 
 class GameManager:
     """统一的游戏管理器"""
@@ -291,6 +635,14 @@ class GameManager:
         
         # 跟踪429错误的域名（用于增加延迟）
         self.rate_limited_domains = set()
+        
+        # 初始化缩略图生成器
+        if PIL_AVAILABLE:
+            self.thumbnail_generator = ThumbnailGenerator(THUMBNAILS_DIR)
+            logger.info("✅ 缩略图生成器已启用")
+        else:
+            self.thumbnail_generator = None
+            logger.info("⚠️ PIL库未安装，缩略图生成功能不可用")
     
     @retry(stop=stop_after_attempt(3), 
            wait=wait_fixed(2),
@@ -553,7 +905,7 @@ class GameManager:
         return unique_games
     
     def fix_thumbnails(self, games: List[Dict]) -> List[Dict]:
-        """修复游戏封面，为每个游戏分配合适的缩略图"""
+        """修复游戏封面，自动生成或分配合适的缩略图"""
         try:
             # 获取可用的缩略图文件
             available_thumbs = []
@@ -565,22 +917,40 @@ class GameManager:
             available_thumbs = [thumb for thumb in available_thumbs if thumb != 'default.jpg']
             available_thumbs.sort()  # 按文件名排序
             
-            logger.info(f"找到 {len(available_thumbs)} 个可用缩略图")
+            logger.info(f"找到 {len(available_thumbs)} 个现有缩略图")
             
-            if not available_thumbs:
-                logger.warning("没有找到可用的缩略图文件")
-                return games
-            
-            # 为每个游戏分配缩略图
+            # 为每个游戏分配或生成缩略图
             for i, game in enumerate(games):
-                if available_thumbs:
+                game_id = game.get('id', f'game_{i}')
+                game_title = game.get('title', 'Untitled Game')
+                
+                # 检查是否已有专属缩略图
+                specific_thumb = f"{game_id}.jpg"
+                specific_thumb_path = os.path.join(THUMBNAILS_DIR, specific_thumb)
+                
+                if os.path.exists(specific_thumb_path):
+                    # 使用现有的专属缩略图
+                    game['thumbnail'] = f'/games/thumbnails/{specific_thumb}'
+                    logger.debug(f"使用现有缩略图: {game_title} -> {specific_thumb}")
+                
+                elif PIL_AVAILABLE and self.thumbnail_generator:
+                    # 自动生成新缩略图
+                    logger.info(f"🎨 为游戏 '{game_title}' 生成新缩略图...")
+                    generated_thumb = self.thumbnail_generator.generate_for_game(game_title, game_id)
+                    game['thumbnail'] = generated_thumb
+                    logger.info(f"✅ 生成完成: {game_title}")
+                
+                elif available_thumbs:
                     # 循环使用可用的缩略图
                     thumb_index = i % len(available_thumbs)
                     thumbnail_file = available_thumbs[thumb_index]
                     game['thumbnail'] = f'/games/thumbnails/{thumbnail_file}'
-                    logger.info(f"为游戏 '{game['title']}' 分配缩略图: {thumbnail_file}")
+                    logger.info(f"分配现有缩略图: {game_title} -> {thumbnail_file}")
+                
                 else:
+                    # 使用默认缩略图
                     game['thumbnail'] = '/games/thumbnails/default.jpg'
+                    logger.warning(f"使用默认缩略图: {game_title}")
             
             return games
             
@@ -1286,7 +1656,7 @@ class GameManager:
             return None
     
     def _is_valid_game_iframe(self, iframe_src: str, base_url: str) -> bool:
-        """验证iframe URL是否是有效的游戏嵌入（智能验证，减少白名单依赖）"""
+        """验证iframe URL是否是有效的游戏嵌入（增强版，更严格的过滤）"""
         if not iframe_src:
             return False
         
@@ -1294,25 +1664,20 @@ class GameManager:
         full_url = urljoin(base_url, iframe_src)
         parsed = urlparse(full_url)
         
+        # 🚫 首先过滤明显无效的URL
+        if not self._basic_url_validation(full_url, parsed):
+            return False
+        
         # 🥇 第一优先级：白名单域名（最可信）
         is_whitelisted = any(domain in parsed.netloc or domain in full_url for domain in EMBEDDABLE_DOMAINS)
         if is_whitelisted:
+            logger.debug(f"✅ 白名单验证通过: {full_url}")
             return True
         
         # 如果启用严格白名单模式，只接受白名单域名
         if STRICT_WHITELIST:
+            logger.debug(f"❌ 严格白名单模式拒绝: {full_url}")
             return False
-        
-        # 🚫 排除明显不是游戏的iframe
-        exclude_patterns = [
-            'ads', 'analytics', 'tracking', 'social', 'comment', 'chat',
-            'youtube', 'vimeo', 'twitter', 'facebook', 'instagram',
-            'discord', 'reddit', 'forum', 'feedback', 'survey'
-        ]
-        
-        for pattern in exclude_patterns:
-            if pattern in full_url.lower():
-                return False
         
         # 🎮 智能游戏URL检测（无需白名单）
         score = self._calculate_game_url_score(full_url, parsed)
@@ -1326,6 +1691,56 @@ class GameManager:
             logger.debug(f"🤖 智能验证失败 (得分: {score}): {full_url}")
         
         return is_valid
+    
+    def _basic_url_validation(self, full_url: str, parsed) -> bool:
+        """基础URL验证，过滤明显无效的URL"""
+        url_lower = full_url.lower()
+        
+        # 🚫 必须是HTTP/HTTPS协议
+        if parsed.scheme not in ['http', 'https']:
+            logger.debug(f"❌ 协议无效: {parsed.scheme}")
+            return False
+        
+        # 🚫 排除明显不是游戏的iframe
+        exclude_patterns = [
+            'ads', 'analytics', 'tracking', 'social', 'comment', 'chat',
+            'youtube', 'vimeo', 'twitter', 'facebook', 'instagram',
+            'discord', 'reddit', 'forum', 'feedback', 'survey',
+            'advertisement', 'banner', 'popup', 'cookie', 'gdpr',
+            'newsletter', 'signup', 'login', 'register', 'captcha',
+            'recaptcha', 'cloudflare', 'error', '404', '403'
+        ]
+        
+        for pattern in exclude_patterns:
+            if pattern in url_lower:
+                logger.debug(f"❌ 包含排除模式 '{pattern}': {full_url}")
+                return False
+        
+        # 🚫 排除可疑的顶级域名
+        suspicious_tlds = ['.tk', '.ml', '.ga', '.cf', '.click', '.download']
+        for tld in suspicious_tlds:
+            if parsed.netloc.endswith(tld):
+                logger.debug(f"❌ 可疑域名后缀 '{tld}': {parsed.netloc}")
+                return False
+        
+        # 🚫 检查URL长度合理性
+        if len(full_url) > 500:
+            logger.debug(f"❌ URL过长 ({len(full_url)} 字符): {full_url[:100]}...")
+            return False
+        
+        # 🚫 检查域名合理性
+        if len(parsed.netloc) > 80 or len(parsed.netloc) < 4:
+            logger.debug(f"❌ 域名长度异常: {parsed.netloc}")
+            return False
+        
+        # 🚫 排除localhost和内网地址
+        localhost_patterns = ['localhost', '127.0.0.1', '192.168.', '10.0.', '172.16.']
+        for pattern in localhost_patterns:
+            if pattern in parsed.netloc:
+                logger.debug(f"❌ 本地/内网地址: {parsed.netloc}")
+                return False
+        
+        return True
     
     def _calculate_game_url_score(self, full_url: str, parsed) -> int:
         """计算游戏URL的可信度评分（不依赖白名单）"""
@@ -1613,18 +2028,17 @@ def main():
     parser.add_argument('--max-games', type=int, default=Config.MAX_GAMES_DEFAULT, help='爬取的最大游戏数量')
     parser.add_argument('--use-proxy', action='store_true', help='启用代理模式（也可通过环境变量 USE_PROXY=true 配置）')
     parser.add_argument('--strict-whitelist', action='store_true', help='启用严格白名单模式，只接受预定义域名')
+    parser.add_argument('--show-config', action='store_true', help='显示当前配置并退出')
     
     args = parser.parse_args()
     
     # 从命令行参数更新配置
     Config.update_from_args(args)
     
-    # 更新全局变量
-    global USE_PROXY, PROXY_HOST, PROXY_PORT, STRICT_WHITELIST
-    USE_PROXY = Config.USE_PROXY
-    PROXY_HOST = Config.PROXY_HOST
-    PROXY_PORT = Config.PROXY_PORT
-    STRICT_WHITELIST = Config.STRICT_WHITELIST
+    # 如果只是显示配置，则输出后退出
+    if args.show_config:
+        Config.print_status()
+        return
     
     manager = GameManager()
     

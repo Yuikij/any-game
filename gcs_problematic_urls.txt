@@ -1,0 +1,38 @@
+# Google Cloud Storage 问题URL列表
+# 生成时间: 2025-06-05 16:27:47
+
+# Google Cloud Storage 权限错误
+https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+https://html-classic.itch.zone/html/average-routine/index.html
+https://html-classic.itch.zone/html/podvodsk/index.html
+https://html-classic.itch.zone/html/kkts-gooffy-little-mod/index.html
+https://html-classic.itch.zone/html/assessment-examination/index.html
+https://html-classic.itch.zone/html/cheese-is-the-reason/index.html
+https://html-classic.itch.zone/html/six-cats-under/index.html
+https://html-classic.itch.zone/html/get-yoked-2/index.html
+https://html-classic.itch.zone/html/slsq/index.html
+https://html-classic.itch.zone/html/soul-void/index.html
+https://html-classic.itch.zone/html/a-dance-of-fire-and-ice/index.html
+https://html-classic.itch.zone/html/goodbye-doggy/index.html
+https://html-classic.itch.zone/html/rainbow-frontline/index.html
+https://html-classic.itch.zone/html/lem-stroids/index.html
+https://html-classic.itch.zone/html/affection-at-heart-grief-in-practice/index.html
+https://html-classic.itch.zone/html/touhou-survivors/index.html
+https://html-classic.itch.zone/html/sedation-surge/index.html
+https://html-classic.itch.zone/html/test-flight/index.html
+https://html-classic.itch.zone/html/it-all-seemed-lost-in-the-ocean-of-stars/index.html
+https://html-classic.itch.zone/html/iplier-boutique/index.html
+https://html-classic.itch.zone/html/flappy-cat/index.html
+https://html-classic.itch.zone/html/my-final-project/index.html
+https://html-classic.itch.zone/html/la-gran-batalla-de-los-molinos/index.html
+https://html-classic.itch.zone/html/upslash-demo/index.html
+https://html-classic.itch.zone/html/chaos-of-the-shapes/index.html
+https://html-classic.itch.zone/html/still-here/index.html
+https://html-classic.itch.zone/html/misfit-tbati-willy-demo/index.html
+https://html-classic.itch.zone/html/pereelous/index.html
+https://html-classic.itch.zone/html/mr-magpies-harmless-card-game/index.html
+https://html-classic.itch.zone/html/die-in-the-dungeon/index.html
+https://html-classic.itch.zone/html/an-average-day-at-the-cat-cafe/index.html
+https://html-classic.itch.zone/html/the-talented-tales-of-joey-jungle/index.html
+https://html-classic.itch.zone/html/funkin/index.html
+

@@ -1,0 +1,213 @@
+=== Google Cloud Storage 错误检测报告 ===
+检测时间: 2025-06-05 16:27:47
+
+🚫 Google Cloud Storage 权限错误 (33个):
+  URL: https://html-classic.itch.zone/html/13744329/ArcaneEarth/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/average-routine/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/podvodsk/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/kkts-gooffy-little-mod/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/assessment-examination/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/cheese-is-the-reason/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/six-cats-under/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/get-yoked-2/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/slsq/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/soul-void/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/a-dance-of-fire-and-ice/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/goodbye-doggy/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/rainbow-frontline/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/lem-stroids/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/affection-at-heart-grief-in-practice/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/touhou-survivors/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/sedation-surge/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/test-flight/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/it-all-seemed-lost-in-the-ocean-of-stars/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/iplier-boutique/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/flappy-cat/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/my-final-project/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/la-gran-batalla-de-los-molinos/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/upslash-demo/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/chaos-of-the-shapes/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/still-here/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/misfit-tbati-willy-demo/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/pereelous/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/mr-magpies-harmless-card-game/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/die-in-the-dungeon/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/an-average-day-at-the-cat-cafe/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/the-talented-tales-of-joey-jungle/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+  URL: https://html-classic.itch.zone/html/funkin/index.html
+  状态码: 403
+  错误代码: AccessDenied
+  错误信息: Access denied.
+  详细说明: Anonymous caller does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).
+
+📊 错误统计:
+  Google Cloud Storage错误: 33
+  一般访问拒绝错误: 0
+  超时错误: 0
+  总错误数: 33
+
+💡 解决方案建议:
+  对于Google Cloud Storage错误:
+    1. 联系游戏开发者配置公开访问权限
+    2. 在新窗口中打开游戏可能绕过某些限制
+    3. 考虑使用替代的游戏托管服务
