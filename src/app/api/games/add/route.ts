@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 // 配置为Edge Runtime以支持Cloudflare Pages
 export const runtime = 'edge';
 
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     // 在Edge Runtime环境下，文件系统操作不被支持
     // 这个功能只在开发环境或Node.js Runtime中可用
@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
 }
 
 // 处理从网站爬取游戏的请求
-export async function PUT(request: NextRequest) {
+export async function PUT(_request: NextRequest) {
   try {
     // 在Edge Runtime环境下，不支持复杂的爬取操作
     return NextResponse.json({ 
