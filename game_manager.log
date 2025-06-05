@@ -803,3 +803,135 @@
 2025-06-05 14:34:20,825 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749105260
 2025-06-05 14:34:20,827 - INFO - ✅ 成功更新games.ts文件，包含 15 个游戏
 2025-06-05 14:34:20,828 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 15:59:43,681 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 16:00:24,485 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 16:00:24,487 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 16:00:24,487 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 16:00:24,488 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 16:00:24,488 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 16:00:24,488 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 16:00:24,488 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 16:00:24,489 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 16:00:24,489 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 16:00:24,489 - INFO -   - 白名单域名: 20 个
+2025-06-05 16:00:24,489 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 16:00:24,489 - INFO - 🔄 开始全面管理...
+2025-06-05 16:00:24,496 - INFO - 成功读取 59 个游戏
+2025-06-05 16:00:24,496 - WARNING - 域名不在白名单中: itch.io - SIDE EFFECTS
+2025-06-05 16:00:24,496 - WARNING - 域名不在白名单中: itch.io - Top games for Web tagged mlp
+2025-06-05 16:00:24,497 - WARNING - 域名不在白名单中: itch.io - Top Simulation games tagged iframe
+2025-06-05 16:00:24,497 - WARNING - 域名不在白名单中: itch.io - Top rated free games tagged iframe
+2025-06-05 16:00:24,497 - WARNING - 域名不在白名单中: www.newgrounds.com - A Walk in the Woods
+2025-06-05 16:00:24,498 - WARNING - 域名不在白名单中: www.newgrounds.com - Back and Forth
+2025-06-05 16:00:24,498 - WARNING - 域名不在白名单中: www.newgrounds.com - Void Miner (Asteroids Roguelite)
+2025-06-05 16:00:24,499 - WARNING - 域名不在白名单中: kingkittyturnip.itch.io - NSMB Mario Vs Luigi - KKT
+2025-06-05 16:00:24,499 - WARNING - 域名不在白名单中: giantlight.itch.io - Mr. Magpie
+2025-06-05 16:00:24,500 - WARNING - 域名不在白名单中: mikdog.itch.io - Bru & Boegie: EPISODE 1 â Get da MILK!
+2025-06-05 16:00:24,500 - WARNING - 域名不在白名单中: pomepomelo.itch.io - irori
+2025-06-05 16:00:24,501 - WARNING - 域名不在白名单中: joseph-supino.itch.io - RAVEN-STAR
+2025-06-05 16:00:24,502 - WARNING - 域名不在白名单中: ninja-muffin24.itch.io - Friday Night Funkin
+2025-06-05 16:00:24,502 - WARNING - 域名不在白名单中: aldamami-games.itch.io - Bloodletter
+2025-06-05 16:00:24,503 - INFO - 清理完成: 45/59 个有效游戏
+2025-06-05 16:00:24,503 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT\
+2025-06-05 16:00:24,503 - INFO - 移除重复URL: Mr. Magpie\
+2025-06-05 16:00:24,504 - INFO - 去重完成: 43/45 个唯一游戏
+2025-06-05 16:00:24,504 - INFO - 找到 67 个可用缩略图
+2025-06-05 16:00:24,504 - INFO - 为游戏 'Forever Gold' 分配缩略图: 20.jpg
+2025-06-05 16:00:24,504 - INFO - 为游戏 'Arcane Earth - Increment Clicker' 分配缩略图: 21.jpg
+2025-06-05 16:00:24,505 - INFO - 为游戏 'Lucky Dig' 分配缩略图: 22.jpg
+2025-06-05 16:00:24,505 - INFO - 为游戏 'Sort the Court!' 分配缩略图: 24.jpg
+2025-06-05 16:00:24,505 - INFO - 为游戏 'Batter Up!' 分配缩略图: 25.png
+2025-06-05 16:00:24,505 - INFO - 为游戏 'We Become What We Behold' 分配缩略图: 26.jpg
+2025-06-05 16:00:24,506 - INFO - 为游戏 'RetroFab' 分配缩略图: 27.jpg
+2025-06-05 16:00:24,506 - INFO - 为游戏 'Exhibit of Sorrows' 分配缩略图: 28.jpg
+2025-06-05 16:00:24,506 - INFO - 为游戏 'Cattle Crisis' 分配缩略图: auto_game_001.jpg
+2025-06-05 16:00:24,506 - INFO - 为游戏 'Adventures With Anxiety!' 分配缩略图: auto_game_002.jpg
+2025-06-05 16:00:24,507 - INFO - 为游戏 'POOM' 分配缩略图: auto_game_003.jpg
+2025-06-05 16:00:24,507 - INFO - 为游戏 'Average Routine' 分配缩略图: auto_game_004.jpg
+2025-06-05 16:00:24,507 - INFO - 为游戏 'Podvodsk (Ludum Dare 57)' 分配缩略图: auto_game_005.jpg
+2025-06-05 16:00:24,508 - INFO - 为游戏 'NSMB Mario Vs Luigi - KKT' 分配缩略图: auto_game_006.jpg
+2025-06-05 16:00:24,508 - INFO - 为游戏 'Assessment Examination' 分配缩略图: auto_game_007.jpg
+2025-06-05 16:00:24,508 - INFO - 为游戏 'Cheese is the Reason' 分配缩略图: auto_game_008.jpg
+2025-06-05 16:00:24,509 - INFO - 为游戏 'Six Cats Under' 分配缩略图: auto_game_009.jpg
+2025-06-05 16:00:24,509 - INFO - 为游戏 'GET YOKED: Extreme Bodybuilding' 分配缩略图: auto_game_010.jpg
+2025-06-05 16:00:24,510 - INFO - 为游戏 'SLAUGHTERâSQUAD' 分配缩略图: auto_game_011.jpg
+2025-06-05 16:00:24,510 - INFO - 为游戏 'Soul Void' 分配缩略图: auto_game_012.jpg
+2025-06-05 16:00:24,511 - INFO - 为游戏 'A Dance of Fire and Ice' 分配缩略图: auto_game_013.jpg
+2025-06-05 16:00:24,511 - INFO - 为游戏 'goodbye, doggy' 分配缩略图: auto_game_014.jpg
+2025-06-05 16:00:24,512 - INFO - 为游戏 'Rainbow Frontline' 分配缩略图: auto_game_015.jpg
+2025-06-05 16:00:24,512 - INFO - 为游戏 'Lem-stroids' 分配缩略图: auto_game_016.jpg
+2025-06-05 16:00:24,513 - INFO - 为游戏 'Affection at Heart, Grief in Practice' 分配缩略图: auto_game_017.jpg
+2025-06-05 16:00:24,513 - INFO - 为游戏 'Touhou survivors' 分配缩略图: auto_game_018.jpg
+2025-06-05 16:00:24,514 - INFO - 为游戏 'Sedation Surge' 分配缩略图: auto_game_019.jpg
+2025-06-05 16:00:24,514 - INFO - 为游戏 'Test Flight' 分配缩略图: auto_game_020.jpg
+2025-06-05 16:00:24,514 - INFO - 为游戏 'It all seemed lost in the ocean of stars' 分配缩略图: auto_game_021.jpg
+2025-06-05 16:00:24,514 - INFO - 为游戏 'IPLIER BOUTIQUE' 分配缩略图: auto_game_022.jpg
+2025-06-05 16:00:24,515 - INFO - 为游戏 'FLAPPY CAT' 分配缩略图: auto_game_023.jpg
+2025-06-05 16:00:24,515 - INFO - 为游戏 'My Final Project' 分配缩略图: auto_game_024.jpg
+2025-06-05 16:00:24,515 - INFO - 为游戏 'La Gran Batalla de Los Molinos' 分配缩略图: auto_game_025.jpg
+2025-06-05 16:00:24,515 - INFO - 为游戏 'Upslash Demo' 分配缩略图: auto_game_026.jpg
+2025-06-05 16:00:24,516 - INFO - 为游戏 'Shape Survival Goofiness' 分配缩略图: auto_game_027.jpg
+2025-06-05 16:00:24,517 - INFO - 为游戏 'Still Here....' 分配缩略图: auto_game_028.jpg
+2025-06-05 16:00:24,517 - INFO - 为游戏 'Misfit: TBaTI Willy DEMO' 分配缩略图: auto_game_029.jpg
+2025-06-05 16:00:24,518 - INFO - 为游戏 'PEREELOUS' 分配缩略图: auto_game_030.jpg
+2025-06-05 16:00:24,518 - INFO - 为游戏 'Mr. Magpie' 分配缩略图: auto_game_031.jpg
+2025-06-05 16:00:24,519 - INFO - 为游戏 'Die in the Dungeon CLASSIC' 分配缩略图: auto_game_032.jpg
+2025-06-05 16:00:24,519 - INFO - 为游戏 'an average day at the cat cafe' 分配缩略图: auto_game_033.jpg
+2025-06-05 16:00:24,520 - INFO - 为游戏 'The Talented Tales of Joey Jungle' 分配缩略图: auto_game_034.jpg
+2025-06-05 16:00:24,521 - INFO - 为游戏 'Friday Night Funkin\' 分配缩略图: auto_game_035.jpg
+2025-06-05 16:00:24,521 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 16:00:24,522 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 16:00:24,522 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 16:00:32,418 - INFO - 找到 36 个游戏元素
+2025-06-05 16:00:48,988 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 16:01:07,432 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 16:01:22,061 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 16:01:38,320 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 16:01:53,307 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 16:02:04,040 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:02:13,195 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 16:02:24,911 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:02:31,659 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 16:02:44,786 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 16:02:55,535 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:03:03,530 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 16:03:13,197 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:03:25,146 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 16:03:37,721 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 16:03:49,588 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:04:01,805 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 16:04:11,525 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:04:19,976 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 16:04:30,185 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:04:40,671 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 16:04:51,054 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:05:01,041 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 16:05:08,754 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:05:15,394 - INFO - ✅ 基础爬取找到游戏: PEREELOUS - itch.io HTML5
+2025-06-05 16:05:23,155 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:05:34,509 - INFO - ✅ 基础爬取找到游戏: Incredibox - Sprunki - itch.io HTML5
+2025-06-05 16:05:46,840 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:05:58,783 - INFO - ✅ 基础爬取找到游戏: Cupid's Kiss: a short, romance comedy - itch.io HTML5
+2025-06-05 16:06:09,882 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:06:16,462 - INFO - ✅ 基础爬取找到游戏: Lookouts - itch.io HTML5
+2025-06-05 16:06:25,601 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:06:36,396 - INFO - ✅ 基础爬取找到游戏: Mr. Magpie's Harmless Card Game - itch.io HTML5
+2025-06-05 16:06:43,813 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:06:51,784 - INFO - ✅ 基础爬取找到游戏: Die in the Dungeon CLASSIC - itch.io HTML5
+2025-06-05 16:07:03,404 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:07:10,815 - INFO - ✅ 基础爬取找到游戏: Little Chef - itch.io HTML5
+2025-06-05 16:07:22,821 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:07:34,991 - INFO - ✅ 基础爬取找到游戏: an average day at the cat cafe - itch.io HTML5
+2025-06-05 16:07:46,900 - INFO - ✅ 基础爬取找到游戏: Cattle Crisis - itch.io HTML5
+2025-06-05 16:07:54,867 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:08:04,083 - INFO - ✅ 基础爬取找到游戏: Dating Killmulator - itch.io HTML5
+2025-06-05 16:08:14,816 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:08:24,937 - INFO - ✅ 基础爬取找到游戏: Trapped with Jester - itch.io HTML5
+2025-06-05 16:08:36,119 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:08:47,714 - INFO - ✅ 基础爬取找到游戏: Flesh, Blood, & Concrete - itch.io HTML5
+2025-06-05 16:08:57,735 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:09:07,157 - INFO - ✅ 基础爬取找到游戏: PolyTrack - itch.io HTML5
+2025-06-05 16:09:17,576 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 16:09:28,953 - INFO - ✅ 基础爬取找到游戏: Leftovers - itch.io HTML5
+2025-06-05 16:09:40,026 - INFO - ✅ 基础爬取找到游戏: Adventures With Anxiety! - itch.io HTML5
+2025-06-05 16:09:47,981 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
