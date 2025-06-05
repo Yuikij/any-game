@@ -108,20 +108,6 @@ export const games: Game[] = [
     addedAt: '2025-05-23',
     tags: ["模拟", "复古"]
   },
-  {
-    id: '8',
-    title: 'Categories',
-    description: '一款有趣的休闲游戏',
-    category: '休闲',
-    categoryId: '1',
-    thumbnail: '/games/thumbnails/default.jpg',
-    path: '/games/8',
-    featured: false,
-    type: 'static',
-    staticPath: 'https://armorgames.com/category/player-level-games',
-    addedAt: '2025-05-23',
-    tags: ["休闲"]
-  },
 ];
 
 // 辅助函数

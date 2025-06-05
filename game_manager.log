@@ -1,0 +1,715 @@
+2025-06-05 10:36:03,406 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:36:03,406 - INFO - 🧹 开始清理游戏数据...
+2025-06-05 10:36:03,408 - INFO - 成功读取 8 个游戏
+2025-06-05 10:36:03,409 - INFO - 清理完成: 8/8 个有效游戏
+2025-06-05 10:36:03,410 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:36:03,412 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749090963
+2025-06-05 10:36:03,414 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:36:03,415 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:36:43,665 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:36:43,665 - INFO - 🧹 开始清理游戏数据...
+2025-06-05 10:36:43,668 - INFO - 成功读取 8 个游戏
+2025-06-05 10:36:43,668 - INFO - 清理完成: 8/8 个有效游戏
+2025-06-05 10:36:43,668 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:36:43,670 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749091003
+2025-06-05 10:36:43,672 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:36:43,672 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:37:14,422 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:37:14,422 - INFO - 🧹 开始清理游戏数据...
+2025-06-05 10:37:14,424 - INFO - 成功读取 8 个游戏
+2025-06-05 10:37:14,424 - INFO - 清理完成: 8/8 个有效游戏
+2025-06-05 10:37:14,425 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:37:14,437 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749091034
+2025-06-05 10:37:14,439 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:37:14,439 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:43:05,502 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:43:05,514 - INFO - 🧹 开始清理游戏数据...
+2025-06-05 10:43:05,518 - INFO - 成功读取 8 个游戏
+2025-06-05 10:43:05,519 - INFO - 清理完成: 8/8 个有效游戏
+2025-06-05 10:43:05,519 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:43:05,521 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749091385
+2025-06-05 10:43:05,524 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:43:05,524 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:55:22,388 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:55:22,388 - INFO - 🧹 开始清理游戏数据...
+2025-06-05 10:55:22,390 - INFO - 成功读取 8 个游戏
+2025-06-05 10:55:22,391 - INFO - 清理完成: 8/8 个有效游戏
+2025-06-05 10:55:22,391 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:55:22,393 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749092122
+2025-06-05 10:55:22,394 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:55:22,395 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:55:27,363 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:55:27,364 - INFO - 🕷️ 开始爬取新游戏（最多5个）...
+2025-06-05 10:55:27,364 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 10:55:27,364 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 10:55:27,364 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 10:55:40,976 - INFO - 爬取平台: GameJolt
+2025-06-05 10:55:42,732 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:55:46,580 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:55:51,623 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:55:51,624 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x26be196b8a0 state=finished raised HTTPError>]
+2025-06-05 10:55:51,624 - INFO - 基础爬取完成，找到 0 个游戏
+2025-06-05 10:55:51,624 - INFO - 爬取完成，总共找到 0 个新游戏
+2025-06-05 10:55:51,626 - INFO - 成功读取 8 个游戏
+2025-06-05 10:55:51,627 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:55:51,628 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749092151
+2025-06-05 10:55:51,630 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:55:51,630 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 10:55:56,633 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 10:55:56,633 - INFO - 🌐 启用代理模式
+2025-06-05 10:55:56,634 - INFO - 🌐 尝试获取免费代理...
+2025-06-05 10:56:06,668 - WARNING - 获取代理失败: HTTPSConnectionPool(host='free-proxy-list.net', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A20CF6FA10>, 'Connection to free-proxy-list.net timed out. (connect timeout=10)'))
+2025-06-05 10:56:06,668 - INFO - 🕷️ 开始爬取新游戏（最多3个）...
+2025-06-05 10:56:06,668 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 10:56:06,668 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 10:56:06,668 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 10:56:16,599 - INFO - 爬取平台: GameJolt
+2025-06-05 10:56:18,879 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:56:22,985 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:56:27,659 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 10:56:27,659 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x1a20d6e7410 state=finished raised HTTPError>]
+2025-06-05 10:56:27,659 - INFO - 基础爬取完成，找到 0 个游戏
+2025-06-05 10:56:27,660 - INFO - 爬取完成，总共找到 0 个新游戏
+2025-06-05 10:56:27,662 - INFO - 成功读取 8 个游戏
+2025-06-05 10:56:27,663 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 10:56:27,676 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749092187
+2025-06-05 10:56:27,678 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 10:56:27,679 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 11:00:26,901 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 11:00:26,901 - INFO - 🕷️ 开始爬取新游戏（最多3个）...
+2025-06-05 11:00:26,901 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:00:26,901 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:00:26,902 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:00:34,800 - INFO - 爬取平台: GameJolt
+2025-06-05 11:00:36,375 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:00:40,095 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:00:43,681 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:00:43,682 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x277870cca70 state=finished raised HTTPError>]
+2025-06-05 11:00:43,683 - INFO - 基础爬取完成，找到 0 个游戏
+2025-06-05 11:00:43,683 - INFO - 爬取完成，总共找到 0 个新游戏
+2025-06-05 11:00:43,686 - INFO - 成功读取 8 个游戏
+2025-06-05 11:00:43,686 - INFO - 去重完成: 8/8 个唯一游戏
+2025-06-05 11:00:43,688 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749092443
+2025-06-05 11:00:43,691 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 11:00:43,692 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 11:07:50,782 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 11:07:50,782 - INFO - 🕷️ 开始爬取新游戏（最多3个）...
+2025-06-05 11:07:50,782 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:07:50,782 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:07:50,782 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:10:15,970 - INFO - ✅ SerpAPI 已配置
+2025-06-05 11:10:15,970 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 11:10:15,971 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:10:15,971 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:10:15,971 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:10:44,273 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 11:10:47,022 - INFO - 爬取平台: GameJolt
+2025-06-05 11:10:50,148 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:10:54,491 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:10:58,344 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 11:10:58,344 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x19de9a60c90 state=finished raised HTTPError>]
+2025-06-05 11:10:58,345 - INFO - 基础爬取完成，找到 1 个游戏
+2025-06-05 11:10:58,345 - INFO - 🔍 开始API搜索...
+2025-06-05 11:10:58,345 - INFO - 搜索查询: site:itch.io HTML5 games embed iframe
+2025-06-05 11:11:23,756 - INFO - 搜索查询: site:gamejolt.com browser games HTML5
+2025-06-05 11:11:30,212 - WARNING - 请求失败 https://gamejolt.com/games?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games?browser=html
+2025-06-05 11:11:34,811 - WARNING - 请求失败 https://gamejolt.com/games?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games?browser=html
+2025-06-05 11:11:38,607 - WARNING - 请求失败 https://gamejolt.com/games?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games?browser=html
+2025-06-05 11:11:38,607 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1db450 state=finished raised HTTPError>]
+2025-06-05 11:11:40,092 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html
+2025-06-05 11:11:44,429 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html
+2025-06-05 11:11:49,449 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html
+2025-06-05 11:11:49,450 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1da850 state=finished raised HTTPError>]
+2025-06-05 11:11:50,807 - WARNING - 请求失败 https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived
+2025-06-05 11:11:55,439 - WARNING - 请求失败 https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived
+2025-06-05 11:11:59,074 - WARNING - 请求失败 https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/improvement-suggestions-android-downloads-html5-improvements-browse-games-by-feature/236155?sort=archived
+2025-06-05 11:11:59,076 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1d9cd0 state=finished raised HTTPError>]
+2025-06-05 11:12:01,432 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html&page=37: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html&page=37
+2025-06-05 11:12:06,430 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html&page=37: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html&page=37
+2025-06-05 11:12:09,837 - WARNING - 请求失败 https://gamejolt.com/games/best?browser=html&page=37: 403 Client Error: Forbidden for url: https://gamejolt.com/games/best?browser=html&page=37
+2025-06-05 11:12:09,837 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1d92d0 state=finished raised HTTPError>]
+2025-06-05 11:12:11,392 - WARNING - 请求失败 https://gamejolt.com/f/html5-games/1016: 403 Client Error: Forbidden for url: https://gamejolt.com/f/html5-games/1016
+2025-06-05 11:12:15,025 - WARNING - 请求失败 https://gamejolt.com/f/html5-games/1016: 403 Client Error: Forbidden for url: https://gamejolt.com/f/html5-games/1016
+2025-06-05 11:12:18,426 - WARNING - 请求失败 https://gamejolt.com/f/html5-games/1016: 403 Client Error: Forbidden for url: https://gamejolt.com/f/html5-games/1016
+2025-06-05 11:12:18,427 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1d8c50 state=finished raised HTTPError>]
+2025-06-05 11:12:20,478 - WARNING - 请求失败 https://gamejolt.com/games/lightblocks/259654: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lightblocks/259654
+2025-06-05 11:12:23,902 - WARNING - 请求失败 https://gamejolt.com/games/lightblocks/259654: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lightblocks/259654
+2025-06-05 11:12:27,571 - WARNING - 请求失败 https://gamejolt.com/games/lightblocks/259654: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lightblocks/259654
+2025-06-05 11:12:27,572 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea157950 state=finished raised HTTPError>]
+2025-06-05 11:12:28,974 - WARNING - 请求失败 https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active: 403 Client Error: Forbidden for url: https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active
+2025-06-05 11:12:32,734 - WARNING - 请求失败 https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active: 403 Client Error: Forbidden for url: https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active
+2025-06-05 11:12:36,261 - WARNING - 请求失败 https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active: 403 Client Error: Forbidden for url: https://gamejolt.com/f/don-t-load-html5-web-games-automatically/2122?sort=active
+2025-06-05 11:12:36,263 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea156e50 state=finished raised HTTPError>]
+2025-06-05 11:12:38,357 - WARNING - 请求失败 https://gamejolt.com/games/lemmings-html5/86453: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lemmings-html5/86453
+2025-06-05 11:12:43,438 - WARNING - 请求失败 https://gamejolt.com/games/lemmings-html5/86453: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lemmings-html5/86453
+2025-06-05 11:12:48,001 - WARNING - 请求失败 https://gamejolt.com/games/lemmings-html5/86453: 403 Client Error: Forbidden for url: https://gamejolt.com/games/lemmings-html5/86453
+2025-06-05 11:12:48,002 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea1568d0 state=finished raised HTTPError>]
+2025-06-05 11:12:50,661 - WARNING - 请求失败 https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived
+2025-06-05 11:12:54,225 - WARNING - 请求失败 https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived
+2025-06-05 11:12:57,495 - WARNING - 请求失败 https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived: 403 Client Error: Forbidden for url: https://gamejolt.com/f/the-game-jolt-browser/13394?sort=archived
+2025-06-05 11:12:57,495 - WARNING - 查找iframe失败: RetryError[<Future at 0x19dea155cd0 state=finished raised HTTPError>]
+2025-06-05 11:13:00,967 - INFO - 搜索查询: site:newgrounds.com web games iframe
+2025-06-05 11:13:36,325 - INFO - API搜索完成，找到 0 个游戏
+2025-06-05 11:13:36,325 - INFO - 爬取完成，总共找到 1 个新游戏
+2025-06-05 11:13:36,340 - INFO - 成功读取 8 个游戏
+2025-06-05 11:13:36,340 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 11:13:36,341 - INFO - 去重完成: 8/9 个唯一游戏
+2025-06-05 11:13:36,346 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749093216
+2025-06-05 11:13:36,348 - INFO - ✅ 成功更新games.ts文件，包含 8 个游戏
+2025-06-05 11:13:36,349 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 11:22:23,267 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 11:22:23,268 - INFO - ℹ️ 代理模式未启用，直接连接网络
+2025-06-05 11:22:23,268 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 11:22:23,268 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:22:23,268 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:22:23,269 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:22:28,675 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 11:22:36,519 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 11:22:46,028 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 11:22:54,197 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 11:23:02,928 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 11:23:05,891 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 11:23:05,891 - INFO - 爬取完成，总共找到 5 个新游戏
+2025-06-05 11:23:05,893 - INFO - 成功读取 8 个游戏
+2025-06-05 11:23:05,893 - INFO - 移除重复URL: Average Routine
+2025-06-05 11:23:05,893 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 11:23:05,894 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 11:23:05,895 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 11:23:05,895 - INFO - 去重完成: 9/13 个唯一游戏
+2025-06-05 11:23:05,899 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749093785
+2025-06-05 11:23:05,901 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 11:23:05,901 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 11:27:46,994 - INFO - ✅ 使用配置的代理: 127.0.0.1:7890
+2025-06-05 11:27:46,995 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 11:27:46,995 - INFO - ✅ 代理已配置: 127.0.0.1:7890
+2025-06-05 11:27:46,995 - INFO - 🌐 启用代理模式
+2025-06-05 11:27:46,996 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 11:27:46,996 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:27:46,996 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:27:46,996 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:27:56,444 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 11:28:04,737 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 11:28:11,743 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 11:28:19,534 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 11:28:27,511 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 11:28:29,815 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 11:28:29,816 - INFO - 爬取完成，总共找到 5 个新游戏
+2025-06-05 11:28:29,818 - INFO - 成功读取 9 个游戏
+2025-06-05 11:28:29,818 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 11:28:29,819 - INFO - 移除重复URL: Average Routine
+2025-06-05 11:28:29,819 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 11:28:29,819 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 11:28:29,819 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 11:28:29,820 - INFO - 去重完成: 9/14 个唯一游戏
+2025-06-05 11:28:29,821 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749094109
+2025-06-05 11:28:29,823 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 11:28:29,823 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 11:30:19,274 - INFO - ✅ 使用配置的代理: 127.0.0.1:7890
+2025-06-05 11:30:19,274 - INFO - ✅ SerpAPI 已配置
+2025-06-05 11:30:19,275 - INFO - ✅ 代理已配置: 127.0.0.1:7890
+2025-06-05 11:30:19,275 - INFO - 🌐 启用代理模式
+2025-06-05 11:30:19,275 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 11:30:19,275 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 11:30:19,276 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 11:30:19,276 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 11:30:26,120 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 11:30:35,233 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 11:30:41,320 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 11:30:49,705 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 11:30:56,843 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 11:30:58,982 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 11:30:58,983 - INFO - 🔍 开始API搜索...
+2025-06-05 11:30:58,983 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 11:31:05,931 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 11:31:13,006 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 11:31:22,182 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 11:31:25,603 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 11:31:29,266 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 11:31:29,267 - WARNING - 查找iframe失败: RetryError[<Future at 0x2c8f91caad0 state=finished raised HTTPError>]
+2025-06-05 11:31:32,197 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 11:31:35,663 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 11:31:39,601 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 11:31:39,601 - WARNING - 查找iframe失败: RetryError[<Future at 0x2c8f91cbc50 state=finished raised HTTPError>]
+2025-06-05 11:31:41,982 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 11:31:45,834 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 11:31:50,950 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 11:31:50,950 - WARNING - 查找iframe失败: RetryError[<Future at 0x2c8f91e8950 state=finished raised HTTPError>]
+2025-06-05 11:31:52,399 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 11:31:56,655 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 11:32:00,179 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 11:32:00,179 - WARNING - 查找iframe失败: RetryError[<Future at 0x2c8f91cb5d0 state=finished raised HTTPError>]
+2025-06-05 11:32:03,567 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 11:32:08,927 - INFO - API搜索完成，找到 1 个游戏
+2025-06-05 11:32:08,927 - INFO - 爬取完成，总共找到 6 个新游戏
+2025-06-05 11:32:08,930 - INFO - 成功读取 9 个游戏
+2025-06-05 11:32:08,930 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 11:32:08,930 - INFO - 移除重复URL: Average Routine
+2025-06-05 11:32:08,930 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 11:32:08,931 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 11:32:08,931 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 11:32:08,931 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 11:32:08,931 - INFO - 去重完成: 9/15 个唯一游戏
+2025-06-05 11:32:08,934 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749094328
+2025-06-05 11:32:08,936 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 11:32:08,937 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 13:10:25,645 - INFO - ✅ 使用配置的代理: 127.0.0.1:7890
+2025-06-05 13:10:25,646 - INFO - ✅ SerpAPI 已配置
+2025-06-05 13:10:25,646 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 13:10:25,646 - INFO - ✅ 代理已配置: 127.0.0.1:7890
+2025-06-05 13:10:25,647 - INFO - 🌐 启用代理模式
+2025-06-05 13:10:25,647 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 13:10:25,648 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:10:25,648 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:10:25,648 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:10:32,852 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 13:10:40,914 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 13:10:48,160 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 13:10:56,463 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 13:11:04,062 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 13:11:06,435 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 13:11:06,436 - INFO - 🔍 开始API搜索...
+2025-06-05 13:11:06,436 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 13:11:14,614 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 13:11:21,395 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 13:11:26,754 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:11:30,341 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:11:35,482 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:11:35,483 - WARNING - 查找iframe失败: RetryError[<Future at 0x28e0ab9a850 state=finished raised HTTPError>]
+2025-06-05 13:11:37,705 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:11:41,121 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:11:44,766 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:11:44,767 - WARNING - 查找iframe失败: RetryError[<Future at 0x28e0ab9b9d0 state=finished raised HTTPError>]
+2025-06-05 13:11:46,761 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:11:50,381 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:11:55,382 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:11:55,382 - WARNING - 查找iframe失败: RetryError[<Future at 0x28e0abb86d0 state=finished raised HTTPError>]
+2025-06-05 13:11:57,225 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:12:01,092 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:12:05,638 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:12:05,638 - WARNING - 查找iframe失败: RetryError[<Future at 0x28e0abb95d0 state=finished raised HTTPError>]
+2025-06-05 13:12:09,683 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 13:12:17,539 - INFO - API搜索完成，找到 1 个游戏
+2025-06-05 13:12:17,540 - INFO - 爬取完成，总共找到 6 个新游戏
+2025-06-05 13:12:17,543 - INFO - 成功读取 9 个游戏
+2025-06-05 13:12:17,543 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 13:12:17,543 - INFO - 移除重复URL: Average Routine
+2025-06-05 13:12:17,544 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 13:12:17,544 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 13:12:17,544 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 13:12:17,544 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 13:12:17,545 - INFO - 去重完成: 9/15 个唯一游戏
+2025-06-05 13:12:17,547 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749100337
+2025-06-05 13:12:17,548 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 13:12:17,549 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 13:17:24,106 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 13:17:24,110 - INFO - ✅ SerpAPI 已配置
+2025-06-05 13:17:24,110 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 13:17:24,110 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 13:17:24,110 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 13:17:24,111 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 13:17:24,111 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 13:17:24,111 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 13:17:24,111 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 13:17:24,112 - INFO -   - 白名单域名容错处理
+2025-06-05 13:17:24,112 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 13:17:24,112 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:17:24,112 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:17:24,113 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:17:36,295 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 13:17:45,550 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 13:17:55,763 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 13:18:05,246 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 13:18:13,085 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 13:18:16,739 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 13:18:16,740 - INFO - 🔍 开始API搜索...
+2025-06-05 13:18:16,740 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 13:18:25,755 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 13:18:31,561 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 13:18:37,999 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:18:43,802 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:18:50,516 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:18:50,517 - WARNING - 查找iframe失败 https://gamejolt.com/games/printerville/196657: RetryError[<Future at 0x1f72c164ed0 state=finished raised HTTPError>]
+2025-06-05 13:18:56,440 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:19:03,429 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:19:10,572 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:19:10,573 - WARNING - 查找iframe失败 https://gamejolt.com/games/GD/856848: RetryError[<Future at 0x1f72c1676d0 state=finished raised HTTPError>]
+2025-06-05 13:19:15,970 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:19:26,176 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:19:36,857 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:19:36,858 - WARNING - 查找iframe失败 https://gamejolt.com/games/something_wicked/638288: RetryError[<Future at 0x1f72c1666d0 state=finished raised HTTPError>]
+2025-06-05 13:19:44,953 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:19:53,351 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:20:02,323 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:20:02,323 - WARNING - 查找iframe失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: RetryError[<Future at 0x1f72c165ad0 state=finished raised HTTPError>]
+2025-06-05 13:20:05,409 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 13:20:09,245 - INFO - API搜索完成，找到 1 个游戏
+2025-06-05 13:20:09,246 - INFO - 爬取完成，总共找到 6 个新游戏
+2025-06-05 13:20:09,248 - INFO - 成功读取 9 个游戏
+2025-06-05 13:20:09,248 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 13:20:09,248 - INFO - 移除重复URL: Average Routine
+2025-06-05 13:20:09,249 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 13:20:09,249 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 13:20:09,249 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 13:20:09,249 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 13:20:09,250 - INFO - 去重完成: 9/15 个唯一游戏
+2025-06-05 13:20:09,252 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749100809
+2025-06-05 13:20:09,253 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 13:20:09,254 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 13:35:04,008 - INFO - ✅ SerpAPI 已配置
+2025-06-05 13:35:04,009 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 13:35:04,009 - INFO - ℹ️ 代理模式未启用，直接连接网络
+2025-06-05 13:35:04,009 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 13:35:04,009 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 13:35:04,009 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 13:35:04,010 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 13:35:04,010 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 13:35:04,010 - INFO -   - 白名单域名: 20 个
+2025-06-05 13:35:04,010 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 13:35:04,010 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 13:35:04,011 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:35:04,011 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:35:04,011 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:35:07,254 - INFO - 找到 5 个游戏元素
+2025-06-05 13:35:14,388 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 13:35:23,376 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 13:35:33,866 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 13:35:45,100 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 13:35:53,507 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 13:35:56,207 - INFO - 基础爬取完成，找到 5 个游戏
+2025-06-05 13:35:56,208 - INFO - 🔍 开始API搜索...
+2025-06-05 13:35:56,208 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 13:36:06,049 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 13:36:14,058 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 13:36:20,682 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:36:28,620 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:36:34,786 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 13:36:34,787 - WARNING - 查找iframe失败 https://gamejolt.com/games/printerville/196657: RetryError[<Future at 0x2ae39447d50 state=finished raised HTTPError>]
+2025-06-05 13:36:38,058 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:36:45,590 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:36:53,548 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 13:36:53,549 - WARNING - 查找iframe失败 https://gamejolt.com/games/GD/856848: RetryError[<Future at 0x2ae3945c850 state=finished raised HTTPError>]
+2025-06-05 13:37:01,700 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:37:10,286 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:37:17,338 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 13:37:17,339 - WARNING - 查找iframe失败 https://gamejolt.com/games/something_wicked/638288: RetryError[<Future at 0x2ae3945d5d0 state=finished raised HTTPError>]
+2025-06-05 13:37:26,511 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:37:35,185 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:37:44,936 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 13:37:44,936 - WARNING - 查找iframe失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: RetryError[<Future at 0x2ae3945dfd0 state=finished raised HTTPError>]
+2025-06-05 13:37:48,679 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 13:37:53,845 - INFO - API搜索完成，找到 1 个游戏
+2025-06-05 13:37:53,846 - INFO - 爬取完成，总共找到 6 个新游戏
+2025-06-05 13:37:53,848 - INFO - 成功读取 9 个游戏
+2025-06-05 13:37:53,848 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 13:37:53,848 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 13:37:53,849 - INFO - 移除重复URL: Average Routine
+2025-06-05 13:37:53,849 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 13:37:53,850 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 13:37:53,850 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 13:37:53,851 - INFO - 去重完成: 9/15 个唯一游戏
+2025-06-05 13:37:53,853 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749101873
+2025-06-05 13:37:53,854 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 13:37:53,854 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 13:39:14,093 - INFO - ✅ SerpAPI 已配置
+2025-06-05 13:39:14,093 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 13:39:14,094 - INFO - ℹ️ 代理模式未启用，直接连接网络
+2025-06-05 13:39:14,094 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 13:39:14,095 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 13:39:14,095 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 13:39:14,095 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 13:39:14,096 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 13:39:14,096 - INFO -   - 白名单域名: 20 个
+2025-06-05 13:39:14,097 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 13:39:14,097 - INFO - 🕷️ 开始爬取新游戏（最多10个）...
+2025-06-05 13:39:14,098 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:39:14,098 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:39:14,098 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:39:55,402 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 13:39:55,402 - INFO - ℹ️ 代理模式未启用，直接连接网络
+2025-06-05 13:39:55,402 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 13:39:55,403 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 13:39:55,403 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 13:39:55,403 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 13:39:55,403 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 13:39:55,403 - INFO -   - 白名单域名: 20 个
+2025-06-05 13:39:55,404 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 13:39:55,404 - INFO - 🕷️ 开始爬取新游戏（最多30个）...
+2025-06-05 13:39:55,404 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:39:55,404 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:39:55,404 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:50:42,833 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 13:50:42,837 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 13:50:42,837 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 13:50:42,837 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 13:50:42,837 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 13:50:42,837 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 13:50:42,837 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 13:50:42,838 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 13:50:42,838 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 13:50:42,838 - INFO -   - 白名单域名: 20 个
+2025-06-05 13:50:42,838 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 13:50:42,838 - INFO - 🕷️ 开始爬取新游戏（最多30个）...
+2025-06-05 13:50:42,838 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 13:50:42,839 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 13:50:42,839 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 13:50:46,145 - INFO - 找到 15 个游戏元素
+2025-06-05 13:50:52,504 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 13:51:04,451 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 13:51:15,623 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 13:51:24,802 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 13:51:34,236 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 13:51:46,772 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 13:51:58,361 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 13:52:07,941 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 13:52:19,547 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 13:52:30,982 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 13:52:38,738 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 13:52:49,648 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 13:53:02,137 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 13:53:15,255 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 13:53:27,264 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 13:53:30,177 - INFO - 基础爬取完成，找到 15 个游戏
+2025-06-05 13:53:30,178 - INFO - 爬取完成，总共找到 15 个新游戏
+2025-06-05 13:53:30,180 - INFO - 成功读取 9 个游戏
+2025-06-05 13:53:30,180 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 13:53:30,181 - INFO - 移除重复URL: Average Routine
+2025-06-05 13:53:30,181 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 13:53:30,181 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 13:53:30,181 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 13:53:30,182 - INFO - 移除重复URL: Assessment Examination
+2025-06-05 13:53:30,182 - INFO - 移除重复URL: Cheese is the Reason
+2025-06-05 13:53:30,182 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 13:53:30,183 - INFO - 移除重复URL: Six Cats Under
+2025-06-05 13:53:30,183 - INFO - 移除重复URL: GET YOKED: Extreme Bodybuilding
+2025-06-05 13:53:30,183 - INFO - 移除重复标题: Exhibit of Sorrows
+2025-06-05 13:53:30,184 - INFO - 移除重复URL: SLAUGHTERâSQUAD
+2025-06-05 13:53:30,184 - INFO - 移除重复URL: Soul Void
+2025-06-05 13:53:30,184 - INFO - 移除重复URL: A Dance of Fire and Ice
+2025-06-05 13:53:30,184 - INFO - 移除重复URL: goodbye, doggy
+2025-06-05 13:53:30,185 - INFO - 去重完成: 9/24 个唯一游戏
+2025-06-05 13:53:30,186 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749102810
+2025-06-05 13:53:30,189 - INFO - ✅ 成功更新games.ts文件，包含 9 个游戏
+2025-06-05 13:53:30,189 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 14:00:24,319 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 14:00:24,323 - INFO - ⚠️ 未配置API密钥，将使用基础爬虫功能
+2025-06-05 14:00:24,323 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 14:00:24,324 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 14:00:24,324 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 14:00:24,324 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 14:00:24,324 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 14:00:24,325 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 14:00:24,325 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 14:00:24,325 - INFO -   - 白名单域名: 20 个
+2025-06-05 14:00:24,325 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 14:00:24,326 - INFO - 🕷️ 开始爬取新游戏（最多50个）...
+2025-06-05 14:00:24,326 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 14:00:24,326 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 14:00:24,326 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 14:00:28,049 - INFO - 找到 25 个游戏元素
+2025-06-05 14:00:35,913 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 14:00:35,916 - INFO - ✅ SerpAPI 已配置
+2025-06-05 14:00:35,916 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 14:00:35,917 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 14:00:35,917 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 14:00:35,917 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 14:00:35,917 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 14:00:35,918 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 14:00:35,918 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 14:00:35,918 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 14:00:35,919 - INFO -   - 白名单域名: 20 个
+2025-06-05 14:00:35,919 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 14:00:35,919 - INFO - 🕷️ 开始爬取新游戏（最多50个）...
+2025-06-05 14:00:35,920 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 14:00:35,920 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 14:00:35,920 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 14:00:39,291 - INFO - 找到 25 个游戏元素
+2025-06-05 14:00:46,256 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 14:00:55,853 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 14:01:06,256 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 14:01:17,636 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 14:01:27,797 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 14:01:38,496 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 14:01:50,475 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 14:01:59,595 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 14:02:08,705 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 14:02:19,706 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 14:02:30,279 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 14:02:41,387 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 14:02:53,399 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 14:03:04,950 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 14:03:15,519 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 14:03:27,255 - INFO - ✅ 基础爬取找到游戏: PEREELOUS - itch.io HTML5
+2025-06-05 14:03:39,798 - INFO - ✅ 基础爬取找到游戏: Incredibox - Sprunki - itch.io HTML5
+2025-06-05 14:03:49,246 - INFO - ✅ 基础爬取找到游戏: Cupid's Kiss: a short, romance comedy - itch.io HTML5
+2025-06-05 14:03:58,878 - INFO - ✅ 基础爬取找到游戏: Lookouts - itch.io HTML5
+2025-06-05 14:04:12,509 - INFO - ✅ 基础爬取找到游戏: Mr. Magpie's Harmless Card Game - itch.io HTML5
+2025-06-05 14:04:22,893 - INFO - ✅ 基础爬取找到游戏: Die in the Dungeon CLASSIC - itch.io HTML5
+2025-06-05 14:04:32,820 - INFO - ✅ 基础爬取找到游戏: Little Chef - itch.io HTML5
+2025-06-05 14:04:46,540 - INFO - ✅ 基础爬取找到游戏: an average day at the cat cafe - itch.io HTML5
+2025-06-05 14:04:56,861 - INFO - ✅ 基础爬取找到游戏: Cattle Crisis - itch.io HTML5
+2025-06-05 14:05:08,300 - INFO - ✅ 基础爬取找到游戏: Dating Killmulator - itch.io HTML5
+2025-06-05 14:05:11,647 - INFO - 基础爬取完成，找到 25 个游戏
+2025-06-05 14:05:11,648 - INFO - 🔍 开始API搜索...
+2025-06-05 14:05:11,648 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 14:05:26,596 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 14:05:37,397 - INFO - ✅ SerpAPI找到游戏: Top games for Web tagged mlp
+2025-06-05 14:05:46,446 - WARNING - 请求失败 https://itch.io/games/top-rated/free/html5/tag-iframe: 429 Client Error: Too Many Requests for url: https://itch.io/games/top-rated/free/html5/tag-iframe
+2025-06-05 14:05:52,965 - WARNING - 请求失败 https://itch.io/games/top-rated/free/html5/tag-iframe: 429 Client Error: Too Many Requests for url: https://itch.io/games/top-rated/free/html5/tag-iframe
+2025-06-05 14:06:00,689 - WARNING - 请求失败 https://itch.io/games/top-rated/free/html5/tag-iframe: 429 Client Error: Too Many Requests for url: https://itch.io/games/top-rated/free/html5/tag-iframe
+2025-06-05 14:06:17,414 - INFO - ✅ SerpAPI找到游戏: Top Simulation games tagged iframe
+2025-06-05 14:06:21,423 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 14:06:32,962 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:06:38,428 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:06:45,056 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:06:45,057 - WARNING - 查找iframe失败 https://gamejolt.com/games/GD/856848: RetryError[<Future at 0x24861f3b7d0 state=finished raised HTTPError>]
+2025-06-05 14:06:51,173 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:06:59,394 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:07:06,260 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:07:06,261 - WARNING - 查找iframe失败 https://gamejolt.com/games/printerville/196657: RetryError[<Future at 0x24861ff4850 state=finished raised HTTPError>]
+2025-06-05 14:07:14,780 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:07:22,458 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:07:33,529 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:07:33,530 - WARNING - 查找iframe失败 https://gamejolt.com/games/something_wicked/638288: RetryError[<Future at 0x24861ff53d0 state=finished raised HTTPError>]
+2025-06-05 14:07:38,698 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:07:49,712 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:08:00,228 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:08:00,229 - WARNING - 查找iframe失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: RetryError[<Future at 0x24861ff5fd0 state=finished raised HTTPError>]
+2025-06-05 14:08:06,176 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:08:16,611 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:08:27,657 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:08:27,658 - WARNING - 查找iframe失败 https://gamejolt.com/games/screemuismad/256892: RetryError[<Future at 0x24861ff6bd0 state=finished raised HTTPError>]
+2025-06-05 14:08:30,762 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 14:08:35,203 - INFO - API搜索完成，找到 3 个游戏
+2025-06-05 14:08:35,204 - INFO - 爬取完成，总共找到 28 个新游戏
+2025-06-05 14:08:35,207 - INFO - 成功读取 9 个游戏
+2025-06-05 14:08:35,208 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 14:08:35,208 - INFO - 移除重复URL: Average Routine
+2025-06-05 14:08:35,208 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 14:08:35,208 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 14:08:35,210 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 14:08:35,210 - INFO - 移除重复URL: Assessment Examination
+2025-06-05 14:08:35,210 - INFO - 移除重复URL: Cheese is the Reason
+2025-06-05 14:08:35,211 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 14:08:35,211 - INFO - 移除重复URL: Six Cats Under
+2025-06-05 14:08:35,211 - INFO - 移除重复URL: GET YOKED: Extreme Bodybuilding
+2025-06-05 14:08:35,211 - INFO - 移除重复标题: Exhibit of Sorrows
+2025-06-05 14:08:35,212 - INFO - 移除重复URL: SLAUGHTERâSQUAD
+2025-06-05 14:08:35,212 - INFO - 移除重复URL: Soul Void
+2025-06-05 14:08:35,213 - INFO - 移除重复URL: A Dance of Fire and Ice
+2025-06-05 14:08:35,213 - INFO - 移除重复URL: goodbye, doggy
+2025-06-05 14:08:35,213 - INFO - 移除重复URL: PEREELOUS
+2025-06-05 14:08:35,214 - INFO - 移除重复URL: Incredibox - Sprunki
+2025-06-05 14:08:35,214 - INFO - 移除重复URL: Cupid's Kiss: a short, romance comedy
+2025-06-05 14:08:35,215 - INFO - 移除重复URL: Lookouts
+2025-06-05 14:08:35,215 - INFO - 移除重复URL: Mr. Magpie's Harmless Card Game
+2025-06-05 14:08:35,215 - INFO - 移除重复URL: Die in the Dungeon CLASSIC
+2025-06-05 14:08:35,215 - INFO - 移除重复URL: Little Chef
+2025-06-05 14:08:35,216 - INFO - 移除重复URL: an average day at the cat cafe
+2025-06-05 14:08:35,216 - INFO - 移除重复URL: Dating Killmulator
+2025-06-05 14:08:35,216 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 14:08:35,216 - INFO - 去重完成: 12/37 个唯一游戏
+2025-06-05 14:08:35,218 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749103715
+2025-06-05 14:08:35,220 - INFO - ✅ 成功更新games.ts文件，包含 12 个游戏
+2025-06-05 14:08:35,221 - INFO - ✅ 游戏管理器执行完成！
+2025-06-05 14:18:10,776 - INFO - ✅ 代理测试成功: 127.0.0.1:7890
+2025-06-05 14:18:10,779 - INFO - ✅ SerpAPI 已配置
+2025-06-05 14:18:10,779 - INFO - ✅ Google Custom Search API 已配置
+2025-06-05 14:18:10,780 - INFO - ✅ 全局代理已启用: 127.0.0.1:7890
+2025-06-05 14:18:10,780 - INFO -   - 环境变量已设置，所有HTTP请求将走代理
+2025-06-05 14:18:10,780 - INFO - 🛡️ 反爬虫策略已启用:
+2025-06-05 14:18:10,781 - INFO -   - 智能延迟（GameJolt: 3-6s, itch.io: 2-4s）
+2025-06-05 14:18:10,781 - INFO -   - 特殊请求头（模拟真实浏览器）
+2025-06-05 14:18:10,781 - INFO -   - URL模式推断（应对403错误）
+2025-06-05 14:18:10,781 - INFO - 🤖 智能验证模式：白名单优先 + AI评分系统
+2025-06-05 14:18:10,782 - INFO -   - 白名单域名: 20 个
+2025-06-05 14:18:10,782 - INFO -   - 智能评分: 基于域名、路径、文件名等特征
+2025-06-05 14:18:10,782 - INFO - 🕷️ 开始爬取新游戏（最多100个）...
+2025-06-05 14:18:10,782 - INFO - 🚀 开始爬取新游戏...
+2025-06-05 14:18:10,782 - INFO - 🌐 开始基础站点爬取...
+2025-06-05 14:18:10,783 - INFO - 爬取平台: itch.io HTML5
+2025-06-05 14:18:16,793 - INFO - 找到 36 个游戏元素
+2025-06-05 14:18:26,699 - INFO - ✅ 基础爬取找到游戏: SIDE EFFECTS - itch.io HTML5
+2025-06-05 14:18:44,810 - INFO - ✅ 基础爬取找到游戏: Average Routine - itch.io HTML5
+2025-06-05 14:18:59,713 - INFO - ✅ 基础爬取找到游戏: Podvodsk (Ludum Dare 57) - itch.io HTML5
+2025-06-05 14:19:15,045 - INFO - ✅ 基础爬取找到游戏: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0) - itch.io HTML5
+2025-06-05 14:19:27,300 - INFO - ✅ 基础爬取找到游戏: Sort the Court! - itch.io HTML5
+2025-06-05 14:19:36,889 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:19:44,737 - INFO - ✅ 基础爬取找到游戏: Assessment Examination - itch.io HTML5
+2025-06-05 14:19:53,937 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:20:05,475 - INFO - ✅ 基础爬取找到游戏: Cheese is the Reason - itch.io HTML5
+2025-06-05 14:20:18,943 - INFO - ✅ 基础爬取找到游戏: We Become What We Behold - itch.io HTML5
+2025-06-05 14:20:27,126 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:20:38,440 - INFO - ✅ 基础爬取找到游戏: Six Cats Under - itch.io HTML5
+2025-06-05 14:20:48,693 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:20:59,543 - INFO - ✅ 基础爬取找到游戏: GET YOKED: Extreme Bodybuilding - itch.io HTML5
+2025-06-05 14:21:14,764 - INFO - ✅ 基础爬取找到游戏: Exhibit of Sorrows - itch.io HTML5
+2025-06-05 14:21:22,546 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:21:32,870 - INFO - ✅ 基础爬取找到游戏: SLAUGHTERâSQUAD - itch.io HTML5
+2025-06-05 14:21:40,487 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:21:49,474 - INFO - ✅ 基础爬取找到游戏: Soul Void - itch.io HTML5
+2025-06-05 14:21:57,473 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:22:06,040 - INFO - ✅ 基础爬取找到游戏: A Dance of Fire and Ice - itch.io HTML5
+2025-06-05 14:22:14,722 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:22:26,210 - INFO - ✅ 基础爬取找到游戏: goodbye, doggy - itch.io HTML5
+2025-06-05 14:22:37,074 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:22:47,469 - INFO - ✅ 基础爬取找到游戏: PEREELOUS - itch.io HTML5
+2025-06-05 14:22:57,550 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:23:04,020 - INFO - ✅ 基础爬取找到游戏: Incredibox - Sprunki - itch.io HTML5
+2025-06-05 14:23:12,556 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:23:22,877 - INFO - ✅ 基础爬取找到游戏: Cupid's Kiss: a short, romance comedy - itch.io HTML5
+2025-06-05 14:23:32,933 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:23:43,908 - INFO - ✅ 基础爬取找到游戏: Lookouts - itch.io HTML5
+2025-06-05 14:23:53,885 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:24:04,161 - INFO - ✅ 基础爬取找到游戏: Mr. Magpie's Harmless Card Game - itch.io HTML5
+2025-06-05 14:24:11,710 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:24:23,877 - INFO - ✅ 基础爬取找到游戏: Die in the Dungeon CLASSIC - itch.io HTML5
+2025-06-05 14:24:33,662 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:24:43,395 - INFO - ✅ 基础爬取找到游戏: Little Chef - itch.io HTML5
+2025-06-05 14:24:54,034 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:25:04,732 - INFO - ✅ 基础爬取找到游戏: an average day at the cat cafe - itch.io HTML5
+2025-06-05 14:25:16,447 - INFO - ✅ 基础爬取找到游戏: Cattle Crisis - itch.io HTML5
+2025-06-05 14:25:25,014 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:25:34,988 - INFO - ✅ 基础爬取找到游戏: Dating Killmulator - itch.io HTML5
+2025-06-05 14:25:44,543 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:25:52,449 - INFO - ✅ 基础爬取找到游戏: Trapped with Jester - itch.io HTML5
+2025-06-05 14:26:01,834 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:26:09,620 - INFO - ✅ 基础爬取找到游戏: Flesh, Blood, & Concrete - itch.io HTML5
+2025-06-05 14:26:18,486 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:26:29,574 - INFO - ✅ 基础爬取找到游戏: PolyTrack - itch.io HTML5
+2025-06-05 14:26:39,699 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:26:48,840 - INFO - ✅ 基础爬取找到游戏: Leftovers - itch.io HTML5
+2025-06-05 14:27:01,137 - INFO - ✅ 基础爬取找到游戏: Adventures With Anxiety! - itch.io HTML5
+2025-06-05 14:27:12,635 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:27:19,027 - INFO - ✅ 基础爬取找到游戏: Last Train Home - itch.io HTML5
+2025-06-05 14:27:31,272 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:27:39,154 - INFO - ✅ 基础爬取找到游戏: Bru & Boegie: EPISODE 1 â Get da MILK! - itch.io HTML5
+2025-06-05 14:27:46,937 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:27:55,210 - INFO - ✅ 基础爬取找到游戏: irori - itch.io HTML5
+2025-06-05 14:28:03,384 - WARNING - ⚠️ [html-classic.itch.zone] 请求频繁，延迟增加到 3.0-7.5s
+2025-06-05 14:28:09,832 - INFO - ✅ 基础爬取找到游戏: POOM - itch.io HTML5
+2025-06-05 14:28:20,981 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:28:30,788 - INFO - ✅ 基础爬取找到游戏: intertwine - itch.io HTML5
+2025-06-05 14:28:39,809 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:28:49,198 - INFO - ✅ 基础爬取找到游戏: purrgatory - itch.io HTML5
+2025-06-05 14:28:52,514 - INFO - 爬取平台: GameJolt
+2025-06-05 14:28:56,179 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 14:29:03,793 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 14:29:11,392 - WARNING - 请求失败 https://gamejolt.com/games: 403 Client Error: Forbidden for url: https://gamejolt.com/games
+2025-06-05 14:29:11,393 - ERROR - 平台 GameJolt 爬取失败: RetryError[<Future at 0x2abf5407f50 state=finished raised HTTPError>]
+2025-06-05 14:29:11,394 - INFO - 爬取平台: 平台名称
+2025-06-05 14:29:14,832 - INFO - 🔍 自动检测 平台名称 的CSS选择器...
+2025-06-05 14:29:14,841 - WARNING - ⚠️ 未找到合适的选择器组合 (最高得分: 0)
+2025-06-05 14:29:14,842 - WARNING - ❌ 选择器检测失败，跳过平台: 平台名称
+2025-06-05 14:29:14,842 - INFO - 基础爬取完成，找到 36 个游戏
+2025-06-05 14:29:14,842 - INFO - 🔍 开始API搜索...
+2025-06-05 14:29:14,842 - INFO - 搜索查询: site:itch.io "play in browser" iframe -forum -discussion -devlog
+2025-06-05 14:29:15,296 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:29:26,856 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:29:35,570 - INFO - ✅ SerpAPI找到游戏: Top HTML5 games tagged mlp
+2025-06-05 14:29:40,849 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:29:50,538 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:30:02,346 - INFO - ✅ SerpAPI找到游戏: Top games for Web tagged mlp
+2025-06-05 14:30:02,346 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:30:11,555 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:30:20,921 - ERROR - 🚫 429错误！itch.io 请求过于频繁，已标记为高风险域名
+2025-06-05 14:30:20,921 - INFO - ⏳ 立即休息30秒以避免继续触发限制...

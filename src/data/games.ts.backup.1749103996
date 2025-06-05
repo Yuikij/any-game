@@ -153,7 +153,7 @@ export const games: Game[] = [
   {
     id: 'serp_1749103537_5',
     title: 'Top games for Web tagged mlp',
-    description: '通过SerpAPI发现的HTML5游戏: Play in browser. Nordic Wind',
+    description: '通过SerpAPI发现的HTML5游戏: Play in browser. Nordic Wind's HWE (mlp fan game). A Christmas themed mlp fan game in which you plat...',
     category: '休闲',
     categoryId: '1',
     thumbnail: '/games/thumbnails/default.jpg',
