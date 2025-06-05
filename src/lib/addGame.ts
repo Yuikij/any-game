@@ -102,10 +102,10 @@ export async function addGame(game: Omit<Game, 'id' | 'path' | 'addedAt'>): Prom
 
 /**
  * 从网站爬取游戏信息并添加到数据库
- * @param url 游戏网站URL
+ * @param _url 游戏网站URL
  * @returns 添加是否成功
  */
-export async function scrapeAndAddGame(url: string): Promise<{success: boolean; message: string; id?: string}> {
+export async function scrapeAndAddGame(_url: string): Promise<{success: boolean; message: string; id?: string}> {
   try {
     // 这里只是一个示例函数，实际实现需要根据目标网站的结构编写爬虫逻辑
     // 1. 爬取游戏网页

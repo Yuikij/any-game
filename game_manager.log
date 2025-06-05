@@ -713,3 +713,93 @@
 2025-06-05 14:30:11,555 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
 2025-06-05 14:30:20,921 - ERROR - 🚫 429错误！itch.io 请求过于频繁，已标记为高风险域名
 2025-06-05 14:30:20,921 - INFO - ⏳ 立即休息30秒以避免继续触发限制...
+2025-06-05 14:30:50,922 - WARNING - 请求失败 https://itch.io/games/top-rated/free/html5/tag-iframe: 429 Client Error: Too Many Requests for url: https://itch.io/games/top-rated/free/html5/tag-iframe
+2025-06-05 14:30:52,923 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:30:52,924 - WARNING - 🚫 [itch.io] 检测到429错误历史，延迟增加到 12.0-24.0s
+2025-06-05 14:31:06,094 - INFO - ✅ SerpAPI找到游戏: Top rated free games tagged iframe
+2025-06-05 14:31:10,922 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:31:10,923 - WARNING - 🚫 [itch.io] 检测到429错误历史，延迟增加到 12.0-24.0s
+2025-06-05 14:31:26,237 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:31:26,238 - WARNING - 🚫 [itch.io] 检测到429错误历史，延迟增加到 12.0-24.0s
+2025-06-05 14:31:47,122 - WARNING - ⚠️ [itch.io] 请求频繁，延迟增加到 6.0-12.0s
+2025-06-05 14:31:47,123 - WARNING - 🚫 [itch.io] 检测到429错误历史，延迟增加到 12.0-24.0s
+2025-06-05 14:32:04,112 - INFO - ✅ SerpAPI找到游戏: Top Simulation games tagged iframe
+2025-06-05 14:32:07,853 - INFO - 搜索查询: site:gamejolt.com "play now" HTML5 -community -forum
+2025-06-05 14:32:11,898 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:32:17,318 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:32:19,319 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:32:28,260 - WARNING - 请求失败 https://gamejolt.com/games/GD/856848: 403 Client Error: Forbidden for url: https://gamejolt.com/games/GD/856848
+2025-06-05 14:32:28,260 - WARNING - 查找iframe失败 https://gamejolt.com/games/GD/856848: RetryError[<Future at 0x2abf4f687d0 state=finished raised HTTPError>]
+2025-06-05 14:32:28,261 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:32:37,312 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:32:39,313 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:32:45,661 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:32:47,662 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:32:56,568 - WARNING - 请求失败 https://gamejolt.com/games/printerville/196657: 403 Client Error: Forbidden for url: https://gamejolt.com/games/printerville/196657
+2025-06-05 14:32:56,569 - WARNING - 查找iframe失败 https://gamejolt.com/games/printerville/196657: RetryError[<Future at 0x2abf4f69450 state=finished raised HTTPError>]
+2025-06-05 14:32:56,570 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:04,677 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:33:06,678 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:13,434 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:33:15,437 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:20,310 - WARNING - 请求失败 https://gamejolt.com/games/something_wicked/638288: 403 Client Error: Forbidden for url: https://gamejolt.com/games/something_wicked/638288
+2025-06-05 14:33:20,311 - WARNING - 查找iframe失败 https://gamejolt.com/games/something_wicked/638288: RetryError[<Future at 0x2abf4f6a0d0 state=finished raised HTTPError>]
+2025-06-05 14:33:20,311 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:25,498 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:33:27,500 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:36,156 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:33:38,157 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:45,392 - WARNING - 请求失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: 403 Client Error: Forbidden for url: https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7
+2025-06-05 14:33:45,393 - WARNING - 查找iframe失败 https://gamejolt.com/p/cake-quest-is-now-on-itch-io-https-slothmanstudios-itch-io-regula-2xn2teb7: RetryError[<Future at 0x2abf4f6add0 state=finished raised HTTPError>]
+2025-06-05 14:33:45,393 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:33:50,604 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:33:52,606 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:34:01,561 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:34:03,562 - WARNING - ⚠️ [gamejolt.com] 请求频繁，延迟增加到 4.5-9.0s
+2025-06-05 14:34:12,283 - WARNING - 请求失败 https://gamejolt.com/games/screemuismad/256892: 403 Client Error: Forbidden for url: https://gamejolt.com/games/screemuismad/256892
+2025-06-05 14:34:12,284 - WARNING - 查找iframe失败 https://gamejolt.com/games/screemuismad/256892: RetryError[<Future at 0x2abf4f6bad0 state=finished raised HTTPError>]
+2025-06-05 14:34:16,928 - INFO - 搜索查询: site:newgrounds.com "play online" -forum -review
+2025-06-05 14:34:20,811 - INFO - API搜索完成，找到 4 个游戏
+2025-06-05 14:34:20,811 - INFO - 爬取完成，总共找到 40 个新游戏
+2025-06-05 14:34:20,814 - INFO - 成功读取 12 个游戏
+2025-06-05 14:34:20,814 - INFO - 移除重复标题: SIDE EFFECTS
+2025-06-05 14:34:20,814 - INFO - 移除重复URL: Average Routine
+2025-06-05 14:34:20,815 - INFO - 移除重复URL: Podvodsk (Ludum Dare 57)
+2025-06-05 14:34:20,815 - INFO - 移除重复URL: NSMB Mario Vs Luigi - KKT's Gooffy little Mod (V.1.1.0)
+2025-06-05 14:34:20,815 - INFO - 移除重复标题: Sort the Court!
+2025-06-05 14:34:20,816 - INFO - 移除重复URL: Assessment Examination
+2025-06-05 14:34:20,816 - INFO - 移除重复URL: Cheese is the Reason
+2025-06-05 14:34:20,816 - INFO - 移除重复标题: We Become What We Behold
+2025-06-05 14:34:20,816 - INFO - 移除重复URL: Six Cats Under
+2025-06-05 14:34:20,817 - INFO - 移除重复URL: GET YOKED: Extreme Bodybuilding
+2025-06-05 14:34:20,817 - INFO - 移除重复标题: Exhibit of Sorrows
+2025-06-05 14:34:20,817 - INFO - 移除重复URL: SLAUGHTERâSQUAD
+2025-06-05 14:34:20,817 - INFO - 移除重复URL: Soul Void
+2025-06-05 14:34:20,818 - INFO - 移除重复URL: A Dance of Fire and Ice
+2025-06-05 14:34:20,818 - INFO - 移除重复URL: goodbye, doggy
+2025-06-05 14:34:20,819 - INFO - 移除重复URL: PEREELOUS
+2025-06-05 14:34:20,819 - INFO - 移除重复URL: Incredibox - Sprunki
+2025-06-05 14:34:20,819 - INFO - 移除重复URL: Cupid's Kiss: a short, romance comedy
+2025-06-05 14:34:20,819 - INFO - 移除重复URL: Lookouts
+2025-06-05 14:34:20,820 - INFO - 移除重复URL: Mr. Magpie's Harmless Card Game
+2025-06-05 14:34:20,820 - INFO - 移除重复URL: Die in the Dungeon CLASSIC
+2025-06-05 14:34:20,820 - INFO - 移除重复URL: Little Chef
+2025-06-05 14:34:20,820 - INFO - 移除重复URL: an average day at the cat cafe
+2025-06-05 14:34:20,820 - INFO - 移除重复标题: Cattle Crisis
+2025-06-05 14:34:20,821 - INFO - 移除重复URL: Dating Killmulator
+2025-06-05 14:34:20,821 - INFO - 移除重复URL: Trapped with Jester
+2025-06-05 14:34:20,821 - INFO - 移除重复URL: Flesh, Blood, & Concrete
+2025-06-05 14:34:20,821 - INFO - 移除重复URL: PolyTrack
+2025-06-05 14:34:20,822 - INFO - 移除重复URL: Leftovers
+2025-06-05 14:34:20,822 - INFO - 移除重复URL: Last Train Home
+2025-06-05 14:34:20,822 - INFO - 移除重复URL: Bru & Boegie: EPISODE 1 â Get da MILK!
+2025-06-05 14:34:20,822 - INFO - 移除重复URL: irori
+2025-06-05 14:34:20,822 - INFO - 移除重复URL: intertwine
+2025-06-05 14:34:20,823 - INFO - 移除重复URL: purrgatory
+2025-06-05 14:34:20,823 - INFO - 移除重复URL: Top HTML5 games tagged mlp
+2025-06-05 14:34:20,823 - INFO - 移除重复标题: Top games for Web tagged mlp
+2025-06-05 14:34:20,823 - INFO - 移除重复标题: Top Simulation games tagged iframe
+2025-06-05 14:34:20,824 - INFO - 去重完成: 15/52 个唯一游戏
+2025-06-05 14:34:20,825 - INFO - 已备份原文件: E:\code\any-game\src\data\games.ts.backup.1749105260
+2025-06-05 14:34:20,827 - INFO - ✅ 成功更新games.ts文件，包含 15 个游戏
+2025-06-05 14:34:20,828 - INFO - ✅ 游戏管理器执行完成！

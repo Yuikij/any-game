@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,9 +25,9 @@ export default function RootLayout({
               <h1 className="text-2xl font-bold">AnyGame</h1>
               <nav>
                 <ul className="flex space-x-4">
-                  <li><a href="/" className="hover:text-blue-300 transition-colors">首页</a></li>
-                  <li><a href="/categories" className="hover:text-blue-300 transition-colors">分类</a></li>
-                  <li><a href="/popular" className="hover:text-blue-300 transition-colors">热门</a></li>
+                  <li><Link href="/" className="hover:text-blue-300 transition-colors">首页</Link></li>
+                  <li><Link href="/categories" className="hover:text-blue-300 transition-colors">分类</Link></li>
+                  <li><Link href="/popular" className="hover:text-blue-300 transition-colors">热门</Link></li>
                 </ul>
               </nav>
             </div>
